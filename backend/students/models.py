@@ -4,17 +4,53 @@ from django.db.models import Q
 from django.utils import timezone
 
 
+class RiskLevel(models.TextChoices):
+	LOW = "Low", "Low"
+	MEDIUM = "Medium", "Medium"
+	HIGH = "High", "High"
+	UNKNOWN = "Unknown", "Unknown"
+
+
 class Student(models.Model):
 	student_id = models.CharField(max_length=50, unique=True)
 	name = models.CharField(max_length=150)
 	department = models.CharField(max_length=100)
-	course = models.CharField(max_length=150)
+	course = models.CharField(max_length=150, null=True, blank=True)
 	year_of_study = models.PositiveSmallIntegerField(
-		validators=[MinValueValidator(1)]
+		validators=[MinValueValidator(1)], null=True, blank=True
 	)
-	section = models.CharField(max_length=50)
+	section = models.CharField(max_length=50, null=True, blank=True)
+	success_score = models.DecimalField(
+		max_digits=5,
+		decimal_places=2,
+		null=True,
+		blank=True,
+		validators=[MinValueValidator(0), MaxValueValidator(100)],
+	)
+	academic_risk_level = models.CharField(
+		max_length=7,
+		choices=RiskLevel.choices,
+		null=True,
+		blank=True,
+	)
+	placement_risk_level = models.CharField(
+		max_length=7,
+		choices=RiskLevel.choices,
+		null=True,
+		blank=True,
+	)
+	intervention_reason = models.TextField(null=True, blank=True)
 	created_at = models.DateTimeField(auto_now_add=True)
 	updated_at = models.DateTimeField(auto_now=True)
+
+	class Meta:
+		constraints = [
+			models.CheckConstraint(
+				condition=Q(success_score__isnull=True)
+				| Q(success_score__gte=0, success_score__lte=100),
+				name="student_success_score_0_100",
+			)
+		]
 
 	def __str__(self):
 		return f"{self.student_id} - {self.name}"

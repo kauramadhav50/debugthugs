@@ -4,6 +4,7 @@ from decimal import Decimal
 from django.core.exceptions import ValidationError
 from django.db import IntegrityError, transaction
 from django.test import TestCase
+from rest_framework.test import APIClient
 
 from .models import (
 	AcademicRecord,
@@ -195,3 +196,79 @@ class StudentModelTests(TestCase):
 
 		with self.assertRaises(ValidationError):
 			student.full_clean()
+
+
+class StudentCreateAPITests(TestCase):
+	url = "/api/v1/students/"
+
+	def setUp(self):
+		self.client = APIClient()
+		self.payload = {
+			"studentId": "NEW-100",
+			"fullName": "Jordan Student",
+			"department": "Computer Science",
+			"successScore": "82.5",
+			"attendance": "91.25",
+			"academicRiskLevel": "Low",
+			"placementRiskLevel": "Unknown",
+			"interventionReason": "Check progress next term",
+		}
+
+	def test_successful_creation_persists_student_and_attendance(self):
+		response = self.client.post(self.url, self.payload, format="json")
+
+		self.assertEqual(response.status_code, 201)
+		student = Student.objects.get(student_id="NEW-100")
+		self.assertEqual(student.name, "Jordan Student")
+		self.assertEqual(student.success_score, Decimal("82.50"))
+		self.assertEqual(student.academic_risk_level, "Low")
+		self.assertEqual(student.placement_risk_level, "Unknown")
+		self.assertEqual(student.intervention_reason, "Check progress next term")
+		self.assertEqual(
+			student.attendance_records.get().attendance_percentage,
+			Decimal("91.25"),
+		)
+		self.assertEqual(response.data["studentId"], student.student_id)
+
+	def test_invalid_scores_return_400_without_creating_records(self):
+		for field, value in (("successScore", "100.01"), ("attendance", "-0.01")):
+			with self.subTest(field=field):
+				payload = {**self.payload, field: value}
+				response = self.client.post(self.url, payload, format="json")
+
+				self.assertEqual(response.status_code, 400)
+				self.assertIn(field, response.data)
+				self.assertEqual(Student.objects.count(), 0)
+				self.assertEqual(AttendanceRecord.objects.count(), 0)
+
+	def test_missing_required_field_returns_400(self):
+		payload = {**self.payload}
+		payload.pop("fullName")
+
+		response = self.client.post(self.url, payload, format="json")
+
+		self.assertEqual(response.status_code, 400)
+		self.assertIn("fullName", response.data)
+		self.assertEqual(Student.objects.count(), 0)
+
+	def test_duplicate_student_id_returns_409(self):
+		Student.objects.create(
+			student_id="NEW-100",
+			name="Existing Student",
+			department="Computer Science",
+		)
+
+		response = self.client.post(self.url, self.payload, format="json")
+
+		self.assertEqual(response.status_code, 409)
+		self.assertIn("already exists", response.data["detail"])
+		self.assertEqual(Student.objects.count(), 1)
+
+	def test_invalid_department_returns_400(self):
+		payload = {**self.payload, "department": "Arts"}
+
+		response = self.client.post(self.url, payload, format="json")
+
+		self.assertEqual(response.status_code, 400)
+		self.assertIn("department", response.data)
+		self.assertEqual(Student.objects.count(), 0)
