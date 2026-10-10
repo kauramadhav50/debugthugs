@@ -1,3 +1,23 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import (
+	AcademicRecord,
+	AttendanceRecord,
+	EngagementRecord,
+	LMSActivity,
+	PlacementReadiness,
+	SkillAssessment,
+	Student,
+)
+
+admin.site.register(
+	[
+		Student,
+		AcademicRecord,
+		AttendanceRecord,
+		LMSActivity,
+		EngagementRecord,
+		SkillAssessment,
+		PlacementReadiness,
+	]
+)
