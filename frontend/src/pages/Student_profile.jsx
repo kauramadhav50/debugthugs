@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { DashboardApi } from "../connections/Api";
 
-function StudentDirectory() {
+function StudentProfile() {
   const [dashboardData, setDashboardData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState("");
@@ -260,4 +260,4 @@ function StudentDirectory() {
   );
 }
 
-export default StudentDirectory;
+export default StudentProfile;

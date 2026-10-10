@@ -4,8 +4,8 @@ import { FormApi } from "../connections/Api";
 function SingleStudentForm() {
   const [loading, setLoading] = useState(false);
   const [successMessage, setSuccessMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
 
-  // State representing a single student attention/risk record
   const [studentRecord, setStudentRecord] = useState({
     id: "",
     name: "",
@@ -14,13 +14,13 @@ function SingleStudentForm() {
     successScore: "",
     academicRisk: "Low",
     placementRisk: "Unknown",
-    reason: ""
+    reason: "",
   });
 
   const handleChange = (field, value) => {
     setStudentRecord((prev) => ({
       ...prev,
-      [field]: value
+      [field]: value,
     }));
   };
 
@@ -28,46 +28,59 @@ function SingleStudentForm() {
     e.preventDefault();
     setLoading(true);
     setSuccessMessage("");
+    setErrorMessage("");
 
-    // Formats the individual student record into the exact structure expected by the backend
+    const successScoreNum = Number(studentRecord.successScore);
+    const attendanceNum = Number(studentRecord.attendance);
+
+    if (successScoreNum < 0 || successScoreNum > 100) {
+      setErrorMessage("Success Score must be between 0 and 100.");
+      setLoading(false);
+      return;
+    }
+
+    if (attendanceNum < 0 || attendanceNum > 100) {
+      setErrorMessage("Attendance percentage must be between 0 and 100.");
+      setLoading(false);
+      return;
+    }
+
+    // Payload mapped precisely to the backend serializer field names
     const payload = {
-      id: Number(studentRecord.id),
-      name: studentRecord.name,
+      studentId: Number(studentRecord.id),
+      fullName: studentRecord.name,
       department: studentRecord.department,
-      attendance: Number(studentRecord.attendance),
-      successScore: Number(studentRecord.successScore),
-      academicRisk: studentRecord.academicRisk,
-      placementRisk: studentRecord.placementRisk,
-      reason: studentRecord.reason
+      attendance: attendanceNum,
+      successScore: successScoreNum,
+      academicRiskLevel: studentRecord.academicRisk,
+      placementRiskLevel: studentRecord.placementRisk,
+      interventionReason: studentRecord.reason,
     };
 
-    if (typeof FormApi === "function") {
-      FormApi(payload)
-        .then(() => {
-          setSuccessMessage("Student record successfully sent to backend!");
-          setLoading(false);
-          // Reset form
-          setStudentRecord({
-            id: "",
-            name: "",
-            department: "Computer Science",
-            attendance: "",
-            successScore: "",
-            academicRisk: "Low",
-            placementRisk: "Unknown",
-            reason: ""
-          });
-        })
-        .catch(() => {
-          console.log("Submitted Payload:", JSON.stringify(payload, null, 2));
-          setSuccessMessage("Record submitted successfully (Logged to console)!");
-          setLoading(false);
+    FormApi(payload)
+      .then(() => {
+        setSuccessMessage("Student record successfully sent to backend!");
+        setLoading(false);
+        setStudentRecord({
+          id: "",
+          name: "",
+          department: "Computer Science",
+          attendance: "",
+          successScore: "",
+          academicRisk: "Low",
+          placementRisk: "Unknown",
+          reason: "",
         });
-    } else {
-      console.log("Submitted Payload:", JSON.stringify(payload, null, 2));
-      setSuccessMessage("Record generated and logged to console!");
-      setLoading(false);
-    }
+      })
+      .catch((err) => {
+        console.error("Backend Error Details:", err.response?.data || err.message);
+        setErrorMessage(
+          typeof err.response?.data === "object"
+            ? JSON.stringify(err.response.data)
+            : "Failed to send record to backend. Check console for details."
+        );
+        setLoading(false);
+      });
   };
 
   return (
@@ -84,9 +97,6 @@ function SingleStudentForm() {
               Submit an individual student's telemetry, risk assessment, and flagging details.
             </p>
           </div>
-          <span className="bg-[#319574]/10 text-[#319574] font-medium px-4 py-1.5 rounded-full text-xs sm:text-sm">
-            Single Entry Form
-          </span>
         </div>
 
         {successMessage && (
@@ -95,11 +105,21 @@ function SingleStudentForm() {
           </div>
         )}
 
-        <form onSubmit={handleSubmit} className="bg-white p-6 sm:p-8 rounded-xl shadow-sm border border-gray-100 space-y-6">
-          
+        {errorMessage && (
+          <div className="bg-red-100 border border-red-300 text-red-800 p-4 rounded-xl text-sm font-medium overflow-x-auto">
+            ⚠️ {errorMessage}
+          </div>
+        )}
+
+        <form
+          onSubmit={handleSubmit}
+          className="bg-white p-6 sm:p-8 rounded-xl shadow-sm border border-gray-100 space-y-6"
+        >
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label className="block text-xs font-semibold text-gray-600 mb-1">Student ID (Number)</label>
+              <label className="block text-xs font-semibold text-gray-600 mb-1">
+                Student ID (Number)
+              </label>
               <input
                 type="number"
                 required
@@ -111,7 +131,9 @@ function SingleStudentForm() {
             </div>
 
             <div>
-              <label className="block text-xs font-semibold text-gray-600 mb-1">Full Name</label>
+              <label className="block text-xs font-semibold text-gray-600 mb-1">
+                Full Name
+              </label>
               <input
                 type="text"
                 required
@@ -125,14 +147,18 @@ function SingleStudentForm() {
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
-              <label className="block text-xs font-semibold text-gray-600 mb-1">Department</label>
+              <label className="block text-xs font-semibold text-gray-600 mb-1">
+                Department
+              </label>
               <select
                 value={studentRecord.department}
                 onChange={(e) => handleChange("department", e.target.value)}
                 className="w-full p-2.5 text-sm bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#319574] outline-none cursor-pointer"
               >
                 <option value="Computer Science">Computer Science</option>
-                <option value="Information Technology">Information Technology</option>
+                <option value="Information Technology">
+                  Information Technology
+                </option>
                 <option value="Electronics">Electronics</option>
                 <option value="Mechanical">Mechanical</option>
                 <option value="Civil">Civil</option>
@@ -140,10 +166,14 @@ function SingleStudentForm() {
             </div>
 
             <div>
-              <label className="block text-xs font-semibold text-gray-600 mb-1">Success Score (%)</label>
+              <label className="block text-xs font-semibold text-gray-600 mb-1">
+                Success Score (%)
+              </label>
               <input
                 type="number"
                 step="0.01"
+                min="0"
+                max="100"
                 required
                 placeholder="e.g. 79.67"
                 value={studentRecord.successScore}
@@ -153,10 +183,14 @@ function SingleStudentForm() {
             </div>
 
             <div>
-              <label className="block text-xs font-semibold text-gray-600 mb-1">Attendance (%)</label>
+              <label className="block text-xs font-semibold text-gray-600 mb-1">
+                Attendance (%)
+              </label>
               <input
                 type="number"
                 step="0.01"
+                min="0"
+                max="100"
                 required
                 placeholder="e.g. 50.0"
                 value={studentRecord.attendance}
@@ -168,7 +202,9 @@ function SingleStudentForm() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label className="block text-xs font-semibold text-gray-600 mb-1">Academic Risk Level</label>
+              <label className="block text-xs font-semibold text-gray-600 mb-1">
+                Academic Risk Level
+              </label>
               <select
                 value={studentRecord.academicRisk}
                 onChange={(e) => handleChange("academicRisk", e.target.value)}
@@ -181,7 +217,9 @@ function SingleStudentForm() {
             </div>
 
             <div>
-              <label className="block text-xs font-semibold text-gray-600 mb-1">Placement Risk Level</label>
+              <label className="block text-xs font-semibold text-gray-600 mb-1">
+                Placement Risk Level
+              </label>
               <select
                 value={studentRecord.placementRisk}
                 onChange={(e) => handleChange("placementRisk", e.target.value)}
@@ -196,7 +234,9 @@ function SingleStudentForm() {
           </div>
 
           <div>
-            <label className="block text-xs font-semibold text-gray-600 mb-1">Intervention / Flag Reason</label>
+            <label className="block text-xs font-semibold text-gray-600 mb-1">
+              Intervention / Flag Reason
+            </label>
             <input
               type="text"
               required
@@ -216,9 +256,7 @@ function SingleStudentForm() {
               {loading ? "Submitting Record..." : "Submit Student Record"}
             </button>
           </div>
-
         </form>
-
       </div>
     </div>
   );

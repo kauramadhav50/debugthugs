@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { DashboardApi } from "../connections/Api";
 
-function At_risk_student() {
+function Segmentation() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [selectedRiskType, setSelectedRiskType] = useState("All");
@@ -35,7 +35,10 @@ function At_risk_student() {
   const students = data.recentStudentsNeedingAttention || [];
 
   // Extract unique departments for filtering
-  const departments = ["All", ...new Set(students.map((s) => s.department).filter(Boolean))];
+  const departments = [
+    "All",
+    ...new Set(students.map((s) => s.department).filter(Boolean)),
+  ];
 
   // Filter students based on risk level and department
   const atRiskStudents = students.filter((student) => {
@@ -43,14 +46,27 @@ function At_risk_student() {
     const plLevel = student.placementRisk || "Low";
 
     // Only show students who have Medium or High risk
-    const isAtRisk = acLevel !== "Low" && acLevel !== "Unknown" || plLevel !== "Low" && plLevel !== "Unknown";
-    
+    const isAtRisk =
+      (acLevel !== "Low" && acLevel !== "Unknown") ||
+      (plLevel !== "Low" && plLevel !== "Unknown");
+
     // Filter by Risk Type dropdown
-    if (selectedRiskType === "Academic" && acLevel !== "High" && acLevel !== "Medium") return false;
-    if (selectedRiskType === "Placement" && plLevel !== "High" && plLevel !== "Medium") return false;
+    if (
+      selectedRiskType === "Academic" &&
+      acLevel !== "High" &&
+      acLevel !== "Medium"
+    )
+      return false;
+    if (
+      selectedRiskType === "Placement" &&
+      plLevel !== "High" &&
+      plLevel !== "Medium"
+    )
+      return false;
 
     // Filter by Department dropdown
-    if (selectedDept !== "All" && student.department !== selectedDept) return false;
+    if (selectedDept !== "All" && student.department !== selectedDept)
+      return false;
 
     return true;
   });
@@ -58,15 +74,18 @@ function At_risk_student() {
   return (
     <div className="min-h-screen bg-gray-50 p-4 sm:p-6 md:p-10 ml-0 md:ml-[220px] transition-all">
       <div className="max-w-7xl mx-auto space-y-6 sm:space-y-8">
-        
         {/* Header */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 border-b border-gray-200 pb-4">
           <div>
             <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 tracking-tight">
-              At-Risk <span className="text-[#319574] font-medium">Intervention Hub</span>
+              At-Risk{" "}
+              <span className="text-[#319574] font-medium">
+                Intervention Hub
+              </span>
             </h1>
             <p className="text-xs sm:text-sm text-gray-500 mt-1">
-              Identify students requiring academic remediation or career/placement support.
+              Identify students requiring academic remediation or
+              career/placement support.
             </p>
           </div>
           <span className="bg-red-50 text-red-700 border border-red-200 font-semibold px-3 sm:px-4 py-1.5 rounded-full text-xs sm:text-sm">
@@ -76,10 +95,11 @@ function At_risk_student() {
 
         {/* Filters Bar */}
         <div className="bg-white p-4 sm:p-5 rounded-xl shadow-sm border border-gray-100 grid grid-cols-1 sm:grid-cols-2 gap-4">
-          
           {/* Risk Type Filter */}
           <div>
-            <label className="block text-xs font-semibold text-gray-500 uppercase mb-1">Filter by Risk Type</label>
+            <label className="block text-xs font-semibold text-gray-500 uppercase mb-1">
+              Filter by Risk Type
+            </label>
             <select
               value={selectedRiskType}
               onChange={(e) => setSelectedRiskType(e.target.value)}
@@ -93,7 +113,9 @@ function At_risk_student() {
 
           {/* Department Filter */}
           <div>
-            <label className="block text-xs font-semibold text-gray-500 uppercase mb-1">Filter by Department</label>
+            <label className="block text-xs font-semibold text-gray-500 uppercase mb-1">
+              Filter by Department
+            </label>
             <select
               value={selectedDept}
               onChange={(e) => setSelectedDept(e.target.value)}
@@ -106,7 +128,6 @@ function At_risk_student() {
               ))}
             </select>
           </div>
-
         </div>
 
         {/* At-Risk Student Cards List */}
@@ -127,37 +148,63 @@ function At_risk_student() {
                       {student.department}
                     </span>
                   </div>
-                  <h3 className="font-bold text-gray-800 text-lg">{student.name}</h3>
+                  <h3 className="font-bold text-gray-800 text-lg">
+                    {student.name}
+                  </h3>
                   <div className="pt-1 flex items-center gap-3">
-                    <span className="text-xs text-gray-500 font-medium">Success Score:</span>
-                    <span className="text-sm font-bold text-[#319574]">{student.successScore}%</span>
+                    <span className="text-xs text-gray-500 font-medium">
+                      Success Score:
+                    </span>
+                    <span className="text-sm font-bold text-[#319574]">
+                      {student.successScore}%
+                    </span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <span className="text-xs text-gray-500 font-medium">Attendance:</span>
-                    <span className="text-sm font-bold text-gray-700">{student.attendance}%</span>
+                    <span className="text-xs text-gray-500 font-medium">
+                      Attendance:
+                    </span>
+                    <span className="text-sm font-bold text-gray-700">
+                      {student.attendance}%
+                    </span>
                   </div>
                 </div>
 
                 {/* Middle Column: Risk Severity & Indicators */}
                 <div className="w-full lg:w-1/3 space-y-3 bg-gray-50 p-4 rounded-xl border border-gray-100">
-                  <h4 className="text-xs font-bold text-gray-400 uppercase tracking-wider">Risk Severity & Indicators</h4>
-                  
+                  <h4 className="text-xs font-bold text-gray-400 uppercase tracking-wider">
+                    Risk Severity & Indicators
+                  </h4>
+
                   <div className="flex justify-between items-center">
-                    <span className="text-xs text-gray-600 font-medium">Academic Risk:</span>
-                    <span className={`text-xs font-bold px-2.5 py-0.5 rounded-md ${
-                      student.academicRisk === "High" ? "bg-red-100 text-red-700" :
-                      student.academicRisk === "Medium" ? "bg-amber-100 text-amber-700" : "bg-green-100 text-green-700"
-                    }`}>
+                    <span className="text-xs text-gray-600 font-medium">
+                      Academic Risk:
+                    </span>
+                    <span
+                      className={`text-xs font-bold px-2.5 py-0.5 rounded-md ${
+                        student.academicRisk === "High"
+                          ? "bg-red-100 text-red-700"
+                          : student.academicRisk === "Medium"
+                            ? "bg-amber-100 text-amber-700"
+                            : "bg-green-100 text-green-700"
+                      }`}
+                    >
                       {student.academicRisk}
                     </span>
                   </div>
 
                   <div className="flex justify-between items-center">
-                    <span className="text-xs text-gray-600 font-medium">Placement Risk:</span>
-                    <span className={`text-xs font-bold px-2.5 py-0.5 rounded-md ${
-                      student.placementRisk === "High" ? "bg-red-100 text-red-700" :
-                      student.placementRisk === "Medium" ? "bg-amber-100 text-amber-700" : "bg-gray-100 text-gray-600"
-                    }`}>
+                    <span className="text-xs text-gray-600 font-medium">
+                      Placement Risk:
+                    </span>
+                    <span
+                      className={`text-xs font-bold px-2.5 py-0.5 rounded-md ${
+                        student.placementRisk === "High"
+                          ? "bg-red-100 text-red-700"
+                          : student.placementRisk === "Medium"
+                            ? "bg-amber-100 text-amber-700"
+                            : "bg-gray-100 text-gray-600"
+                      }`}
+                    >
                       {student.placementRisk}
                     </span>
                   </div>
@@ -165,24 +212,26 @@ function At_risk_student() {
 
                 {/* Right Column: Flagging Reason / Next Steps */}
                 <div className="w-full lg:w-1/3 space-y-2">
-                  <h4 className="text-xs font-bold text-gray-400 uppercase tracking-wider">Intervention Reason</h4>
+                  <h4 className="text-xs font-bold text-gray-400 uppercase tracking-wider">
+                    Intervention Reason
+                  </h4>
                   <div className="text-xs bg-red-50 border border-red-100 p-3 rounded-lg text-red-900 italic">
                     "{student.reason}"
                   </div>
                 </div>
-
               </div>
             ))
           ) : (
             <div className="bg-white p-12 rounded-xl text-center border border-gray-100">
-              <p className="text-gray-500 text-sm">No at-risk students match your filter criteria.</p>
+              <p className="text-gray-500 text-sm">
+                No at-risk students match your filter criteria.
+              </p>
             </div>
           )}
         </div>
-
       </div>
     </div>
   );
 }
 
-export default At_risk_student;
+export default Segmentation;

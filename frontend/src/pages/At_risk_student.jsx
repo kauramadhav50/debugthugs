@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { DashboardApi } from "../connections/Api";
 
-function Studentprofile() {
+function StudentRisk() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState("");
@@ -12,7 +12,6 @@ function Studentprofile() {
   useEffect(() => {
     DashboardApi()
       .then((res) => {
-        // Handle whether the API returns an object directly or wrapped in an array
         const dataPayload = Array.isArray(res) ? res[0] : res;
         setData(dataPayload);
         setLoading(false);
@@ -262,4 +261,4 @@ function Studentprofile() {
   );
 }
 
-export default Studentprofile;
+export default StudentRisk;

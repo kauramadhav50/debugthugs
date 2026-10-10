@@ -17,8 +17,6 @@ function Dashboard() {
       });
   }, []);
 
-  console.log(data);
-
   if (loading || !data) {
     return (
       <div className="flex justify-center items-center h-screen bg-gray-50 px-4">
