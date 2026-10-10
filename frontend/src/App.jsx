@@ -1,8 +1,14 @@
 import React from 'react'
+import AppRoute from './routes/AppRoute'
+import Sidebar from './components/Sidebar'
 
 function App() {
   return (
-    <div>App</div>
+    <div>
+      <Sidebar/>
+      <AppRoute/>
+    </div>
+    
   )
 }
 

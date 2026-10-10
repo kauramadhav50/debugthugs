@@ -2,7 +2,9 @@ import React from 'react'
 
 function Dashboard() {
   return (
-    <div>Dashboard</div>
+    <>
+    <div className='ms-[220px]'>Dashboard</div>
+    </>
   )
 }
 
