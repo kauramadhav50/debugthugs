@@ -88,7 +88,1152 @@ const fakeapi = [
   },
 ];
 
+const fakeprofileapi = [{
+  "student": {
+    "studentId": "STU2026001",
+    "name": "Aarav Sharma",
+    "department": "Computer Science",
+    "course": "BTech",
+    "yearOfStudy": 3,
+    "semester": 6,
+    "section": "A",
+    "email": "aarav.sharma@example.com"
+  },
+  "successMetrics": {
+    "successScore": 78,
+    "scoreLabel": "Good",
+    "academicRisk": {
+      "level": "Low",
+      "score": 22
+    },
+    "placementRisk": {
+      "level": "Medium",
+      "score": 48
+    },
+    "dataCoverage": 75
+  },
+  "academics": {
+    "averageMarks": 82.5,
+    "previousSemesterMarks": 79.0,
+    "currentSemesterMarks": 84.0,
+    "trend": "Improving",
+    "records": [
+      {
+        "semester": 4,
+        "marksPercentage": 76.5,
+        "assessmentDate": "2025-05-15"
+      },
+      {
+        "semester": 5,
+        "marksPercentage": 79.0,
+        "assessmentDate": "2025-11-20"
+      },
+      {
+        "semester": 6,
+        "marksPercentage": 84.0,
+        "assessmentDate": "2026-05-18"
+      }
+    ]
+  },
+  "attendance": {
+    "attendancePercentage": 86.5,
+    "status": "Good",
+    "trend": "Stable",
+    "minimumRequiredPercentage": 75
+  },
+  "skills": [
+    {
+      "name": "Python",
+      "score": 88,
+      "level": "Advanced"
+    },
+    {
+      "name": "SQL",
+      "score": 78,
+      "level": "Intermediate"
+    },
+    {
+      "name": "Data Structures",
+      "score": 82,
+      "level": "Advanced"
+    },
+    {
+      "name": "Machine Learning",
+      "score": 68,
+      "level": "Intermediate"
+    }
+  ],
+  "placementReadiness": {
+    "status": "Needs Improvement",
+    "codingScore": 76,
+    "aptitudeScore": 64,
+    "communicationScore": 72,
+    "mockInterviewScore": 60
+  },
+  "engagement": {
+    "lmsLogins": 42,
+    "resourcesAccessed": 28,
+    "assignmentsCompleted": 9,
+    "assignmentsTotal": 10,
+    "participationScore": 80
+  },
+  "insights": {
+    "strengths": [
+      "Improving academic performance",
+      "Strong Python and Data Structures skills",
+      "Attendance is above the required threshold"
+    ],
+    "areasToImprove": [
+      "Aptitude test performance",
+      "Mock interview preparation",
+      "Machine Learning fundamentals"
+    ],
+    "recommendations": [
+      {
+        "title": "Practice aptitude questions",
+        "priority": "High",
+        "category": "Placement",
+        "description": "Complete 3 aptitude practice sessions per week."
+      },
+      {
+        "title": "Prepare for mock interviews",
+        "priority": "High",
+        "category": "Career",
+        "description": "Complete at least 2 mock interviews this month."
+      },
+      {
+        "title": "Strengthen Machine Learning",
+        "priority": "Medium",
+        "category": "Skills",
+        "description": "Build a small classification project and revise model evaluation."
+      }
+    ]
+  },
+  "metadata": {
+    "isDemoData": true,
+    "lastUpdated": "2026-10-10",
+    "scoreMethod": "Illustrative demo only"
+  }
+},{
+  "student": {
+    "studentId": "STU2026001",
+    "name": "Aarav Sharma",
+    "department": "Computer Science",
+    "course": "BTech",
+    "yearOfStudy": 3,
+    "semester": 6,
+    "section": "A",
+    "email": "aarav.sharma@example.com"
+  },
+  "successMetrics": {
+    "successScore": 78,
+    "scoreLabel": "Good",
+    "academicRisk": {
+      "level": "Low",
+      "score": 22
+    },
+    "placementRisk": {
+      "level": "Medium",
+      "score": 48
+    },
+    "dataCoverage": 75
+  },
+  "academics": {
+    "averageMarks": 82.5,
+    "previousSemesterMarks": 79.0,
+    "currentSemesterMarks": 84.0,
+    "trend": "Improving",
+    "records": [
+      {
+        "semester": 4,
+        "marksPercentage": 76.5,
+        "assessmentDate": "2025-05-15"
+      },
+      {
+        "semester": 5,
+        "marksPercentage": 79.0,
+        "assessmentDate": "2025-11-20"
+      },
+      {
+        "semester": 6,
+        "marksPercentage": 84.0,
+        "assessmentDate": "2026-05-18"
+      }
+    ]
+  },
+  "attendance": {
+    "attendancePercentage": 86.5,
+    "status": "Good",
+    "trend": "Stable",
+    "minimumRequiredPercentage": 75
+  },
+  "skills": [
+    {
+      "name": "Python",
+      "score": 88,
+      "level": "Advanced"
+    },
+    {
+      "name": "SQL",
+      "score": 78,
+      "level": "Intermediate"
+    },
+    {
+      "name": "Data Structures",
+      "score": 82,
+      "level": "Advanced"
+    },
+    {
+      "name": "Machine Learning",
+      "score": 68,
+      "level": "Intermediate"
+    }
+  ],
+  "placementReadiness": {
+    "status": "Needs Improvement",
+    "codingScore": 76,
+    "aptitudeScore": 64,
+    "communicationScore": 72,
+    "mockInterviewScore": 60
+  },
+  "engagement": {
+    "lmsLogins": 42,
+    "resourcesAccessed": 28,
+    "assignmentsCompleted": 9,
+    "assignmentsTotal": 10,
+    "participationScore": 80
+  },
+  "insights": {
+    "strengths": [
+      "Improving academic performance",
+      "Strong Python and Data Structures skills",
+      "Attendance is above the required threshold"
+    ],
+    "areasToImprove": [
+      "Aptitude test performance",
+      "Mock interview preparation",
+      "Machine Learning fundamentals"
+    ],
+    "recommendations": [
+      {
+        "title": "Practice aptitude questions",
+        "priority": "High",
+        "category": "Placement",
+        "description": "Complete 3 aptitude practice sessions per week."
+      },
+      {
+        "title": "Prepare for mock interviews",
+        "priority": "High",
+        "category": "Career",
+        "description": "Complete at least 2 mock interviews this month."
+      },
+      {
+        "title": "Strengthen Machine Learning",
+        "priority": "Medium",
+        "category": "Skills",
+        "description": "Build a small classification project and revise model evaluation."
+      }
+    ]
+  },
+  "metadata": {
+    "isDemoData": true,
+    "lastUpdated": "2026-10-10",
+    "scoreMethod": "Illustrative demo only"
+  }
+},{
+  "student": {
+    "studentId": "STU2026001",
+    "name": "Aarav Sharma",
+    "department": "Computer Science",
+    "course": "BTech",
+    "yearOfStudy": 3,
+    "semester": 6,
+    "section": "A",
+    "email": "aarav.sharma@example.com"
+  },
+  "successMetrics": {
+    "successScore": 78,
+    "scoreLabel": "Good",
+    "academicRisk": {
+      "level": "Low",
+      "score": 22
+    },
+    "placementRisk": {
+      "level": "Medium",
+      "score": 48
+    },
+    "dataCoverage": 75
+  },
+  "academics": {
+    "averageMarks": 82.5,
+    "previousSemesterMarks": 79.0,
+    "currentSemesterMarks": 84.0,
+    "trend": "Improving",
+    "records": [
+      {
+        "semester": 4,
+        "marksPercentage": 76.5,
+        "assessmentDate": "2025-05-15"
+      },
+      {
+        "semester": 5,
+        "marksPercentage": 79.0,
+        "assessmentDate": "2025-11-20"
+      },
+      {
+        "semester": 6,
+        "marksPercentage": 84.0,
+        "assessmentDate": "2026-05-18"
+      }
+    ]
+  },
+  "attendance": {
+    "attendancePercentage": 86.5,
+    "status": "Good",
+    "trend": "Stable",
+    "minimumRequiredPercentage": 75
+  },
+  "skills": [
+    {
+      "name": "Python",
+      "score": 88,
+      "level": "Advanced"
+    },
+    {
+      "name": "SQL",
+      "score": 78,
+      "level": "Intermediate"
+    },
+    {
+      "name": "Data Structures",
+      "score": 82,
+      "level": "Advanced"
+    },
+    {
+      "name": "Machine Learning",
+      "score": 68,
+      "level": "Intermediate"
+    }
+  ],
+  "placementReadiness": {
+    "status": "Needs Improvement",
+    "codingScore": 76,
+    "aptitudeScore": 64,
+    "communicationScore": 72,
+    "mockInterviewScore": 60
+  },
+  "engagement": {
+    "lmsLogins": 42,
+    "resourcesAccessed": 28,
+    "assignmentsCompleted": 9,
+    "assignmentsTotal": 10,
+    "participationScore": 80
+  },
+  "insights": {
+    "strengths": [
+      "Improving academic performance",
+      "Strong Python and Data Structures skills",
+      "Attendance is above the required threshold"
+    ],
+    "areasToImprove": [
+      "Aptitude test performance",
+      "Mock interview preparation",
+      "Machine Learning fundamentals"
+    ],
+    "recommendations": [
+      {
+        "title": "Practice aptitude questions",
+        "priority": "High",
+        "category": "Placement",
+        "description": "Complete 3 aptitude practice sessions per week."
+      },
+      {
+        "title": "Prepare for mock interviews",
+        "priority": "High",
+        "category": "Career",
+        "description": "Complete at least 2 mock interviews this month."
+      },
+      {
+        "title": "Strengthen Machine Learning",
+        "priority": "Medium",
+        "category": "Skills",
+        "description": "Build a small classification project and revise model evaluation."
+      }
+    ]
+  },
+  "metadata": {
+    "isDemoData": true,
+    "lastUpdated": "2026-10-10",
+    "scoreMethod": "Illustrative demo only"
+  }
+},{
+  "student": {
+    "studentId": "STU2026001",
+    "name": "Aarav Sharma",
+    "department": "Computer Science",
+    "course": "BTech",
+    "yearOfStudy": 3,
+    "semester": 6,
+    "section": "A",
+    "email": "aarav.sharma@example.com"
+  },
+  "successMetrics": {
+    "successScore": 78,
+    "scoreLabel": "Good",
+    "academicRisk": {
+      "level": "Low",
+      "score": 22
+    },
+    "placementRisk": {
+      "level": "Medium",
+      "score": 48
+    },
+    "dataCoverage": 75
+  },
+  "academics": {
+    "averageMarks": 82.5,
+    "previousSemesterMarks": 79.0,
+    "currentSemesterMarks": 84.0,
+    "trend": "Improving",
+    "records": [
+      {
+        "semester": 4,
+        "marksPercentage": 76.5,
+        "assessmentDate": "2025-05-15"
+      },
+      {
+        "semester": 5,
+        "marksPercentage": 79.0,
+        "assessmentDate": "2025-11-20"
+      },
+      {
+        "semester": 6,
+        "marksPercentage": 84.0,
+        "assessmentDate": "2026-05-18"
+      }
+    ]
+  },
+  "attendance": {
+    "attendancePercentage": 86.5,
+    "status": "Good",
+    "trend": "Stable",
+    "minimumRequiredPercentage": 75
+  },
+  "skills": [
+    {
+      "name": "Python",
+      "score": 88,
+      "level": "Advanced"
+    },
+    {
+      "name": "SQL",
+      "score": 78,
+      "level": "Intermediate"
+    },
+    {
+      "name": "Data Structures",
+      "score": 82,
+      "level": "Advanced"
+    },
+    {
+      "name": "Machine Learning",
+      "score": 68,
+      "level": "Intermediate"
+    }
+  ],
+  "placementReadiness": {
+    "status": "Needs Improvement",
+    "codingScore": 76,
+    "aptitudeScore": 64,
+    "communicationScore": 72,
+    "mockInterviewScore": 60
+  },
+  "engagement": {
+    "lmsLogins": 42,
+    "resourcesAccessed": 28,
+    "assignmentsCompleted": 9,
+    "assignmentsTotal": 10,
+    "participationScore": 80
+  },
+  "insights": {
+    "strengths": [
+      "Improving academic performance",
+      "Strong Python and Data Structures skills",
+      "Attendance is above the required threshold"
+    ],
+    "areasToImprove": [
+      "Aptitude test performance",
+      "Mock interview preparation",
+      "Machine Learning fundamentals"
+    ],
+    "recommendations": [
+      {
+        "title": "Practice aptitude questions",
+        "priority": "High",
+        "category": "Placement",
+        "description": "Complete 3 aptitude practice sessions per week."
+      },
+      {
+        "title": "Prepare for mock interviews",
+        "priority": "High",
+        "category": "Career",
+        "description": "Complete at least 2 mock interviews this month."
+      },
+      {
+        "title": "Strengthen Machine Learning",
+        "priority": "Medium",
+        "category": "Skills",
+        "description": "Build a small classification project and revise model evaluation."
+      }
+    ]
+  },
+  "metadata": {
+    "isDemoData": true,
+    "lastUpdated": "2026-10-10",
+    "scoreMethod": "Illustrative demo only"
+  }
+},{
+  "student": {
+    "studentId": "STU2026001",
+    "name": "Aarav Sharma",
+    "department": "Computer Science",
+    "course": "BTech",
+    "yearOfStudy": 3,
+    "semester": 6,
+    "section": "A",
+    "email": "aarav.sharma@example.com"
+  },
+  "successMetrics": {
+    "successScore": 78,
+    "scoreLabel": "Good",
+    "academicRisk": {
+      "level": "Low",
+      "score": 22
+    },
+    "placementRisk": {
+      "level": "Medium",
+      "score": 48
+    },
+    "dataCoverage": 75
+  },
+  "academics": {
+    "averageMarks": 82.5,
+    "previousSemesterMarks": 79.0,
+    "currentSemesterMarks": 84.0,
+    "trend": "Improving",
+    "records": [
+      {
+        "semester": 4,
+        "marksPercentage": 76.5,
+        "assessmentDate": "2025-05-15"
+      },
+      {
+        "semester": 5,
+        "marksPercentage": 79.0,
+        "assessmentDate": "2025-11-20"
+      },
+      {
+        "semester": 6,
+        "marksPercentage": 84.0,
+        "assessmentDate": "2026-05-18"
+      }
+    ]
+  },
+  "attendance": {
+    "attendancePercentage": 86.5,
+    "status": "Good",
+    "trend": "Stable",
+    "minimumRequiredPercentage": 75
+  },
+  "skills": [
+    {
+      "name": "Python",
+      "score": 88,
+      "level": "Advanced"
+    },
+    {
+      "name": "SQL",
+      "score": 78,
+      "level": "Intermediate"
+    },
+    {
+      "name": "Data Structures",
+      "score": 82,
+      "level": "Advanced"
+    },
+    {
+      "name": "Machine Learning",
+      "score": 68,
+      "level": "Intermediate"
+    }
+  ],
+  "placementReadiness": {
+    "status": "Needs Improvement",
+    "codingScore": 76,
+    "aptitudeScore": 64,
+    "communicationScore": 72,
+    "mockInterviewScore": 60
+  },
+  "engagement": {
+    "lmsLogins": 42,
+    "resourcesAccessed": 28,
+    "assignmentsCompleted": 9,
+    "assignmentsTotal": 10,
+    "participationScore": 80
+  },
+  "insights": {
+    "strengths": [
+      "Improving academic performance",
+      "Strong Python and Data Structures skills",
+      "Attendance is above the required threshold"
+    ],
+    "areasToImprove": [
+      "Aptitude test performance",
+      "Mock interview preparation",
+      "Machine Learning fundamentals"
+    ],
+    "recommendations": [
+      {
+        "title": "Practice aptitude questions",
+        "priority": "High",
+        "category": "Placement",
+        "description": "Complete 3 aptitude practice sessions per week."
+      },
+      {
+        "title": "Prepare for mock interviews",
+        "priority": "High",
+        "category": "Career",
+        "description": "Complete at least 2 mock interviews this month."
+      },
+      {
+        "title": "Strengthen Machine Learning",
+        "priority": "Medium",
+        "category": "Skills",
+        "description": "Build a small classification project and revise model evaluation."
+      }
+    ]
+  },
+  "metadata": {
+    "isDemoData": true,
+    "lastUpdated": "2026-10-10",
+    "scoreMethod": "Illustrative demo only"
+  }
+},{
+  "student": {
+    "studentId": "STU2026001",
+    "name": "Aarav Sharma",
+    "department": "Computer Science",
+    "course": "BTech",
+    "yearOfStudy": 3,
+    "semester": 6,
+    "section": "A",
+    "email": "aarav.sharma@example.com"
+  },
+  "successMetrics": {
+    "successScore": 78,
+    "scoreLabel": "Good",
+    "academicRisk": {
+      "level": "Low",
+      "score": 22
+    },
+    "placementRisk": {
+      "level": "Medium",
+      "score": 48
+    },
+    "dataCoverage": 75
+  },
+  "academics": {
+    "averageMarks": 82.5,
+    "previousSemesterMarks": 79.0,
+    "currentSemesterMarks": 84.0,
+    "trend": "Improving",
+    "records": [
+      {
+        "semester": 4,
+        "marksPercentage": 76.5,
+        "assessmentDate": "2025-05-15"
+      },
+      {
+        "semester": 5,
+        "marksPercentage": 79.0,
+        "assessmentDate": "2025-11-20"
+      },
+      {
+        "semester": 6,
+        "marksPercentage": 84.0,
+        "assessmentDate": "2026-05-18"
+      }
+    ]
+  },
+  "attendance": {
+    "attendancePercentage": 86.5,
+    "status": "Good",
+    "trend": "Stable",
+    "minimumRequiredPercentage": 75
+  },
+  "skills": [
+    {
+      "name": "Python",
+      "score": 88,
+      "level": "Advanced"
+    },
+    {
+      "name": "SQL",
+      "score": 78,
+      "level": "Intermediate"
+    },
+    {
+      "name": "Data Structures",
+      "score": 82,
+      "level": "Advanced"
+    },
+    {
+      "name": "Machine Learning",
+      "score": 68,
+      "level": "Intermediate"
+    }
+  ],
+  "placementReadiness": {
+    "status": "Needs Improvement",
+    "codingScore": 76,
+    "aptitudeScore": 64,
+    "communicationScore": 72,
+    "mockInterviewScore": 60
+  },
+  "engagement": {
+    "lmsLogins": 42,
+    "resourcesAccessed": 28,
+    "assignmentsCompleted": 9,
+    "assignmentsTotal": 10,
+    "participationScore": 80
+  },
+  "insights": {
+    "strengths": [
+      "Improving academic performance",
+      "Strong Python and Data Structures skills",
+      "Attendance is above the required threshold"
+    ],
+    "areasToImprove": [
+      "Aptitude test performance",
+      "Mock interview preparation",
+      "Machine Learning fundamentals"
+    ],
+    "recommendations": [
+      {
+        "title": "Practice aptitude questions",
+        "priority": "High",
+        "category": "Placement",
+        "description": "Complete 3 aptitude practice sessions per week."
+      },
+      {
+        "title": "Prepare for mock interviews",
+        "priority": "High",
+        "category": "Career",
+        "description": "Complete at least 2 mock interviews this month."
+      },
+      {
+        "title": "Strengthen Machine Learning",
+        "priority": "Medium",
+        "category": "Skills",
+        "description": "Build a small classification project and revise model evaluation."
+      }
+    ]
+  },
+  "metadata": {
+    "isDemoData": true,
+    "lastUpdated": "2026-10-10",
+    "scoreMethod": "Illustrative demo only"
+  }
+},{
+  "student": {
+    "studentId": "STU2026001",
+    "name": "Aarav Sharma",
+    "department": "Computer Science",
+    "course": "BTech",
+    "yearOfStudy": 3,
+    "semester": 6,
+    "section": "A",
+    "email": "aarav.sharma@example.com"
+  },
+  "successMetrics": {
+    "successScore": 78,
+    "scoreLabel": "Good",
+    "academicRisk": {
+      "level": "Low",
+      "score": 22
+    },
+    "placementRisk": {
+      "level": "Medium",
+      "score": 48
+    },
+    "dataCoverage": 75
+  },
+  "academics": {
+    "averageMarks": 82.5,
+    "previousSemesterMarks": 79.0,
+    "currentSemesterMarks": 84.0,
+    "trend": "Improving",
+    "records": [
+      {
+        "semester": 4,
+        "marksPercentage": 76.5,
+        "assessmentDate": "2025-05-15"
+      },
+      {
+        "semester": 5,
+        "marksPercentage": 79.0,
+        "assessmentDate": "2025-11-20"
+      },
+      {
+        "semester": 6,
+        "marksPercentage": 84.0,
+        "assessmentDate": "2026-05-18"
+      }
+    ]
+  },
+  "attendance": {
+    "attendancePercentage": 86.5,
+    "status": "Good",
+    "trend": "Stable",
+    "minimumRequiredPercentage": 75
+  },
+  "skills": [
+    {
+      "name": "Python",
+      "score": 88,
+      "level": "Advanced"
+    },
+    {
+      "name": "SQL",
+      "score": 78,
+      "level": "Intermediate"
+    },
+    {
+      "name": "Data Structures",
+      "score": 82,
+      "level": "Advanced"
+    },
+    {
+      "name": "Machine Learning",
+      "score": 68,
+      "level": "Intermediate"
+    }
+  ],
+  "placementReadiness": {
+    "status": "Needs Improvement",
+    "codingScore": 76,
+    "aptitudeScore": 64,
+    "communicationScore": 72,
+    "mockInterviewScore": 60
+  },
+  "engagement": {
+    "lmsLogins": 42,
+    "resourcesAccessed": 28,
+    "assignmentsCompleted": 9,
+    "assignmentsTotal": 10,
+    "participationScore": 80
+  },
+  "insights": {
+    "strengths": [
+      "Improving academic performance",
+      "Strong Python and Data Structures skills",
+      "Attendance is above the required threshold"
+    ],
+    "areasToImprove": [
+      "Aptitude test performance",
+      "Mock interview preparation",
+      "Machine Learning fundamentals"
+    ],
+    "recommendations": [
+      {
+        "title": "Practice aptitude questions",
+        "priority": "High",
+        "category": "Placement",
+        "description": "Complete 3 aptitude practice sessions per week."
+      },
+      {
+        "title": "Prepare for mock interviews",
+        "priority": "High",
+        "category": "Career",
+        "description": "Complete at least 2 mock interviews this month."
+      },
+      {
+        "title": "Strengthen Machine Learning",
+        "priority": "Medium",
+        "category": "Skills",
+        "description": "Build a small classification project and revise model evaluation."
+      }
+    ]
+  },
+  "metadata": {
+    "isDemoData": true,
+    "lastUpdated": "2026-10-10",
+    "scoreMethod": "Illustrative demo only"
+  }
+},{
+  "student": {
+    "studentId": "STU2026001",
+    "name": "Aarav Sharma",
+    "department": "Computer Science",
+    "course": "BTech",
+    "yearOfStudy": 3,
+    "semester": 6,
+    "section": "A",
+    "email": "aarav.sharma@example.com"
+  },
+  "successMetrics": {
+    "successScore": 78,
+    "scoreLabel": "Good",
+    "academicRisk": {
+      "level": "Low",
+      "score": 22
+    },
+    "placementRisk": {
+      "level": "Medium",
+      "score": 48
+    },
+    "dataCoverage": 75
+  },
+  "academics": {
+    "averageMarks": 82.5,
+    "previousSemesterMarks": 79.0,
+    "currentSemesterMarks": 84.0,
+    "trend": "Improving",
+    "records": [
+      {
+        "semester": 4,
+        "marksPercentage": 76.5,
+        "assessmentDate": "2025-05-15"
+      },
+      {
+        "semester": 5,
+        "marksPercentage": 79.0,
+        "assessmentDate": "2025-11-20"
+      },
+      {
+        "semester": 6,
+        "marksPercentage": 84.0,
+        "assessmentDate": "2026-05-18"
+      }
+    ]
+  },
+  "attendance": {
+    "attendancePercentage": 86.5,
+    "status": "Good",
+    "trend": "Stable",
+    "minimumRequiredPercentage": 75
+  },
+  "skills": [
+    {
+      "name": "Python",
+      "score": 88,
+      "level": "Advanced"
+    },
+    {
+      "name": "SQL",
+      "score": 78,
+      "level": "Intermediate"
+    },
+    {
+      "name": "Data Structures",
+      "score": 82,
+      "level": "Advanced"
+    },
+    {
+      "name": "Machine Learning",
+      "score": 68,
+      "level": "Intermediate"
+    }
+  ],
+  "placementReadiness": {
+    "status": "Needs Improvement",
+    "codingScore": 76,
+    "aptitudeScore": 64,
+    "communicationScore": 72,
+    "mockInterviewScore": 60
+  },
+  "engagement": {
+    "lmsLogins": 42,
+    "resourcesAccessed": 28,
+    "assignmentsCompleted": 9,
+    "assignmentsTotal": 10,
+    "participationScore": 80
+  },
+  "insights": {
+    "strengths": [
+      "Improving academic performance",
+      "Strong Python and Data Structures skills",
+      "Attendance is above the required threshold"
+    ],
+    "areasToImprove": [
+      "Aptitude test performance",
+      "Mock interview preparation",
+      "Machine Learning fundamentals"
+    ],
+    "recommendations": [
+      {
+        "title": "Practice aptitude questions",
+        "priority": "High",
+        "category": "Placement",
+        "description": "Complete 3 aptitude practice sessions per week."
+      },
+      {
+        "title": "Prepare for mock interviews",
+        "priority": "High",
+        "category": "Career",
+        "description": "Complete at least 2 mock interviews this month."
+      },
+      {
+        "title": "Strengthen Machine Learning",
+        "priority": "Medium",
+        "category": "Skills",
+        "description": "Build a small classification project and revise model evaluation."
+      }
+    ]
+  },
+  "metadata": {
+    "isDemoData": true,
+    "lastUpdated": "2026-10-10",
+    "scoreMethod": "Illustrative demo only"
+  }
+},{
+  "student": {
+    "studentId": "STU2026001",
+    "name": "Aarav Sharma",
+    "department": "Computer Science",
+    "course": "BTech",
+    "yearOfStudy": 3,
+    "semester": 6,
+    "section": "A",
+    "email": "aarav.sharma@example.com"
+  },
+  "successMetrics": {
+    "successScore": 78,
+    "scoreLabel": "Good",
+    "academicRisk": {
+      "level": "Low",
+      "score": 22
+    },
+    "placementRisk": {
+      "level": "Medium",
+      "score": 48
+    },
+    "dataCoverage": 75
+  },
+  "academics": {
+    "averageMarks": 82.5,
+    "previousSemesterMarks": 79.0,
+    "currentSemesterMarks": 84.0,
+    "trend": "Improving",
+    "records": [
+      {
+        "semester": 4,
+        "marksPercentage": 76.5,
+        "assessmentDate": "2025-05-15"
+      },
+      {
+        "semester": 5,
+        "marksPercentage": 79.0,
+        "assessmentDate": "2025-11-20"
+      },
+      {
+        "semester": 6,
+        "marksPercentage": 84.0,
+        "assessmentDate": "2026-05-18"
+      }
+    ]
+  },
+  "attendance": {
+    "attendancePercentage": 86.5,
+    "status": "Good",
+    "trend": "Stable",
+    "minimumRequiredPercentage": 75
+  },
+  "skills": [
+    {
+      "name": "Python",
+      "score": 88,
+      "level": "Advanced"
+    },
+    {
+      "name": "SQL",
+      "score": 78,
+      "level": "Intermediate"
+    },
+    {
+      "name": "Data Structures",
+      "score": 82,
+      "level": "Advanced"
+    },
+    {
+      "name": "Machine Learning",
+      "score": 68,
+      "level": "Intermediate"
+    }
+  ],
+  "placementReadiness": {
+    "status": "Needs Improvement",
+    "codingScore": 76,
+    "aptitudeScore": 64,
+    "communicationScore": 72,
+    "mockInterviewScore": 60
+  },
+  "engagement": {
+    "lmsLogins": 42,
+    "resourcesAccessed": 28,
+    "assignmentsCompleted": 9,
+    "assignmentsTotal": 10,
+    "participationScore": 80
+  },
+  "insights": {
+    "strengths": [
+      "Improving academic performance",
+      "Strong Python and Data Structures skills",
+      "Attendance is above the required threshold"
+    ],
+    "areasToImprove": [
+      "Aptitude test performance",
+      "Mock interview preparation",
+      "Machine Learning fundamentals"
+    ],
+    "recommendations": [
+      {
+        "title": "Practice aptitude questions",
+        "priority": "High",
+        "category": "Placement",
+        "description": "Complete 3 aptitude practice sessions per week."
+      },
+      {
+        "title": "Prepare for mock interviews",
+        "priority": "High",
+        "category": "Career",
+        "description": "Complete at least 2 mock interviews this month."
+      },
+      {
+        "title": "Strengthen Machine Learning",
+        "priority": "Medium",
+        "category": "Skills",
+        "description": "Build a small classification project and revise model evaluation."
+      }
+    ]
+  },
+  "metadata": {
+    "isDemoData": true,
+    "lastUpdated": "2026-10-10",
+    "scoreMethod": "Illustrative demo only"
+  }
+}
+];
+
 export const DashboardApi = async () => {
-//   const response = await API.get("/");
+  //   const response = await API.get("/");
   return fakeapi;
 };
+
+export const ProfileApi = async () => {
+  return fakeprofileapi;
+};
+
+export const FormApi = async ()=>{
+    return 0
+}

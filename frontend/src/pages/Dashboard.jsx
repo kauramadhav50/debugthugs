@@ -30,12 +30,13 @@ function Dashboard() {
   return (
     <div className="min-h-screen bg-gray-50 p-4 sm:p-6 md:p-10 ml-0 md:ml-[220px] transition-all">
       <div className="max-w-7xl mx-auto space-y-6 sm:space-y-8">
-        
         {/* Header */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 border-b border-gray-200 pb-4">
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 tracking-tight">
             Dashboard{" "}
-            <span className="text-[#319574] text-base sm:text-lg font-medium">Overview</span>
+            <span className="text-[#319574] text-base sm:text-lg font-medium">
+              Overview
+            </span>
           </h1>
           <span className="bg-[#319574]/10 text-[#319574] font-medium px-3 sm:px-4 py-1.5 rounded-full text-xs sm:text-sm">
             Live Campus Data
@@ -107,7 +108,7 @@ function Dashboard() {
                 className="bg-white p-4 sm:p-5 rounded-xl shadow-sm border border-gray-100 flex flex-col justify-between"
               >
                 <h4 className="text-xs sm:text-sm font-medium text-gray-600 mb-2">
-                  {dept.departmentName || `Department ${index + 1}`}
+                  {dept.department || `Department ${index + 1}`}
                 </h4>
                 <div className="text-lg sm:text-xl font-bold text-[#319574]">
                   {dept.averageScore}

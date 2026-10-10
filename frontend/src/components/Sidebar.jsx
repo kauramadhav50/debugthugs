@@ -3,8 +3,8 @@ import { NavLink } from "react-router";
 import { MdDashboard, MdMenu, MdClose } from "react-icons/md";
 import { ImProfile } from "react-icons/im";
 import { AiOutlineProfile } from "react-icons/ai";
-import { GoFileDirectoryFill } from "react-icons/go";
 import { RiSkullFill } from "react-icons/ri";
+import { IoPersonAddSharp } from "react-icons/io5";
 
 function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,12 +17,12 @@ function Sidebar() {
       path: "/segmentation",
       icon: AiOutlineProfile,
     },
-    {
-      name: "Directory",
-      path: "/directory",
-      icon: GoFileDirectoryFill,
-    },
     { name: "Risk", path: "/risks", icon: RiSkullFill },
+    {
+      name: "Add data",
+      path: "/form",
+      icon: IoPersonAddSharp,
+    },
   ];
 
   const linkClasses = ({ isActive }) =>
@@ -69,9 +69,7 @@ function Sidebar() {
         `}
       >
         {/* Sidebar Heading */}
-        <h2 className="text-xl font-bold mb-6 px-4">
-          My Dashboard
-        </h2>
+        <h2 className="text-xl font-bold mb-6 px-4">My Dashboard</h2>
 
         {/* Navigation Links */}
         {navItems.map(({ name, path, icon: Icon }) => (
