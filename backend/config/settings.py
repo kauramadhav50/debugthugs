@@ -40,6 +40,9 @@ INSTALLED_APPS = [
     "rest_framework",
 
 
+    # Third-party apps
+    'rest_framework',
+
 
     "analytics",
     "data_import",
