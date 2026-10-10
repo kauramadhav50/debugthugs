@@ -1,6 +1,7 @@
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
 from django.db.models import Q
+from django.utils import timezone
 
 
 class Student(models.Model):
@@ -54,7 +55,7 @@ class AttendanceRecord(models.Model):
 		blank=True,
 		validators=[MinValueValidator(0), MaxValueValidator(100)],
 	)
-	recorded_at = models.DateTimeField(auto_now_add=True)
+	recorded_at = models.DateTimeField(default=timezone.now)
 
 	class Meta:
 		constraints = [

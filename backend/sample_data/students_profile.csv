@@ -1,0 +1,4425 @@
+student_id,name,department,course,year_of_study,section
+STU0001,Vikram Nair,Computer Science,MTech,1,A
+STU0002,Amit Gupta,Computer Science,BTech,2,D
+STU0003,Karan Singh,Civil,MCA,2,C
+STU0004,Pooja Patel,Computer Science,BCA,2,B
+STU0005,Vikram Das,Civil,BTech,2,B
+STU0006,Amit Gupta,Electronics,MTech,2,D
+STU0007,Karan Nair,Information Technology,BTech,4,B
+STU0008,Neha Gupta,Mechanical,BTech,2,A
+STU0009,Rohan Iyer,Civil,MTech,3,D
+STU0010,Karan Kaur,Computer Science,BCA,1,C
+STU0011,Neha Yadav,Civil,MTech,4,D
+STU0012,Ananya Kaur,Civil,MCA,4,D
+STU0013,Kavita Verma,Computer Science,BCA,2,C
+STU0014,Aarav Yadav,Computer Science,BTech,1,B
+STU0015,Pooja Iyer,Information Technology,MTech,3,C
+STU0016,Kavita Kumar,Mechanical,MCA,2,A
+STU0017,Aarav Das,Information Technology,MTech,1,B
+STU0018,Amit Reddy,Information Technology,BCA,2,D
+STU0019,Kavita Yadav,Computer Science,MCA,2,B
+STU0020,Rohan Yadav,Computer Science,BTech,2,B
+STU0021,Vikram Nair,Mechanical,BCA,2,A
+STU0022,Rahul Patel,Civil,MCA,2,B
+STU0023,Karan Patel,Information Technology,BCA,2,B
+STU0024,Vikram Verma,Mechanical,BTech,2,B
+STU0025,Rahul Singh,Information Technology,MCA,3,D
+STU0026,Simran Nair,Civil,MTech,4,B
+STU0027,Rahul Yadav,Information Technology,MTech,3,C
+STU0028,Simran Reddy,Electronics,BTech,2,B
+STU0029,Rahul Reddy,Mechanical,MCA,2,A
+STU0030,Karan Kaur,Computer Science,BTech,3,B
+STU0031,Priya Yadav,Information Technology,BTech,3,B
+STU0032,Kavita Singh,Mechanical,BCA,4,D
+STU0033,Kavita Gupta,Mechanical,MTech,3,C
+STU0034,Rohan Sharma,Information Technology,BTech,4,B
+STU0035,Priya Kaur,Computer Science,BCA,2,C
+STU0036,Neha Nair,Computer Science,BTech,1,A
+STU0037,Simran Iyer,Information Technology,BTech,1,D
+STU0038,Ananya Reddy,Mechanical,BTech,1,C
+STU0039,Priya Iyer,Computer Science,MTech,1,D
+STU0040,Simran Reddy,Information Technology,MCA,2,B
+STU0041,Kavita Kaur,Information Technology,MTech,1,A
+STU0042,Pooja Nair,Information Technology,BCA,3,D
+STU0043,Neha Singh,Mechanical,MCA,3,B
+STU0044,Kavita Kumar,Computer Science,BCA,1,C
+STU0045,Neha Verma,Mechanical,BTech,3,A
+STU0046,Simran Verma,Electronics,MCA,4,A
+STU0047,Neha Reddy,Computer Science,BCA,2,C
+STU0048,Rahul Yadav,Mechanical,BTech,1,C
+STU0049,Kavita Yadav,Computer Science,BCA,1,A
+STU0050,Rahul Sharma,Electronics,BCA,2,D
+STU0051,Rahul Singh,Civil,MTech,3,A
+STU0052,Rahul Gupta,Information Technology,BTech,2,C
+STU0053,Aarav Yadav,Mechanical,MTech,2,D
+STU0054,Neha Gupta,Electronics,MCA,3,B
+STU0055,Amit Patel,Electronics,BTech,2,A
+STU0056,Aarav Gupta,Computer Science,MTech,3,C
+STU0057,Rohan Patel,Computer Science,MTech,3,B
+STU0058,Aarav Das,Information Technology,MCA,2,A
+STU0059,Karan Reddy,Computer Science,BCA,4,A
+STU0060,Vikram Reddy,Mechanical,BCA,3,D
+STU0061,Rahul Yadav,Mechanical,BCA,2,C
+STU0062,Vikram Kumar,Mechanical,MCA,3,B
+STU0063,Neha Yadav,Civil,MTech,4,A
+STU0064,Simran Sharma,Mechanical,BTech,4,D
+STU0065,Vikram Singh,Computer Science,MCA,1,B
+STU0066,Neha Verma,Computer Science,BCA,3,B
+STU0067,Rohan Yadav,Mechanical,BCA,3,A
+STU0068,Neha Iyer,Electronics,BTech,2,B
+STU0069,Amit Patel,Electronics,MCA,3,A
+STU0070,Aarav Patel,Electronics,BCA,1,D
+STU0071,Karan Patel,Information Technology,MCA,4,D
+STU0072,Aarav Verma,Civil,MTech,4,B
+STU0073,Pooja Singh,Mechanical,MCA,1,A
+STU0074,Vikram Das,Information Technology,MTech,3,C
+STU0075,Rahul Reddy,Electronics,BTech,3,D
+STU0076,Pooja Yadav,Mechanical,MTech,1,A
+STU0077,Rohan Singh,Information Technology,MTech,2,A
+STU0078,Aarav Nair,Computer Science,BTech,4,A
+STU0079,Priya Verma,Electronics,BCA,1,B
+STU0080,Vikram Singh,Information Technology,BTech,1,C
+STU0081,Amit Nair,Computer Science,MCA,3,B
+STU0082,Vikram Das,Electronics,BTech,4,D
+STU0083,Rohan Iyer,Civil,MCA,3,B
+STU0084,Kavita Kaur,Electronics,BCA,1,A
+STU0085,Pooja Kumar,Civil,MCA,2,B
+STU0086,Karan Iyer,Civil,BTech,4,A
+STU0087,Kavita Yadav,Civil,BTech,1,C
+STU0088,Kavita Yadav,Mechanical,BCA,1,B
+STU0089,Priya Das,Mechanical,BTech,2,B
+STU0090,Pooja Singh,Civil,BCA,1,B
+STU0091,Kavita Kumar,Computer Science,BCA,1,A
+STU0092,Vikram Sharma,Civil,BTech,4,A
+STU0093,Aarav Kumar,Information Technology,MTech,4,B
+STU0094,Amit Kumar,Civil,MCA,4,B
+STU0095,Priya Kumar,Mechanical,MTech,3,C
+STU0096,Rohan Singh,Mechanical,BCA,2,C
+STU0097,Ananya Gupta,Information Technology,MCA,4,D
+STU0098,Amit Kumar,Information Technology,MTech,3,C
+STU0099,Karan Sharma,Electronics,BTech,3,C
+STU0100,Rohan Reddy,Computer Science,MTech,2,C
+STU0101,Kavita Gupta,Computer Science,MCA,2,A
+STU0102,Amit Iyer,Computer Science,MCA,1,C
+STU0103,Neha Kumar,Mechanical,MCA,3,C
+STU0104,Priya Sharma,Computer Science,MCA,4,B
+STU0105,Aarav Reddy,Electronics,MTech,2,A
+STU0106,Priya Yadav,Electronics,BTech,3,D
+STU0107,Vikram Kaur,Computer Science,BTech,4,D
+STU0108,Rohan Sharma,Information Technology,MCA,3,C
+STU0109,Karan Sharma,Electronics,BTech,2,D
+STU0110,Neha Sharma,Information Technology,MTech,1,D
+STU0111,Amit Sharma,Mechanical,BTech,3,D
+STU0112,Simran Kaur,Electronics,BCA,4,C
+STU0113,Kavita Iyer,Information Technology,BTech,2,D
+STU0114,Vikram Verma,Computer Science,MCA,1,C
+STU0115,Aarav Sharma,Mechanical,BTech,4,B
+STU0116,Rohan Kaur,Civil,BTech,4,B
+STU0117,Karan Yadav,Civil,BTech,4,D
+STU0118,Pooja Iyer,Computer Science,BTech,3,B
+STU0119,Vikram Nair,Mechanical,BCA,2,C
+STU0120,Vikram Das,Mechanical,MTech,4,B
+STU0121,Neha Das,Mechanical,MCA,3,D
+STU0122,Aarav Iyer,Mechanical,MCA,2,C
+STU0123,Neha Verma,Civil,BTech,2,A
+STU0124,Priya Kaur,Information Technology,MTech,3,C
+STU0125,Ananya Iyer,Mechanical,BTech,3,B
+STU0126,Amit Sharma,Information Technology,BCA,4,A
+STU0127,Rahul Yadav,Mechanical,MTech,2,C
+STU0128,Amit Iyer,Electronics,MTech,1,A
+STU0129,Rohan Nair,Electronics,MTech,3,A
+STU0130,Kavita Das,Electronics,MTech,2,A
+STU0131,Priya Patel,Mechanical,BTech,2,C
+STU0132,Pooja Patel,Information Technology,BCA,4,B
+STU0133,Rohan Nair,Civil,MTech,1,C
+STU0134,Vikram Nair,Computer Science,MCA,4,B
+STU0135,Rahul Sharma,Civil,MCA,1,C
+STU0136,Neha Singh,Mechanical,BCA,1,C
+STU0137,Simran Gupta,Electronics,MCA,3,C
+STU0138,Aarav Das,Electronics,BTech,2,B
+STU0139,Kavita Kumar,Information Technology,BTech,2,C
+STU0140,Rahul Kaur,Mechanical,BCA,2,A
+STU0141,Vikram Reddy,Civil,MTech,1,C
+STU0142,Rohan Singh,Mechanical,MCA,2,A
+STU0143,Kavita Reddy,Mechanical,MCA,3,D
+STU0144,Rahul Nair,Electronics,BCA,1,D
+STU0145,Kavita Sharma,Civil,BCA,1,B
+STU0146,Simran Sharma,Computer Science,MCA,1,B
+STU0147,Kavita Verma,Electronics,MTech,1,D
+STU0148,Karan Das,Civil,BCA,3,C
+STU0149,Vikram Kumar,Information Technology,BTech,2,C
+STU0150,Rahul Patel,Electronics,MCA,3,C
+STU0151,Rohan Patel,Information Technology,BCA,2,D
+STU0152,Priya Gupta,Electronics,BCA,3,A
+STU0153,Ananya Gupta,Mechanical,BCA,4,B
+STU0154,Aarav Gupta,Civil,MCA,4,A
+STU0155,Priya Das,Information Technology,BTech,4,D
+STU0156,Aarav Gupta,Electronics,BTech,4,A
+STU0157,Priya Iyer,Information Technology,MCA,1,C
+STU0158,Neha Nair,Electronics,BCA,1,C
+STU0159,Rohan Kumar,Electronics,MCA,3,A
+STU0160,Rohan Kumar,Computer Science,MCA,3,D
+STU0161,Simran Kaur,Computer Science,BCA,4,A
+STU0162,Simran Iyer,Computer Science,MCA,2,C
+STU0163,Rohan Kumar,Information Technology,MTech,4,C
+STU0164,Priya Sharma,Mechanical,BTech,3,D
+STU0165,Priya Sharma,Electronics,MTech,4,A
+STU0166,Karan Nair,Civil,MTech,3,C
+STU0167,Neha Gupta,Computer Science,MTech,4,C
+STU0168,Vikram Patel,Information Technology,MCA,2,A
+STU0169,Aarav Sharma,Information Technology,BCA,4,A
+STU0170,Kavita Das,Information Technology,MCA,2,B
+STU0171,Rohan Iyer,Civil,BTech,2,D
+STU0172,Vikram Iyer,Civil,MCA,3,D
+STU0173,Ananya Iyer,Computer Science,MCA,2,A
+STU0174,Rohan Iyer,Civil,MCA,1,D
+STU0175,Neha Das,Computer Science,MCA,1,C
+STU0176,Amit Kaur,Civil,MTech,1,A
+STU0177,Karan Sharma,Civil,BCA,3,A
+STU0178,Kavita Sharma,Civil,BTech,1,A
+STU0179,Karan Yadav,Computer Science,BTech,3,B
+STU0180,Rohan Nair,Electronics,BTech,3,D
+STU0181,Rohan Sharma,Computer Science,MCA,1,B
+STU0182,Aarav Yadav,Electronics,BTech,2,C
+STU0183,Kavita Verma,Information Technology,MTech,4,D
+STU0184,Ananya Patel,Information Technology,BCA,3,B
+STU0185,Kavita Kumar,Computer Science,MCA,1,A
+STU0186,Karan Gupta,Electronics,MCA,3,B
+STU0187,Aarav Verma,Electronics,MTech,2,A
+STU0188,Rohan Yadav,Electronics,BTech,2,B
+STU0189,Aarav Nair,Information Technology,MCA,1,B
+STU0190,Karan Singh,Computer Science,MCA,3,B
+STU0191,Aarav Patel,Mechanical,MTech,4,A
+STU0192,Simran Kumar,Electronics,MTech,4,B
+STU0193,Pooja Iyer,Electronics,BTech,3,D
+STU0194,Pooja Patel,Mechanical,BCA,3,D
+STU0195,Neha Gupta,Computer Science,BCA,3,D
+STU0196,Simran Iyer,Electronics,BTech,1,A
+STU0197,Vikram Kaur,Computer Science,BCA,2,A
+STU0198,Amit Reddy,Electronics,MTech,4,D
+STU0199,Simran Reddy,Civil,MTech,1,D
+STU0200,Aarav Gupta,Electronics,MTech,3,D
+STU0201,Aarav Kumar,Civil,BCA,3,C
+STU0202,Amit Iyer,Computer Science,BCA,2,D
+STU0203,Vikram Reddy,Electronics,MCA,3,B
+STU0204,Vikram Reddy,Information Technology,MCA,1,C
+STU0205,Rohan Kaur,Information Technology,MCA,1,C
+STU0206,Rahul Gupta,Mechanical,BCA,2,A
+STU0207,Kavita Reddy,Information Technology,MCA,1,B
+STU0208,Vikram Kumar,Civil,MTech,4,A
+STU0209,Priya Nair,Information Technology,BCA,1,A
+STU0210,Aarav Gupta,Information Technology,BTech,1,B
+STU0211,Kavita Patel,Information Technology,BCA,1,A
+STU0212,Vikram Yadav,Electronics,MCA,4,B
+STU0213,Simran Kaur,Mechanical,BCA,3,B
+STU0214,Vikram Iyer,Computer Science,MCA,1,A
+STU0215,Rohan Kumar,Mechanical,MCA,2,D
+STU0216,Pooja Iyer,Civil,BTech,4,A
+STU0217,Pooja Reddy,Electronics,BTech,2,C
+STU0218,Ananya Sharma,Electronics,MTech,1,A
+STU0219,Priya Reddy,Information Technology,MCA,2,B
+STU0220,Ananya Iyer,Information Technology,BCA,1,C
+STU0221,Amit Yadav,Civil,BTech,4,B
+STU0222,Karan Sharma,Electronics,BTech,2,D
+STU0223,Neha Verma,Computer Science,MCA,2,D
+STU0224,Kavita Yadav,Mechanical,BCA,1,C
+STU0225,Kavita Verma,Electronics,BTech,1,D
+STU0226,Vikram Nair,Computer Science,BTech,3,D
+STU0227,Ananya Nair,Computer Science,BCA,1,A
+STU0228,Rohan Singh,Mechanical,BTech,1,A
+STU0229,Neha Nair,Computer Science,BCA,3,D
+STU0230,Simran Yadav,Civil,MCA,1,D
+STU0231,Pooja Patel,Computer Science,BTech,1,A
+STU0232,Aarav Gupta,Civil,MCA,3,D
+STU0233,Rohan Yadav,Computer Science,BCA,4,D
+STU0234,Pooja Singh,Information Technology,MCA,4,B
+STU0235,Pooja Verma,Computer Science,MCA,1,D
+STU0236,Pooja Verma,Civil,MCA,1,C
+STU0237,Vikram Kumar,Computer Science,MTech,3,B
+STU0238,Kavita Verma,Computer Science,BCA,3,C
+STU0239,Aarav Reddy,Computer Science,BCA,4,D
+STU0240,Pooja Sharma,Civil,BCA,2,A
+STU0241,Simran Iyer,Computer Science,BCA,1,B
+STU0242,Rahul Gupta,Mechanical,BCA,2,A
+STU0243,Karan Sharma,Mechanical,BTech,2,B
+STU0244,Vikram Verma,Civil,BTech,3,A
+STU0245,Ananya Singh,Information Technology,BTech,1,B
+STU0246,Rohan Yadav,Mechanical,MCA,1,B
+STU0247,Pooja Patel,Electronics,MCA,3,C
+STU0248,Karan Iyer,Mechanical,BCA,2,A
+STU0249,Rahul Yadav,Electronics,MTech,3,C
+STU0250,Karan Sharma,Civil,BCA,4,C
+STU0251,Priya Verma,Information Technology,BTech,1,A
+STU0252,Kavita Reddy,Electronics,BCA,4,B
+STU0253,Pooja Verma,Electronics,MCA,3,C
+STU0254,Vikram Nair,Mechanical,BCA,1,A
+STU0255,Aarav Verma,Electronics,BTech,4,B
+STU0256,Vikram Reddy,Civil,BCA,4,C
+STU0257,Pooja Iyer,Civil,MCA,2,C
+STU0258,Karan Nair,Civil,MTech,1,C
+STU0259,Simran Nair,Mechanical,BTech,4,B
+STU0260,Pooja Reddy,Information Technology,BCA,4,C
+STU0261,Rohan Reddy,Mechanical,MCA,2,B
+STU0262,Aarav Gupta,Civil,BTech,4,D
+STU0263,Karan Nair,Mechanical,BTech,4,C
+STU0264,Neha Singh,Civil,MCA,4,D
+STU0265,Simran Sharma,Computer Science,BCA,2,A
+STU0266,Kavita Das,Computer Science,BCA,4,C
+STU0267,Priya Gupta,Electronics,BCA,4,A
+STU0268,Kavita Kaur,Information Technology,BTech,1,A
+STU0269,Rohan Yadav,Computer Science,MTech,1,A
+STU0270,Aarav Sharma,Civil,BTech,2,D
+STU0271,Rohan Das,Mechanical,BCA,3,B
+STU0272,Karan Yadav,Mechanical,BTech,1,D
+STU0273,Rohan Sharma,Electronics,MTech,2,D
+STU0274,Aarav Gupta,Mechanical,BTech,4,A
+STU0275,Pooja Das,Computer Science,MCA,4,C
+STU0276,Kavita Yadav,Mechanical,BCA,2,B
+STU0277,Simran Patel,Computer Science,BCA,4,A
+STU0278,Simran Patel,Computer Science,BCA,4,B
+STU0279,Vikram Sharma,Information Technology,BTech,3,D
+STU0280,Pooja Gupta,Electronics,BTech,4,B
+STU0281,Pooja Reddy,Civil,BTech,1,B
+STU0282,Pooja Kaur,Computer Science,BCA,4,C
+STU0283,Rohan Kumar,Electronics,BTech,2,A
+STU0284,Vikram Nair,Civil,BCA,3,B
+STU0285,Pooja Verma,Mechanical,BTech,4,B
+STU0286,Simran Das,Electronics,BCA,2,D
+STU0287,Neha Nair,Electronics,MCA,1,D
+STU0288,Rahul Verma,Electronics,BTech,4,B
+STU0289,Rahul Nair,Mechanical,BCA,3,A
+STU0290,Pooja Verma,Mechanical,MCA,4,B
+STU0291,Rahul Gupta,Electronics,MCA,2,B
+STU0292,Rohan Sharma,Information Technology,MTech,3,C
+STU0293,Rohan Nair,Computer Science,BTech,4,A
+STU0294,Simran Sharma,Mechanical,BCA,1,C
+STU0295,Vikram Gupta,Information Technology,MTech,3,A
+STU0296,Vikram Verma,Mechanical,BTech,1,A
+STU0297,Kavita Sharma,Electronics,MCA,2,A
+STU0298,Vikram Singh,Information Technology,BTech,4,C
+STU0299,Rahul Patel,Civil,BCA,1,C
+STU0300,Rahul Sharma,Computer Science,MCA,2,C
+STU0301,Aarav Nair,Computer Science,MTech,4,D
+STU0302,Rahul Iyer,Mechanical,BTech,2,C
+STU0303,Amit Patel,Computer Science,BTech,1,D
+STU0304,Aarav Nair,Civil,MTech,2,D
+STU0305,Kavita Kumar,Information Technology,BTech,3,D
+STU0306,Rohan Yadav,Information Technology,BTech,4,B
+STU0307,Rahul Singh,Electronics,BTech,2,B
+STU0308,Kavita Nair,Information Technology,MCA,1,B
+STU0309,Rohan Reddy,Mechanical,MCA,4,D
+STU0310,Karan Verma,Civil,BCA,3,D
+STU0311,Rohan Yadav,Electronics,BTech,4,A
+STU0312,Rahul Nair,Mechanical,BCA,3,D
+STU0313,Amit Verma,Mechanical,MCA,4,B
+STU0314,Priya Verma,Mechanical,BTech,2,D
+STU0315,Vikram Kumar,Computer Science,BCA,2,D
+STU0316,Vikram Verma,Mechanical,BTech,1,A
+STU0317,Pooja Reddy,Computer Science,BTech,3,D
+STU0318,Vikram Reddy,Information Technology,MTech,1,C
+STU0319,Karan Patel,Computer Science,BCA,2,A
+STU0320,Vikram Das,Mechanical,MCA,3,D
+STU0321,Amit Kaur,Civil,BCA,1,D
+STU0322,Kavita Kumar,Civil,BCA,1,A
+STU0323,Pooja Reddy,Information Technology,BCA,1,D
+STU0324,Kavita Sharma,Mechanical,MTech,1,B
+STU0325,Ananya Singh,Computer Science,BTech,1,C
+STU0326,Neha Reddy,Civil,MCA,3,C
+STU0327,Rahul Kaur,Electronics,MTech,1,B
+STU0328,Amit Reddy,Mechanical,MCA,3,D
+STU0329,Simran Verma,Mechanical,MTech,1,D
+STU0330,Karan Iyer,Electronics,BTech,2,C
+STU0331,Rohan Gupta,Civil,MCA,2,D
+STU0332,Aarav Iyer,Electronics,BCA,1,C
+STU0333,Priya Sharma,Information Technology,MTech,4,C
+STU0334,Vikram Kumar,Computer Science,MCA,2,B
+STU0335,Priya Nair,Computer Science,BTech,3,C
+STU0336,Ananya Yadav,Civil,MCA,1,D
+STU0337,Rohan Yadav,Electronics,MTech,3,D
+STU0338,Ananya Singh,Mechanical,BTech,4,A
+STU0339,Amit Reddy,Mechanical,BCA,1,D
+STU0340,Pooja Patel,Mechanical,MTech,2,A
+STU0341,Vikram Patel,Information Technology,MTech,3,C
+STU0342,Simran Yadav,Information Technology,BTech,2,D
+STU0343,Pooja Nair,Mechanical,MTech,2,B
+STU0344,Kavita Gupta,Civil,MCA,1,B
+STU0345,Rahul Singh,Information Technology,BCA,3,B
+STU0346,Aarav Patel,Information Technology,MCA,4,C
+STU0347,Kavita Kumar,Computer Science,BTech,2,C
+STU0348,Kavita Sharma,Computer Science,MTech,1,A
+STU0349,Rahul Gupta,Civil,BCA,1,B
+STU0350,Aarav Iyer,Information Technology,BTech,4,A
+STU0351,Karan Iyer,Information Technology,MCA,1,A
+STU0352,Pooja Yadav,Electronics,MTech,2,D
+STU0353,Karan Iyer,Civil,MTech,1,D
+STU0354,Karan Das,Civil,BTech,3,B
+STU0355,Kavita Verma,Electronics,MCA,3,C
+STU0356,Priya Patel,Electronics,MTech,2,D
+STU0357,Rohan Nair,Computer Science,MCA,3,C
+STU0358,Rahul Kaur,Civil,BCA,4,A
+STU0359,Rahul Sharma,Civil,MTech,1,A
+STU0360,Aarav Verma,Electronics,BCA,2,A
+STU0361,Ananya Iyer,Mechanical,MTech,4,A
+STU0362,Rohan Singh,Mechanical,BTech,1,B
+STU0363,Rahul Das,Computer Science,MTech,4,A
+STU0364,Kavita Reddy,Mechanical,MTech,2,D
+STU0365,Neha Iyer,Mechanical,MCA,2,A
+STU0366,Kavita Gupta,Mechanical,MCA,4,C
+STU0367,Kavita Verma,Information Technology,BCA,1,D
+STU0368,Neha Reddy,Computer Science,BCA,3,C
+STU0369,Kavita Nair,Electronics,BCA,3,C
+STU0370,Pooja Gupta,Mechanical,MTech,4,B
+STU0371,Pooja Yadav,Information Technology,MTech,2,B
+STU0372,Simran Yadav,Mechanical,BCA,1,C
+STU0373,Kavita Verma,Information Technology,BTech,1,C
+STU0374,Rahul Nair,Computer Science,BTech,2,A
+STU0375,Amit Iyer,Mechanical,MTech,3,D
+STU0376,Aarav Kumar,Information Technology,BTech,1,A
+STU0377,Aarav Verma,Civil,BTech,4,B
+STU0378,Priya Yadav,Civil,BCA,3,B
+STU0379,Rohan Iyer,Information Technology,BTech,4,A
+STU0380,Simran Patel,Mechanical,BTech,3,D
+STU0381,Karan Kumar,Mechanical,MTech,2,C
+STU0382,Simran Reddy,Computer Science,MTech,4,A
+STU0383,Neha Kaur,Computer Science,MTech,4,B
+STU0384,Amit Verma,Electronics,BTech,2,D
+STU0385,Vikram Gupta,Computer Science,BCA,4,B
+STU0386,Aarav Iyer,Mechanical,MCA,3,D
+STU0387,Aarav Kaur,Electronics,MTech,1,D
+STU0388,Aarav Das,Computer Science,MTech,1,D
+STU0389,Karan Reddy,Information Technology,MTech,2,A
+STU0390,Rahul Iyer,Civil,BCA,3,A
+STU0391,Amit Das,Computer Science,MCA,4,A
+STU0392,Aarav Sharma,Computer Science,MCA,4,D
+STU0393,Simran Kumar,Information Technology,MTech,1,D
+STU0394,Rohan Sharma,Mechanical,BTech,4,B
+STU0395,Karan Singh,Information Technology,MTech,1,C
+STU0396,Ananya Yadav,Computer Science,MTech,2,A
+STU0397,Aarav Verma,Mechanical,BTech,4,D
+STU0398,Karan Iyer,Electronics,BTech,3,B
+STU0399,Rohan Verma,Computer Science,MTech,4,B
+STU0400,Vikram Verma,Information Technology,BCA,1,B
+STU0401,Karan Verma,Electronics,BCA,2,A
+STU0402,Pooja Reddy,Civil,BTech,1,A
+STU0403,Rohan Sharma,Electronics,MTech,4,C
+STU0404,Karan Kumar,Information Technology,BCA,1,B
+STU0405,Aarav Patel,Electronics,MTech,1,A
+STU0406,Priya Sharma,Information Technology,MTech,2,B
+STU0407,Aarav Gupta,Computer Science,MTech,3,D
+STU0408,Simran Yadav,Mechanical,BCA,4,B
+STU0409,Neha Singh,Civil,MCA,2,C
+STU0410,Pooja Reddy,Mechanical,MTech,3,A
+STU0411,Simran Iyer,Mechanical,BCA,1,D
+STU0412,Ananya Patel,Mechanical,MCA,3,A
+STU0413,Amit Kaur,Information Technology,BTech,1,D
+STU0414,Kavita Sharma,Information Technology,BCA,1,B
+STU0415,Ananya Yadav,Civil,MCA,2,B
+STU0416,Karan Das,Information Technology,BCA,1,C
+STU0417,Rahul Sharma,Information Technology,MCA,2,C
+STU0418,Vikram Verma,Information Technology,MCA,3,D
+STU0419,Karan Kaur,Information Technology,BCA,3,C
+STU0420,Amit Patel,Computer Science,BTech,1,C
+STU0421,Vikram Iyer,Civil,MTech,2,C
+STU0422,Kavita Kaur,Information Technology,MCA,1,C
+STU0423,Ananya Kaur,Civil,MTech,2,B
+STU0424,Simran Kaur,Electronics,BTech,2,C
+STU0425,Amit Patel,Computer Science,MTech,2,B
+STU0426,Simran Nair,Information Technology,MTech,3,B
+STU0427,Rahul Iyer,Computer Science,BCA,2,A
+STU0428,Aarav Gupta,Computer Science,BCA,3,B
+STU0429,Kavita Singh,Electronics,BTech,2,B
+STU0430,Pooja Patel,Civil,BCA,3,C
+STU0431,Aarav Verma,Computer Science,MCA,4,B
+STU0432,Priya Reddy,Mechanical,BTech,3,D
+STU0433,Neha Sharma,Electronics,BCA,3,C
+STU0434,Pooja Sharma,Mechanical,BCA,1,C
+STU0435,Kavita Nair,Electronics,BTech,2,C
+STU0436,Neha Verma,Mechanical,MCA,4,A
+STU0437,Simran Iyer,Mechanical,BTech,1,C
+STU0438,Karan Kaur,Computer Science,BCA,2,B
+STU0439,Amit Das,Computer Science,BCA,4,D
+STU0440,Amit Patel,Electronics,BTech,4,C
+STU0441,Rahul Singh,Civil,MCA,4,C
+STU0442,Vikram Das,Computer Science,MCA,2,D
+STU0443,Ananya Gupta,Computer Science,MTech,4,C
+STU0444,Priya Gupta,Information Technology,MCA,4,A
+STU0445,Priya Gupta,Computer Science,BTech,1,B
+STU0446,Rahul Patel,Civil,MCA,3,D
+STU0447,Rohan Das,Information Technology,MCA,2,D
+STU0448,Simran Reddy,Mechanical,MTech,3,A
+STU0449,Rohan Patel,Mechanical,MCA,1,B
+STU0450,Karan Verma,Information Technology,MTech,3,A
+STU0451,Simran Yadav,Information Technology,MTech,4,B
+STU0452,Pooja Iyer,Information Technology,MCA,4,A
+STU0453,Karan Iyer,Electronics,BCA,2,C
+STU0454,Aarav Verma,Civil,BTech,2,A
+STU0455,Rahul Yadav,Civil,BTech,2,D
+STU0456,Pooja Kaur,Mechanical,MCA,1,D
+STU0457,Aarav Reddy,Mechanical,BTech,2,D
+STU0458,Amit Kumar,Mechanical,BTech,1,A
+STU0459,Pooja Kumar,Computer Science,MTech,4,D
+STU0460,Rahul Iyer,Mechanical,BCA,3,D
+STU0461,Neha Das,Information Technology,BTech,4,C
+STU0462,Aarav Reddy,Mechanical,BCA,4,C
+STU0463,Priya Sharma,Information Technology,BTech,4,B
+STU0464,Neha Sharma,Electronics,BCA,2,B
+STU0465,Rohan Nair,Computer Science,BCA,2,B
+STU0466,Neha Iyer,Computer Science,BTech,2,A
+STU0467,Pooja Yadav,Civil,MTech,3,B
+STU0468,Vikram Gupta,Electronics,BCA,2,A
+STU0469,Simran Reddy,Information Technology,BCA,1,A
+STU0470,Amit Gupta,Electronics,BTech,4,B
+STU0471,Rohan Singh,Computer Science,BCA,3,B
+STU0472,Rohan Singh,Information Technology,BCA,3,A
+STU0473,Amit Yadav,Electronics,MTech,3,C
+STU0474,Simran Reddy,Computer Science,BCA,3,D
+STU0475,Ananya Patel,Information Technology,MTech,3,D
+STU0476,Rohan Kumar,Information Technology,BCA,1,D
+STU0477,Vikram Verma,Computer Science,BCA,4,C
+STU0478,Kavita Reddy,Information Technology,MTech,3,A
+STU0479,Vikram Kumar,Computer Science,MTech,4,B
+STU0480,Aarav Singh,Mechanical,MCA,2,A
+STU0481,Ananya Reddy,Mechanical,BCA,3,A
+STU0482,Kavita Kumar,Information Technology,MTech,3,B
+STU0483,Aarav Nair,Information Technology,BCA,4,C
+STU0484,Rahul Nair,Computer Science,BCA,3,D
+STU0485,Pooja Patel,Information Technology,BCA,3,D
+STU0486,Rahul Kaur,Civil,BTech,3,A
+STU0487,Priya Iyer,Mechanical,MCA,1,C
+STU0488,Simran Gupta,Information Technology,BTech,1,D
+STU0489,Neha Sharma,Information Technology,MCA,3,C
+STU0490,Kavita Patel,Electronics,BCA,1,B
+STU0491,Pooja Kumar,Information Technology,BCA,2,A
+STU0492,Karan Iyer,Civil,MTech,3,A
+STU0493,Priya Reddy,Mechanical,MCA,2,C
+STU0494,Simran Das,Electronics,MCA,4,D
+STU0495,Neha Das,Computer Science,BTech,2,C
+STU0496,Ananya Verma,Computer Science,MCA,4,B
+STU0497,Rahul Sharma,Mechanical,BCA,3,D
+STU0498,Karan Iyer,Computer Science,MTech,4,D
+STU0499,Karan Iyer,Civil,BTech,4,C
+STU0500,Ananya Singh,Information Technology,MTech,2,B
+STU0501,Priya Das,Mechanical,MCA,2,D
+STU0502,Neha Singh,Electronics,MCA,2,A
+STU0503,Rahul Singh,Information Technology,BTech,3,B
+STU0504,Rohan Patel,Computer Science,MCA,3,D
+STU0505,Neha Verma,Computer Science,MTech,2,C
+STU0506,Priya Gupta,Electronics,BCA,3,D
+STU0507,Ananya Kaur,Civil,BTech,3,A
+STU0508,Priya Yadav,Electronics,MCA,4,B
+STU0509,Amit Nair,Mechanical,MTech,4,D
+STU0510,Ananya Iyer,Electronics,BCA,2,A
+STU0511,Aarav Gupta,Computer Science,MCA,3,D
+STU0512,Ananya Patel,Civil,BTech,4,D
+STU0513,Rahul Kaur,Civil,MCA,1,B
+STU0514,Amit Gupta,Electronics,MCA,3,C
+STU0515,Pooja Patel,Mechanical,MCA,1,C
+STU0516,Kavita Verma,Computer Science,BCA,2,A
+STU0517,Ananya Reddy,Information Technology,BCA,3,A
+STU0518,Ananya Nair,Civil,MCA,2,A
+STU0519,Rohan Nair,Electronics,MCA,2,B
+STU0520,Aarav Nair,Mechanical,BTech,2,C
+STU0521,Aarav Yadav,Mechanical,MCA,2,A
+STU0522,Aarav Reddy,Computer Science,MTech,2,A
+STU0523,Ananya Verma,Civil,MTech,3,D
+STU0524,Amit Nair,Computer Science,BTech,1,D
+STU0525,Amit Patel,Information Technology,BCA,3,A
+STU0526,Aarav Iyer,Information Technology,MCA,3,D
+STU0527,Simran Gupta,Information Technology,BTech,3,D
+STU0528,Pooja Verma,Mechanical,BCA,4,D
+STU0529,Vikram Reddy,Civil,BTech,4,B
+STU0530,Kavita Kaur,Computer Science,BCA,3,A
+STU0531,Neha Kaur,Computer Science,MCA,1,A
+STU0532,Priya Sharma,Information Technology,BTech,3,D
+STU0533,Karan Kumar,Civil,MCA,2,B
+STU0534,Aarav Kumar,Civil,BTech,4,D
+STU0535,Amit Gupta,Electronics,BCA,4,B
+STU0536,Ananya Singh,Civil,BTech,3,A
+STU0537,Rohan Sharma,Civil,MTech,3,D
+STU0538,Karan Yadav,Computer Science,MTech,1,A
+STU0539,Kavita Kaur,Civil,BTech,1,B
+STU0540,Karan Gupta,Civil,MTech,2,C
+STU0541,Amit Kumar,Computer Science,MCA,3,B
+STU0542,Simran Yadav,Civil,MTech,3,C
+STU0543,Rohan Patel,Computer Science,MTech,3,A
+STU0544,Aarav Gupta,Electronics,MCA,4,A
+STU0545,Ananya Yadav,Mechanical,MCA,2,D
+STU0546,Neha Das,Computer Science,BCA,1,C
+STU0547,Rahul Verma,Computer Science,MCA,4,B
+STU0548,Kavita Patel,Civil,BTech,4,A
+STU0549,Karan Verma,Computer Science,MTech,4,C
+STU0550,Karan Patel,Information Technology,BCA,4,B
+STU0551,Amit Reddy,Information Technology,MCA,2,C
+STU0552,Priya Kumar,Electronics,MTech,3,B
+STU0553,Pooja Kumar,Computer Science,BTech,1,B
+STU0554,Simran Gupta,Civil,BTech,1,B
+STU0555,Neha Singh,Civil,BCA,4,B
+STU0556,Neha Patel,Mechanical,BTech,4,C
+STU0557,Ananya Sharma,Electronics,MTech,2,C
+STU0558,Vikram Sharma,Civil,MCA,4,D
+STU0559,Rahul Sharma,Mechanical,BTech,1,C
+STU0560,Aarav Singh,Civil,MCA,1,C
+STU0561,Simran Verma,Mechanical,MTech,3,D
+STU0562,Neha Gupta,Information Technology,MTech,3,C
+STU0563,Rohan Singh,Information Technology,MCA,1,B
+STU0564,Rohan Iyer,Civil,MTech,1,A
+STU0565,Ananya Patel,Electronics,BCA,2,A
+STU0566,Vikram Patel,Computer Science,BTech,2,D
+STU0567,Neha Reddy,Electronics,BCA,1,C
+STU0568,Priya Sharma,Electronics,BCA,4,C
+STU0569,Priya Singh,Computer Science,BCA,3,D
+STU0570,Amit Nair,Information Technology,MCA,1,A
+STU0571,Ananya Kumar,Information Technology,MCA,4,B
+STU0572,Aarav Verma,Computer Science,MTech,1,C
+STU0573,Amit Singh,Mechanical,MCA,3,D
+STU0574,Aarav Nair,Electronics,MTech,3,B
+STU0575,Ananya Kaur,Civil,MCA,2,D
+STU0576,Pooja Verma,Information Technology,MTech,2,D
+STU0577,Amit Reddy,Civil,BTech,2,D
+STU0578,Aarav Iyer,Computer Science,MTech,2,A
+STU0579,Ananya Nair,Civil,BTech,3,A
+STU0580,Neha Nair,Civil,MTech,4,D
+STU0581,Neha Gupta,Electronics,MCA,4,C
+STU0582,Karan Nair,Computer Science,MCA,4,B
+STU0583,Kavita Kaur,Civil,BTech,1,C
+STU0584,Amit Patel,Information Technology,BCA,2,A
+STU0585,Rohan Nair,Computer Science,BCA,2,B
+STU0586,Priya Reddy,Information Technology,MTech,3,D
+STU0587,Amit Das,Mechanical,MCA,3,C
+STU0588,Karan Nair,Civil,BCA,1,C
+STU0589,Amit Reddy,Computer Science,MCA,1,D
+STU0590,Neha Iyer,Information Technology,MCA,4,C
+STU0591,Ananya Gupta,Civil,MCA,3,A
+STU0592,Vikram Reddy,Electronics,MTech,2,D
+STU0593,Amit Yadav,Information Technology,BTech,4,C
+STU0594,Pooja Gupta,Information Technology,MTech,2,D
+STU0595,Simran Kumar,Mechanical,BCA,4,B
+STU0596,Aarav Gupta,Electronics,BTech,2,D
+STU0597,Kavita Das,Mechanical,BCA,1,C
+STU0598,Kavita Yadav,Electronics,BTech,4,A
+STU0599,Priya Nair,Information Technology,BTech,2,D
+STU0600,Karan Gupta,Mechanical,MTech,2,D
+STU0601,Karan Gupta,Civil,MCA,3,C
+STU0602,Pooja Sharma,Electronics,MCA,4,A
+STU0603,Kavita Reddy,Information Technology,BTech,2,A
+STU0604,Rahul Iyer,Computer Science,MTech,3,B
+STU0605,Rohan Gupta,Electronics,BCA,2,B
+STU0606,Rahul Iyer,Electronics,BCA,4,C
+STU0607,Amit Singh,Civil,MCA,1,A
+STU0608,Aarav Verma,Electronics,MCA,4,A
+STU0609,Karan Reddy,Electronics,BCA,4,B
+STU0610,Priya Iyer,Civil,BCA,2,B
+STU0611,Vikram Kumar,Civil,MTech,2,C
+STU0612,Aarav Iyer,Mechanical,BCA,4,A
+STU0613,Vikram Patel,Information Technology,MTech,3,D
+STU0614,Neha Verma,Information Technology,MCA,3,B
+STU0615,Rahul Verma,Mechanical,BCA,3,C
+STU0616,Rahul Reddy,Information Technology,MCA,2,A
+STU0617,Priya Kumar,Electronics,BTech,2,A
+STU0618,Karan Reddy,Mechanical,BTech,4,B
+STU0619,Rahul Patel,Mechanical,BTech,1,C
+STU0620,Priya Kumar,Information Technology,BCA,2,D
+STU0621,Pooja Das,Computer Science,MCA,4,B
+STU0622,Ananya Kaur,Information Technology,BCA,4,C
+STU0623,Vikram Kaur,Computer Science,MCA,1,A
+STU0624,Amit Kaur,Mechanical,MTech,3,D
+STU0625,Amit Sharma,Computer Science,BCA,4,C
+STU0626,Amit Das,Electronics,BTech,4,D
+STU0627,Kavita Das,Civil,MTech,4,C
+STU0628,Rohan Iyer,Computer Science,MCA,3,C
+STU0629,Neha Kumar,Civil,BCA,3,C
+STU0630,Vikram Nair,Electronics,MCA,1,C
+STU0631,Ananya Verma,Civil,MCA,2,D
+STU0632,Neha Sharma,Electronics,BCA,3,B
+STU0633,Aarav Das,Civil,BCA,2,D
+STU0634,Ananya Reddy,Civil,MCA,2,C
+STU0635,Kavita Kaur,Information Technology,MCA,3,D
+STU0636,Karan Sharma,Computer Science,MTech,4,D
+STU0637,Vikram Sharma,Civil,BTech,1,D
+STU0638,Priya Kumar,Mechanical,MCA,2,C
+STU0639,Aarav Nair,Information Technology,BTech,4,D
+STU0640,Ananya Iyer,Computer Science,MTech,3,A
+STU0641,Kavita Gupta,Information Technology,BTech,2,C
+STU0642,Aarav Singh,Computer Science,BTech,2,D
+STU0643,Aarav Singh,Electronics,MTech,2,A
+STU0644,Rohan Das,Civil,MCA,4,D
+STU0645,Neha Patel,Mechanical,BTech,4,B
+STU0646,Aarav Gupta,Information Technology,MCA,4,D
+STU0647,Rohan Kaur,Information Technology,MCA,2,D
+STU0648,Aarav Patel,Information Technology,BCA,2,B
+STU0649,Simran Kaur,Information Technology,MCA,1,C
+STU0650,Ananya Yadav,Civil,MCA,1,B
+STU0651,Aarav Kaur,Computer Science,BTech,4,C
+STU0652,Ananya Patel,Civil,MCA,4,B
+STU0653,Priya Sharma,Electronics,MCA,3,D
+STU0654,Neha Singh,Civil,BCA,4,D
+STU0655,Vikram Patel,Civil,BCA,1,C
+STU0656,Pooja Reddy,Electronics,BTech,1,C
+STU0657,Rohan Kaur,Civil,BTech,1,A
+STU0658,Kavita Sharma,Computer Science,BCA,2,A
+STU0659,Vikram Singh,Mechanical,BCA,2,D
+STU0660,Kavita Kaur,Electronics,MTech,4,D
+STU0661,Vikram Gupta,Information Technology,MCA,3,A
+STU0662,Aarav Kumar,Computer Science,BTech,3,A
+STU0663,Vikram Patel,Mechanical,BTech,3,C
+STU0664,Neha Singh,Computer Science,MCA,2,B
+STU0665,Amit Gupta,Computer Science,MCA,1,C
+STU0666,Ananya Kumar,Information Technology,BTech,1,A
+STU0667,Karan Patel,Mechanical,BCA,2,D
+STU0668,Rohan Sharma,Computer Science,BCA,3,A
+STU0669,Kavita Gupta,Information Technology,MCA,3,D
+STU0670,Simran Patel,Electronics,BTech,4,D
+STU0671,Neha Gupta,Information Technology,MCA,4,D
+STU0672,Amit Nair,Civil,BCA,3,D
+STU0673,Priya Verma,Information Technology,MTech,2,B
+STU0674,Ananya Verma,Information Technology,MTech,3,A
+STU0675,Vikram Kaur,Information Technology,BCA,4,C
+STU0676,Vikram Reddy,Computer Science,MCA,3,D
+STU0677,Vikram Sharma,Mechanical,MTech,2,D
+STU0678,Vikram Verma,Information Technology,BCA,1,C
+STU0679,Rohan Patel,Information Technology,BTech,2,C
+STU0680,Priya Yadav,Civil,MCA,2,D
+STU0681,Simran Kaur,Civil,MCA,4,C
+STU0682,Aarav Verma,Electronics,MTech,2,C
+STU0683,Priya Das,Electronics,MCA,2,B
+STU0684,Pooja Kaur,Civil,MTech,4,C
+STU0685,Rohan Singh,Mechanical,MTech,4,A
+STU0686,Vikram Yadav,Electronics,BCA,1,A
+STU0687,Priya Verma,Mechanical,MTech,3,A
+STU0688,Karan Iyer,Civil,BTech,2,D
+STU0689,Rahul Kaur,Electronics,MCA,4,A
+STU0690,Karan Yadav,Information Technology,MTech,1,B
+STU0691,Rohan Nair,Civil,MCA,3,A
+STU0692,Pooja Iyer,Electronics,MTech,4,D
+STU0693,Kavita Gupta,Mechanical,BCA,3,B
+STU0694,Aarav Reddy,Mechanical,BTech,3,A
+STU0695,Neha Das,Electronics,MCA,2,B
+STU0696,Vikram Sharma,Mechanical,BCA,2,B
+STU0697,Simran Patel,Electronics,MCA,4,D
+STU0698,Aarav Kumar,Electronics,BCA,3,D
+STU0699,Neha Kaur,Mechanical,BTech,4,B
+STU0700,Rahul Singh,Computer Science,MTech,4,A
+STU0701,Rahul Iyer,Information Technology,BCA,3,D
+STU0702,Ananya Das,Civil,MCA,4,B
+STU0703,Priya Reddy,Information Technology,MCA,3,C
+STU0704,Pooja Kaur,Civil,BCA,3,C
+STU0705,Vikram Verma,Civil,BTech,3,D
+STU0706,Amit Iyer,Information Technology,BTech,3,A
+STU0707,Simran Verma,Electronics,MTech,1,C
+STU0708,Pooja Nair,Mechanical,MTech,3,C
+STU0709,Rahul Iyer,Computer Science,MCA,2,C
+STU0710,Simran Sharma,Computer Science,MCA,2,A
+STU0711,Karan Kumar,Computer Science,MTech,2,A
+STU0712,Ananya Reddy,Information Technology,MTech,3,D
+STU0713,Kavita Singh,Information Technology,MTech,2,D
+STU0714,Karan Reddy,Electronics,BCA,1,C
+STU0715,Ananya Verma,Computer Science,MTech,4,A
+STU0716,Amit Kumar,Electronics,BCA,3,B
+STU0717,Ananya Das,Computer Science,BCA,2,C
+STU0718,Neha Kaur,Information Technology,MTech,1,D
+STU0719,Kavita Kumar,Mechanical,BTech,4,A
+STU0720,Karan Singh,Mechanical,BTech,1,D
+STU0721,Pooja Sharma,Mechanical,MCA,2,D
+STU0722,Pooja Verma,Mechanical,MTech,1,A
+STU0723,Kavita Reddy,Civil,MCA,4,C
+STU0724,Simran Yadav,Computer Science,MTech,2,A
+STU0725,Ananya Das,Mechanical,MCA,4,C
+STU0726,Aarav Patel,Civil,BCA,1,D
+STU0727,Karan Nair,Civil,MTech,3,A
+STU0728,Rohan Reddy,Civil,BTech,3,B
+STU0729,Karan Das,Electronics,MTech,3,C
+STU0730,Neha Das,Electronics,MCA,3,B
+STU0731,Priya Sharma,Civil,MCA,4,C
+STU0732,Amit Singh,Mechanical,MCA,3,A
+STU0733,Neha Patel,Computer Science,MCA,4,B
+STU0734,Ananya Kaur,Information Technology,MCA,2,A
+STU0735,Vikram Gupta,Electronics,MCA,3,C
+STU0736,Ananya Iyer,Mechanical,BTech,4,C
+STU0737,Karan Gupta,Mechanical,MCA,3,C
+STU0738,Aarav Reddy,Information Technology,BTech,3,C
+STU0739,Priya Nair,Information Technology,MTech,3,D
+STU0740,Rohan Patel,Mechanical,BCA,4,C
+STU0741,Priya Das,Information Technology,BTech,1,B
+STU0742,Aarav Das,Mechanical,MTech,3,C
+STU0743,Amit Kaur,Information Technology,BCA,3,A
+STU0744,Rahul Reddy,Information Technology,BTech,2,D
+STU0745,Simran Verma,Mechanical,BTech,1,B
+STU0746,Rahul Kumar,Civil,MTech,4,D
+STU0747,Neha Sharma,Mechanical,MCA,2,D
+STU0748,Aarav Kumar,Computer Science,BTech,3,D
+STU0749,Amit Gupta,Information Technology,BTech,2,A
+STU0750,Pooja Kumar,Electronics,MTech,2,D
+STU0751,Vikram Patel,Information Technology,MCA,3,D
+STU0752,Rohan Kaur,Computer Science,BCA,1,C
+STU0753,Karan Yadav,Electronics,MCA,1,A
+STU0754,Kavita Patel,Electronics,MCA,2,B
+STU0755,Ananya Kaur,Mechanical,MTech,3,B
+STU0756,Kavita Patel,Civil,MCA,4,B
+STU0757,Karan Yadav,Mechanical,MTech,2,A
+STU0758,Amit Das,Electronics,BCA,4,B
+STU0759,Aarav Sharma,Electronics,BTech,2,A
+STU0760,Pooja Kumar,Civil,BTech,2,C
+STU0761,Vikram Sharma,Information Technology,MTech,3,C
+STU0762,Kavita Gupta,Civil,MTech,3,A
+STU0763,Rohan Gupta,Mechanical,MCA,4,B
+STU0764,Karan Sharma,Information Technology,MCA,4,A
+STU0765,Vikram Verma,Mechanical,BTech,1,A
+STU0766,Ananya Iyer,Civil,BTech,3,D
+STU0767,Neha Kumar,Information Technology,BTech,2,A
+STU0768,Simran Kumar,Civil,MTech,2,D
+STU0769,Kavita Das,Computer Science,BCA,1,C
+STU0770,Pooja Kumar,Electronics,BCA,3,D
+STU0771,Pooja Reddy,Information Technology,MTech,2,A
+STU0772,Vikram Sharma,Electronics,MCA,1,C
+STU0773,Vikram Reddy,Computer Science,BCA,1,D
+STU0774,Karan Iyer,Information Technology,MCA,2,A
+STU0775,Pooja Singh,Electronics,BTech,2,C
+STU0776,Karan Singh,Electronics,BTech,4,D
+STU0777,Rahul Patel,Information Technology,MCA,3,A
+STU0778,Neha Kaur,Electronics,BTech,4,A
+STU0779,Amit Singh,Electronics,MTech,1,B
+STU0780,Simran Nair,Information Technology,MCA,2,B
+STU0781,Vikram Patel,Electronics,MCA,4,D
+STU0782,Simran Das,Electronics,MCA,1,D
+STU0783,Pooja Singh,Mechanical,BCA,3,D
+STU0784,Aarav Gupta,Mechanical,MCA,2,A
+STU0785,Rohan Yadav,Computer Science,MCA,4,D
+STU0786,Kavita Kaur,Mechanical,MCA,3,A
+STU0787,Rohan Verma,Mechanical,BCA,4,D
+STU0788,Amit Gupta,Computer Science,BTech,1,A
+STU0789,Pooja Singh,Electronics,BCA,3,A
+STU0790,Vikram Yadav,Electronics,MTech,4,B
+STU0791,Vikram Gupta,Mechanical,MCA,3,C
+STU0792,Aarav Nair,Computer Science,MTech,1,A
+STU0793,Ananya Kumar,Electronics,BCA,3,D
+STU0794,Simran Sharma,Civil,BTech,4,B
+STU0795,Pooja Yadav,Information Technology,BTech,1,D
+STU0796,Simran Singh,Information Technology,MCA,2,D
+STU0797,Rohan Reddy,Information Technology,BTech,4,A
+STU0798,Simran Das,Mechanical,BCA,4,A
+STU0799,Vikram Kaur,Information Technology,BCA,1,C
+STU0800,Rohan Das,Information Technology,BTech,1,A
+STU0801,Vikram Nair,Civil,MCA,2,A
+STU0802,Aarav Verma,Electronics,MCA,4,C
+STU0803,Kavita Kumar,Civil,BCA,1,D
+STU0804,Neha Yadav,Mechanical,BTech,2,C
+STU0805,Rahul Reddy,Information Technology,BCA,2,C
+STU0806,Rahul Singh,Electronics,BCA,1,C
+STU0807,Priya Verma,Information Technology,MTech,4,B
+STU0808,Aarav Sharma,Information Technology,BCA,3,D
+STU0809,Rohan Gupta,Mechanical,MCA,3,B
+STU0810,Simran Nair,Information Technology,BTech,2,B
+STU0811,Simran Verma,Computer Science,BTech,3,A
+STU0812,Rahul Sharma,Electronics,MTech,3,C
+STU0813,Karan Kumar,Electronics,MTech,1,C
+STU0814,Aarav Kumar,Computer Science,MCA,2,B
+STU0815,Neha Nair,Mechanical,MTech,4,A
+STU0816,Kavita Das,Information Technology,BCA,2,A
+STU0817,Pooja Verma,Information Technology,BCA,1,A
+STU0818,Karan Das,Electronics,MCA,3,D
+STU0819,Kavita Iyer,Mechanical,BTech,4,B
+STU0820,Vikram Gupta,Mechanical,MCA,2,D
+STU0821,Neha Das,Mechanical,MTech,3,A
+STU0822,Simran Kumar,Information Technology,BTech,2,A
+STU0823,Vikram Nair,Mechanical,BTech,4,A
+STU0824,Priya Das,Computer Science,BTech,2,C
+STU0825,Neha Nair,Civil,MTech,2,B
+STU0826,Ananya Verma,Mechanical,BCA,2,C
+STU0827,Rohan Reddy,Civil,BCA,3,D
+STU0828,Amit Kaur,Information Technology,MTech,4,C
+STU0829,Rahul Reddy,Mechanical,MTech,4,B
+STU0830,Rahul Sharma,Electronics,MCA,3,C
+STU0831,Pooja Patel,Information Technology,MCA,3,A
+STU0832,Neha Iyer,Computer Science,BCA,3,D
+STU0833,Karan Verma,Computer Science,MTech,1,D
+STU0834,Ananya Singh,Civil,MCA,2,A
+STU0835,Aarav Kumar,Civil,MTech,2,A
+STU0836,Rohan Nair,Electronics,MTech,4,A
+STU0837,Pooja Sharma,Electronics,BCA,2,B
+STU0838,Amit Reddy,Computer Science,BCA,1,C
+STU0839,Rohan Kaur,Mechanical,MTech,3,D
+STU0840,Simran Sharma,Computer Science,BTech,4,C
+STU0841,Neha Patel,Computer Science,BTech,4,A
+STU0842,Rohan Iyer,Electronics,MTech,2,A
+STU0843,Neha Kumar,Civil,BCA,4,C
+STU0844,Rahul Nair,Electronics,BTech,3,D
+STU0845,Karan Kaur,Electronics,BCA,4,B
+STU0846,Amit Kumar,Electronics,BTech,3,C
+STU0847,Neha Patel,Computer Science,MTech,1,A
+STU0848,Amit Yadav,Mechanical,MCA,1,A
+STU0849,Rahul Patel,Computer Science,MCA,3,B
+STU0850,Rahul Kaur,Information Technology,BCA,2,C
+STU0851,Kavita Reddy,Electronics,BCA,4,B
+STU0852,Rahul Gupta,Electronics,BTech,2,B
+STU0853,Rahul Verma,Information Technology,MTech,4,D
+STU0854,Amit Das,Electronics,BTech,1,D
+STU0855,Simran Gupta,Electronics,MTech,1,A
+STU0856,Kavita Iyer,Electronics,MTech,1,C
+STU0857,Neha Das,Information Technology,BCA,4,D
+STU0858,Karan Reddy,Computer Science,MCA,1,A
+STU0859,Simran Iyer,Electronics,MCA,1,C
+STU0860,Karan Yadav,Mechanical,BCA,1,A
+STU0861,Kavita Verma,Information Technology,MCA,1,D
+STU0862,Aarav Kaur,Civil,BCA,2,A
+STU0863,Neha Patel,Information Technology,BTech,1,C
+STU0864,Pooja Patel,Computer Science,MTech,1,C
+STU0865,Neha Gupta,Information Technology,MCA,2,A
+STU0866,Simran Gupta,Civil,MCA,2,C
+STU0867,Amit Sharma,Mechanical,BTech,4,A
+STU0868,Ananya Gupta,Civil,BTech,3,C
+STU0869,Rohan Gupta,Information Technology,MCA,1,A
+STU0870,Kavita Sharma,Civil,MCA,1,A
+STU0871,Amit Das,Information Technology,BCA,1,A
+STU0872,Rahul Das,Mechanical,BCA,4,B
+STU0873,Rahul Verma,Mechanical,MCA,1,C
+STU0874,Pooja Nair,Computer Science,BCA,3,D
+STU0875,Amit Iyer,Mechanical,BTech,2,A
+STU0876,Kavita Singh,Electronics,MTech,4,B
+STU0877,Karan Das,Civil,BCA,2,D
+STU0878,Pooja Kumar,Civil,MTech,1,A
+STU0879,Rohan Singh,Information Technology,BCA,1,D
+STU0880,Pooja Reddy,Mechanical,MCA,1,B
+STU0881,Amit Verma,Computer Science,BCA,3,D
+STU0882,Vikram Kaur,Computer Science,MTech,3,A
+STU0883,Priya Kaur,Computer Science,MTech,4,D
+STU0884,Kavita Singh,Electronics,MCA,2,D
+STU0885,Simran Das,Mechanical,MTech,1,A
+STU0886,Aarav Kumar,Computer Science,MCA,1,B
+STU0887,Aarav Gupta,Electronics,MCA,1,B
+STU0888,Simran Yadav,Civil,MTech,1,D
+STU0889,Neha Patel,Information Technology,BTech,3,C
+STU0890,Ananya Patel,Mechanical,MTech,2,D
+STU0891,Vikram Reddy,Mechanical,MTech,2,C
+STU0892,Rahul Kaur,Civil,BCA,4,D
+STU0893,Kavita Yadav,Mechanical,MTech,3,B
+STU0894,Karan Iyer,Mechanical,BCA,1,D
+STU0895,Priya Nair,Mechanical,BCA,2,D
+STU0896,Priya Kaur,Mechanical,MTech,2,C
+STU0897,Priya Das,Electronics,MCA,3,B
+STU0898,Aarav Yadav,Electronics,BTech,4,C
+STU0899,Ananya Sharma,Information Technology,MTech,4,D
+STU0900,Pooja Iyer,Mechanical,MTech,1,A
+STU0901,Aarav Iyer,Civil,MCA,4,D
+STU0902,Pooja Gupta,Computer Science,BCA,2,D
+STU0903,Amit Kaur,Information Technology,MCA,4,C
+STU0904,Simran Yadav,Computer Science,MCA,1,A
+STU0905,Priya Das,Computer Science,BCA,2,A
+STU0906,Rohan Nair,Mechanical,MTech,4,C
+STU0907,Kavita Singh,Civil,MCA,4,B
+STU0908,Amit Sharma,Computer Science,MCA,3,A
+STU0909,Ananya Patel,Computer Science,MTech,1,A
+STU0910,Amit Reddy,Information Technology,MTech,4,C
+STU0911,Vikram Reddy,Civil,BTech,3,B
+STU0912,Simran Kaur,Civil,MCA,2,B
+STU0913,Priya Sharma,Computer Science,BTech,3,D
+STU0914,Rohan Kumar,Civil,BCA,3,D
+STU0915,Vikram Singh,Information Technology,MTech,4,C
+STU0916,Amit Nair,Information Technology,MTech,4,B
+STU0917,Simran Nair,Information Technology,BTech,4,C
+STU0918,Ananya Das,Mechanical,MCA,3,D
+STU0919,Amit Patel,Computer Science,BCA,2,C
+STU0920,Aarav Yadav,Civil,MCA,1,C
+STU0921,Neha Yadav,Information Technology,MCA,3,A
+STU0922,Karan Verma,Computer Science,BTech,4,A
+STU0923,Amit Nair,Computer Science,MCA,1,A
+STU0924,Ananya Patel,Mechanical,BTech,2,D
+STU0925,Rahul Verma,Civil,MTech,1,C
+STU0926,Rohan Das,Civil,MTech,4,A
+STU0927,Aarav Reddy,Information Technology,MTech,3,A
+STU0928,Kavita Iyer,Information Technology,BCA,3,A
+STU0929,Simran Patel,Computer Science,BCA,4,D
+STU0930,Aarav Kumar,Civil,MCA,3,D
+STU0931,Neha Yadav,Civil,BTech,4,C
+STU0932,Simran Yadav,Information Technology,MCA,3,C
+STU0933,Amit Gupta,Electronics,MTech,3,C
+STU0934,Kavita Kumar,Computer Science,MCA,3,A
+STU0935,Aarav Verma,Civil,MCA,2,B
+STU0936,Neha Das,Mechanical,MCA,2,D
+STU0937,Simran Nair,Mechanical,MTech,4,A
+STU0938,Vikram Patel,Electronics,BTech,2,A
+STU0939,Kavita Verma,Information Technology,MCA,4,C
+STU0940,Neha Yadav,Information Technology,MTech,1,C
+STU0941,Pooja Patel,Information Technology,BCA,1,A
+STU0942,Priya Kumar,Mechanical,BTech,2,D
+STU0943,Vikram Sharma,Information Technology,MTech,1,D
+STU0944,Kavita Nair,Mechanical,MCA,1,A
+STU0945,Priya Kumar,Electronics,MTech,3,B
+STU0946,Ananya Kumar,Computer Science,BTech,3,B
+STU0947,Kavita Iyer,Civil,MCA,4,D
+STU0948,Ananya Verma,Electronics,BCA,1,C
+STU0949,Karan Kaur,Mechanical,BCA,4,B
+STU0950,Neha Gupta,Electronics,BCA,4,B
+STU0951,Amit Sharma,Civil,MTech,1,C
+STU0952,Neha Verma,Computer Science,BTech,2,B
+STU0953,Simran Kaur,Civil,BCA,1,A
+STU0954,Ananya Das,Mechanical,MCA,3,B
+STU0955,Rahul Sharma,Civil,MCA,1,C
+STU0956,Kavita Iyer,Electronics,MCA,2,A
+STU0957,Rahul Gupta,Information Technology,MTech,4,B
+STU0958,Amit Iyer,Electronics,BTech,4,D
+STU0959,Rohan Gupta,Mechanical,BTech,3,A
+STU0960,Rahul Sharma,Computer Science,BCA,3,A
+STU0961,Kavita Kumar,Civil,BTech,3,D
+STU0962,Ananya Iyer,Computer Science,MCA,4,D
+STU0963,Kavita Nair,Mechanical,MCA,3,B
+STU0964,Aarav Reddy,Civil,MTech,1,B
+STU0965,Neha Kaur,Electronics,MCA,4,C
+STU0966,Kavita Sharma,Electronics,BTech,2,C
+STU0967,Simran Sharma,Mechanical,MCA,4,A
+STU0968,Aarav Kumar,Civil,BCA,1,D
+STU0969,Aarav Nair,Electronics,MTech,1,D
+STU0970,Pooja Iyer,Mechanical,MTech,3,C
+STU0971,Vikram Kaur,Mechanical,BTech,4,A
+STU0972,Ananya Singh,Computer Science,MCA,4,A
+STU0973,Pooja Reddy,Electronics,MCA,4,C
+STU0974,Simran Kaur,Civil,BTech,2,C
+STU0975,Pooja Singh,Electronics,BTech,3,C
+STU0976,Kavita Sharma,Electronics,BCA,1,B
+STU0977,Neha Das,Electronics,BTech,1,A
+STU0978,Rohan Das,Mechanical,MCA,3,A
+STU0979,Ananya Kumar,Information Technology,BCA,1,A
+STU0980,Ananya Kumar,Information Technology,MTech,1,C
+STU0981,Vikram Kumar,Computer Science,MCA,3,C
+STU0982,Simran Yadav,Electronics,MTech,1,C
+STU0983,Neha Gupta,Information Technology,MTech,4,C
+STU0984,Simran Yadav,Computer Science,MTech,2,D
+STU0985,Priya Das,Mechanical,MCA,3,C
+STU0986,Vikram Das,Electronics,MTech,2,B
+STU0987,Priya Nair,Civil,MCA,1,D
+STU0988,Ananya Reddy,Mechanical,MTech,1,D
+STU0989,Ananya Reddy,Computer Science,BTech,4,C
+STU0990,Rohan Kumar,Mechanical,BTech,3,A
+STU0991,Kavita Reddy,Civil,MCA,1,C
+STU0992,Amit Kaur,Mechanical,MTech,3,A
+STU0993,Ananya Yadav,Computer Science,MTech,3,C
+STU0994,Vikram Yadav,Civil,MTech,3,C
+STU0995,Rahul Patel,Civil,BTech,3,A
+STU0996,Pooja Patel,Mechanical,MTech,3,A
+STU0997,Vikram Nair,Civil,MTech,2,A
+STU0998,Neha Singh,Mechanical,MCA,4,A
+STU0999,Karan Singh,Electronics,MTech,3,B
+STU1000,Rohan Yadav,Civil,BTech,2,A
+STU1001,Simran Iyer,Mechanical,MTech,1,C
+STU1002,Simran Patel,Electronics,BTech,3,C
+STU1003,Ananya Verma,Civil,BTech,1,B
+STU1004,Neha Kumar,Electronics,BCA,3,A
+STU1005,Amit Patel,Civil,BTech,2,C
+STU1006,Kavita Reddy,Computer Science,BCA,2,B
+STU1007,Rohan Patel,Computer Science,BCA,2,C
+STU1008,Ananya Sharma,Mechanical,MTech,4,B
+STU1009,Vikram Yadav,Information Technology,BCA,1,B
+STU1010,Aarav Verma,Computer Science,MCA,4,D
+STU1011,Pooja Gupta,Information Technology,BTech,3,D
+STU1012,Priya Verma,Electronics,MCA,1,A
+STU1013,Priya Yadav,Electronics,BCA,2,D
+STU1014,Kavita Nair,Information Technology,MTech,1,B
+STU1015,Kavita Gupta,Mechanical,BTech,2,C
+STU1016,Simran Sharma,Civil,MCA,4,C
+STU1017,Rohan Kumar,Information Technology,MTech,4,A
+STU1018,Priya Reddy,Information Technology,BCA,2,D
+STU1019,Karan Kaur,Information Technology,MTech,2,A
+STU1020,Priya Kaur,Information Technology,MCA,3,B
+STU1021,Simran Nair,Information Technology,MTech,4,D
+STU1022,Ananya Singh,Mechanical,MCA,4,A
+STU1023,Pooja Patel,Computer Science,MTech,3,C
+STU1024,Rohan Reddy,Civil,BTech,4,C
+STU1025,Ananya Yadav,Computer Science,MTech,2,A
+STU1026,Rohan Kaur,Information Technology,BTech,1,A
+STU1027,Neha Verma,Computer Science,MCA,1,A
+STU1028,Aarav Patel,Mechanical,BTech,4,B
+STU1029,Pooja Gupta,Electronics,MTech,3,B
+STU1030,Priya Singh,Computer Science,BTech,2,C
+STU1031,Pooja Yadav,Civil,MCA,1,B
+STU1032,Simran Singh,Mechanical,MTech,2,B
+STU1033,Karan Verma,Electronics,BTech,4,D
+STU1034,Ananya Kumar,Mechanical,BTech,4,B
+STU1035,Ananya Yadav,Information Technology,BCA,1,D
+STU1036,Neha Singh,Electronics,BTech,4,B
+STU1037,Rahul Nair,Civil,BCA,3,C
+STU1038,Simran Singh,Electronics,MCA,4,A
+STU1039,Ananya Sharma,Civil,BCA,4,C
+STU1040,Amit Kumar,Information Technology,MCA,4,B
+STU1041,Rahul Yadav,Civil,BTech,2,A
+STU1042,Simran Patel,Mechanical,BTech,2,A
+STU1043,Karan Verma,Computer Science,BCA,1,A
+STU1044,Aarav Gupta,Mechanical,MCA,1,D
+STU1045,Kavita Gupta,Mechanical,BTech,1,C
+STU1046,Priya Singh,Electronics,BCA,4,D
+STU1047,Amit Reddy,Information Technology,BCA,2,A
+STU1048,Rohan Iyer,Computer Science,BCA,3,C
+STU1049,Pooja Reddy,Civil,BTech,4,C
+STU1050,Kavita Kumar,Electronics,MCA,4,B
+STU1051,Aarav Verma,Information Technology,BTech,4,D
+STU1052,Priya Gupta,Computer Science,MTech,3,D
+STU1053,Amit Yadav,Mechanical,MTech,1,B
+STU1054,Aarav Kumar,Information Technology,BTech,3,D
+STU1055,Ananya Nair,Information Technology,MCA,1,A
+STU1056,Kavita Kumar,Information Technology,BCA,3,A
+STU1057,Amit Verma,Mechanical,MTech,2,D
+STU1058,Karan Yadav,Civil,MTech,4,B
+STU1059,Karan Sharma,Electronics,BTech,4,C
+STU1060,Aarav Gupta,Civil,MTech,4,D
+STU1061,Kavita Gupta,Computer Science,MTech,1,C
+STU1062,Kavita Iyer,Electronics,BCA,3,B
+STU1063,Kavita Das,Computer Science,BCA,2,C
+STU1064,Priya Kaur,Mechanical,MCA,3,B
+STU1065,Simran Kumar,Civil,MTech,4,B
+STU1066,Karan Nair,Information Technology,MCA,2,A
+STU1067,Pooja Sharma,Electronics,MCA,2,A
+STU1068,Vikram Patel,Information Technology,BCA,4,B
+STU1069,Ananya Verma,Computer Science,BCA,3,D
+STU1070,Karan Das,Information Technology,BTech,4,A
+STU1071,Karan Sharma,Information Technology,BCA,3,B
+STU1072,Aarav Patel,Mechanical,MCA,2,C
+STU1073,Kavita Reddy,Mechanical,MTech,2,C
+STU1074,Priya Verma,Civil,MCA,4,D
+STU1075,Simran Gupta,Computer Science,MCA,2,C
+STU1076,Amit Das,Mechanical,MCA,1,C
+STU1077,Simran Kumar,Mechanical,BCA,2,B
+STU1078,Simran Kumar,Civil,MCA,1,C
+STU1079,Vikram Gupta,Electronics,BTech,2,C
+STU1080,Amit Kaur,Civil,MTech,4,C
+STU1081,Vikram Yadav,Information Technology,BCA,4,C
+STU1082,Ananya Nair,Information Technology,MCA,1,B
+STU1083,Vikram Nair,Mechanical,BTech,4,C
+STU1084,Simran Reddy,Mechanical,MTech,2,D
+STU1085,Kavita Singh,Civil,MCA,2,A
+STU1086,Neha Kaur,Civil,MTech,4,D
+STU1087,Karan Sharma,Computer Science,BCA,2,A
+STU1088,Vikram Gupta,Information Technology,BCA,3,D
+STU1089,Ananya Verma,Civil,BTech,3,A
+STU1090,Ananya Kaur,Electronics,BCA,2,A
+STU1091,Aarav Singh,Computer Science,BTech,4,A
+STU1092,Vikram Reddy,Civil,MCA,1,A
+STU1093,Amit Reddy,Mechanical,MTech,4,B
+STU1094,Simran Kaur,Civil,BCA,1,D
+STU1095,Aarav Reddy,Mechanical,MTech,4,A
+STU1096,Neha Gupta,Mechanical,MTech,2,D
+STU1097,Aarav Yadav,Information Technology,MCA,3,C
+STU1098,Amit Gupta,Information Technology,MCA,4,A
+STU1099,Rahul Nair,Civil,BCA,1,D
+STU1100,Aarav Sharma,Civil,MCA,3,B
+STU1101,Rohan Verma,Electronics,MTech,1,D
+STU1102,Karan Kumar,Computer Science,BTech,2,A
+STU1103,Pooja Yadav,Computer Science,BTech,3,C
+STU1104,Simran Kaur,Civil,BTech,1,D
+STU1105,Ananya Kumar,Information Technology,BCA,4,C
+STU1106,Aarav Kumar,Electronics,MCA,2,B
+STU1107,Rahul Kumar,Computer Science,MCA,2,D
+STU1108,Karan Kumar,Civil,MCA,2,D
+STU1109,Amit Nair,Information Technology,MCA,4,B
+STU1110,Simran Iyer,Information Technology,MTech,4,B
+STU1111,Priya Iyer,Information Technology,BTech,3,B
+STU1112,Rohan Iyer,Mechanical,MTech,4,A
+STU1113,Simran Kaur,Information Technology,BCA,3,A
+STU1114,Rahul Singh,Civil,BTech,2,D
+STU1115,Rohan Das,Electronics,BTech,3,D
+STU1116,Aarav Gupta,Civil,MTech,1,D
+STU1117,Ananya Singh,Information Technology,BCA,2,C
+STU1118,Rahul Verma,Electronics,BCA,2,B
+STU1119,Aarav Yadav,Computer Science,BTech,3,D
+STU1120,Pooja Singh,Computer Science,MCA,2,B
+STU1121,Karan Patel,Civil,BCA,4,A
+STU1122,Kavita Kumar,Electronics,MTech,1,B
+STU1123,Aarav Sharma,Civil,BCA,3,C
+STU1124,Aarav Patel,Electronics,BTech,3,C
+STU1125,Kavita Iyer,Electronics,MCA,2,B
+STU1126,Pooja Das,Civil,BCA,4,C
+STU1127,Rohan Gupta,Electronics,BTech,2,C
+STU1128,Pooja Kaur,Information Technology,BCA,2,A
+STU1129,Rahul Patel,Electronics,MCA,3,D
+STU1130,Karan Reddy,Electronics,MTech,2,C
+STU1131,Neha Kaur,Civil,BTech,1,D
+STU1132,Ananya Yadav,Computer Science,BTech,2,B
+STU1133,Karan Reddy,Mechanical,MCA,2,B
+STU1134,Rahul Yadav,Electronics,BTech,3,C
+STU1135,Karan Kaur,Mechanical,MCA,2,B
+STU1136,Karan Yadav,Electronics,BTech,4,A
+STU1137,Priya Das,Civil,MCA,3,C
+STU1138,Vikram Iyer,Civil,BCA,2,C
+STU1139,Simran Yadav,Electronics,BCA,1,C
+STU1140,Amit Das,Civil,BCA,1,B
+STU1141,Karan Singh,Civil,BTech,3,B
+STU1142,Amit Singh,Electronics,MCA,3,C
+STU1143,Karan Yadav,Computer Science,MCA,2,D
+STU1144,Rahul Nair,Electronics,MTech,4,B
+STU1145,Amit Patel,Computer Science,BCA,2,B
+STU1146,Priya Verma,Civil,MTech,1,C
+STU1147,Ananya Patel,Computer Science,BCA,4,D
+STU1148,Simran Nair,Civil,MTech,4,C
+STU1149,Karan Nair,Computer Science,BCA,4,B
+STU1150,Amit Yadav,Computer Science,MCA,2,C
+STU1151,Rohan Gupta,Electronics,BCA,1,C
+STU1152,Pooja Nair,Computer Science,BTech,3,C
+STU1153,Simran Kaur,Civil,BCA,2,D
+STU1154,Aarav Nair,Electronics,BCA,3,C
+STU1155,Pooja Kumar,Computer Science,MCA,4,B
+STU1156,Amit Singh,Electronics,BTech,4,C
+STU1157,Kavita Reddy,Mechanical,MCA,2,D
+STU1158,Vikram Singh,Electronics,MTech,1,A
+STU1159,Neha Sharma,Mechanical,MTech,4,D
+STU1160,Pooja Reddy,Mechanical,BTech,3,C
+STU1161,Neha Nair,Electronics,MTech,3,A
+STU1162,Priya Nair,Civil,BTech,2,C
+STU1163,Ananya Singh,Civil,BCA,3,D
+STU1164,Ananya Sharma,Civil,MTech,1,A
+STU1165,Kavita Gupta,Information Technology,BCA,4,A
+STU1166,Pooja Das,Mechanical,MCA,3,C
+STU1167,Vikram Iyer,Electronics,MTech,3,C
+STU1168,Ananya Verma,Civil,MCA,4,D
+STU1169,Ananya Yadav,Civil,MCA,2,C
+STU1170,Rahul Reddy,Electronics,BTech,3,A
+STU1171,Rahul Reddy,Mechanical,MCA,2,B
+STU1172,Neha Reddy,Electronics,BTech,2,B
+STU1173,Rahul Reddy,Information Technology,BTech,3,D
+STU1174,Neha Gupta,Information Technology,BTech,1,C
+STU1175,Aarav Reddy,Electronics,BTech,2,D
+STU1176,Amit Verma,Mechanical,BTech,3,B
+STU1177,Priya Kaur,Civil,BCA,2,B
+STU1178,Neha Patel,Information Technology,BTech,4,C
+STU1179,Priya Yadav,Information Technology,MTech,1,A
+STU1180,Vikram Reddy,Mechanical,BTech,1,C
+STU1181,Rahul Kaur,Information Technology,BCA,4,B
+STU1182,Rohan Nair,Information Technology,MTech,4,A
+STU1183,Pooja Sharma,Mechanical,MTech,2,D
+STU1184,Vikram Kaur,Electronics,BCA,4,B
+STU1185,Karan Sharma,Civil,MTech,1,D
+STU1186,Rohan Yadav,Civil,BCA,4,A
+STU1187,Simran Sharma,Information Technology,MCA,3,D
+STU1188,Vikram Verma,Civil,MCA,3,B
+STU1189,Aarav Iyer,Electronics,BTech,2,C
+STU1190,Karan Patel,Information Technology,BTech,1,D
+STU1191,Kavita Singh,Civil,BTech,3,B
+STU1192,Amit Reddy,Computer Science,BTech,4,B
+STU1193,Rahul Kumar,Computer Science,BCA,3,A
+STU1194,Rahul Kaur,Computer Science,MCA,3,B
+STU1195,Rohan Singh,Computer Science,BCA,2,C
+STU1196,Karan Kaur,Computer Science,MTech,4,C
+STU1197,Rohan Reddy,Information Technology,MTech,4,D
+STU1198,Ananya Singh,Mechanical,MTech,4,D
+STU1199,Rahul Sharma,Mechanical,MTech,2,D
+STU1200,Amit Singh,Information Technology,MTech,4,D
+STU1201,Neha Yadav,Information Technology,MCA,4,C
+STU1202,Rohan Nair,Electronics,BCA,3,A
+STU1203,Pooja Iyer,Mechanical,MTech,3,D
+STU1204,Pooja Singh,Computer Science,BTech,4,A
+STU1205,Priya Gupta,Information Technology,MCA,1,B
+STU1206,Karan Sharma,Computer Science,BTech,1,B
+STU1207,Priya Patel,Mechanical,MCA,4,D
+STU1208,Rahul Gupta,Civil,MCA,1,B
+STU1209,Aarav Das,Civil,BTech,2,A
+STU1210,Ananya Kumar,Information Technology,BTech,3,A
+STU1211,Vikram Nair,Electronics,MTech,2,B
+STU1212,Aarav Yadav,Computer Science,BTech,3,D
+STU1213,Simran Yadav,Information Technology,BCA,1,A
+STU1214,Karan Yadav,Electronics,MCA,1,A
+STU1215,Amit Verma,Computer Science,MCA,4,C
+STU1216,Neha Iyer,Mechanical,MTech,1,D
+STU1217,Neha Kaur,Civil,MCA,1,C
+STU1218,Rohan Iyer,Electronics,BTech,4,B
+STU1219,Kavita Reddy,Computer Science,MCA,4,B
+STU1220,Rohan Iyer,Information Technology,MCA,3,C
+STU1221,Ananya Kaur,Computer Science,BTech,1,D
+STU1222,Vikram Yadav,Information Technology,BTech,3,A
+STU1223,Simran Iyer,Civil,MCA,3,B
+STU1224,Aarav Patel,Civil,BCA,2,D
+STU1225,Simran Singh,Computer Science,BTech,1,D
+STU1226,Priya Gupta,Computer Science,BCA,1,B
+STU1227,Ananya Yadav,Information Technology,BCA,2,B
+STU1228,Pooja Nair,Information Technology,MTech,3,D
+STU1229,Karan Kumar,Electronics,BCA,1,A
+STU1230,Vikram Reddy,Electronics,MTech,3,C
+STU1231,Rahul Singh,Electronics,BCA,2,B
+STU1232,Kavita Sharma,Computer Science,MTech,4,C
+STU1233,Kavita Gupta,Electronics,BTech,3,D
+STU1234,Priya Patel,Computer Science,MCA,1,C
+STU1235,Vikram Yadav,Civil,MCA,4,A
+STU1236,Rohan Gupta,Mechanical,MTech,3,D
+STU1237,Ananya Verma,Civil,BTech,3,A
+STU1238,Priya Gupta,Computer Science,MTech,4,D
+STU1239,Neha Yadav,Computer Science,MTech,4,A
+STU1240,Aarav Kumar,Mechanical,BTech,4,D
+STU1241,Karan Nair,Information Technology,BCA,1,A
+STU1242,Ananya Iyer,Information Technology,BCA,1,D
+STU1243,Simran Gupta,Information Technology,BTech,3,A
+STU1244,Vikram Sharma,Electronics,MTech,3,D
+STU1245,Karan Yadav,Information Technology,MCA,2,A
+STU1246,Ananya Nair,Electronics,MTech,1,B
+STU1247,Simran Nair,Electronics,BCA,3,C
+STU1248,Aarav Singh,Information Technology,BTech,4,D
+STU1249,Simran Kaur,Information Technology,BTech,4,A
+STU1250,Rahul Verma,Mechanical,BTech,1,B
+STU1251,Simran Das,Mechanical,BCA,4,D
+STU1252,Rahul Kumar,Electronics,MTech,2,D
+STU1253,Aarav Das,Mechanical,BTech,3,D
+STU1254,Rohan Nair,Electronics,MCA,3,C
+STU1255,Vikram Reddy,Computer Science,BTech,3,A
+STU1256,Priya Kaur,Electronics,MTech,1,A
+STU1257,Vikram Iyer,Electronics,BCA,4,D
+STU1258,Rohan Iyer,Mechanical,MCA,2,D
+STU1259,Amit Iyer,Computer Science,MCA,1,D
+STU1260,Kavita Verma,Civil,BTech,3,B
+STU1261,Priya Reddy,Civil,MTech,2,D
+STU1262,Kavita Sharma,Civil,BTech,3,C
+STU1263,Pooja Iyer,Computer Science,MCA,3,A
+STU1264,Simran Patel,Information Technology,BTech,1,C
+STU1265,Neha Reddy,Computer Science,MTech,3,D
+STU1266,Ananya Patel,Mechanical,BCA,2,B
+STU1267,Vikram Nair,Electronics,MCA,3,D
+STU1268,Rahul Verma,Electronics,MTech,4,D
+STU1269,Rohan Kaur,Mechanical,BTech,3,D
+STU1270,Amit Kaur,Mechanical,MCA,1,D
+STU1271,Rohan Kaur,Electronics,BTech,2,D
+STU1272,Priya Kaur,Information Technology,BTech,1,A
+STU1273,Pooja Kumar,Information Technology,BCA,4,C
+STU1274,Simran Kumar,Information Technology,BTech,3,B
+STU1275,Ananya Sharma,Mechanical,BTech,1,D
+STU1276,Priya Sharma,Electronics,MTech,1,B
+STU1277,Ananya Nair,Electronics,BTech,1,A
+STU1278,Rohan Patel,Electronics,BCA,1,C
+STU1279,Rahul Iyer,Computer Science,BTech,4,D
+STU1280,Rahul Verma,Computer Science,BTech,4,A
+STU1281,Simran Gupta,Civil,BTech,3,A
+STU1282,Karan Kaur,Computer Science,MCA,3,C
+STU1283,Priya Kumar,Information Technology,BCA,2,D
+STU1284,Priya Yadav,Information Technology,MCA,4,C
+STU1285,Kavita Yadav,Information Technology,BCA,1,C
+STU1286,Priya Kaur,Information Technology,BCA,1,B
+STU1287,Kavita Iyer,Civil,MTech,2,B
+STU1288,Amit Kaur,Information Technology,MCA,1,C
+STU1289,Kavita Singh,Mechanical,BCA,2,B
+STU1290,Rohan Patel,Mechanical,BCA,3,A
+STU1291,Karan Patel,Mechanical,MTech,4,C
+STU1292,Simran Reddy,Computer Science,MCA,2,D
+STU1293,Rahul Kaur,Electronics,BTech,1,D
+STU1294,Amit Kaur,Civil,MTech,2,A
+STU1295,Neha Kumar,Mechanical,BCA,3,D
+STU1296,Vikram Patel,Mechanical,MCA,1,D
+STU1297,Rahul Patel,Information Technology,BCA,3,C
+STU1298,Karan Kumar,Mechanical,MTech,3,A
+STU1299,Kavita Patel,Information Technology,MTech,2,C
+STU1300,Vikram Yadav,Information Technology,MCA,3,A
+STU1301,Aarav Nair,Electronics,MTech,1,C
+STU1302,Priya Singh,Computer Science,MTech,3,C
+STU1303,Neha Sharma,Information Technology,BTech,3,B
+STU1304,Karan Singh,Information Technology,BCA,2,D
+STU1305,Kavita Nair,Electronics,BTech,3,A
+STU1306,Priya Nair,Information Technology,BTech,4,D
+STU1307,Kavita Iyer,Civil,MCA,2,B
+STU1308,Vikram Kaur,Computer Science,MTech,2,A
+STU1309,Karan Nair,Civil,BCA,1,B
+STU1310,Rohan Singh,Mechanical,BCA,1,D
+STU1311,Amit Yadav,Computer Science,BCA,1,C
+STU1312,Ananya Singh,Mechanical,MTech,1,B
+STU1313,Karan Iyer,Information Technology,BCA,4,B
+STU1314,Karan Singh,Electronics,BCA,2,C
+STU1315,Simran Das,Civil,MTech,3,D
+STU1316,Karan Iyer,Mechanical,MCA,1,B
+STU1317,Ananya Verma,Information Technology,BCA,1,D
+STU1318,Pooja Singh,Civil,MTech,1,C
+STU1319,Pooja Gupta,Civil,BTech,3,A
+STU1320,Vikram Verma,Mechanical,MTech,1,B
+STU1321,Aarav Verma,Information Technology,BTech,3,D
+STU1322,Pooja Kaur,Electronics,MTech,2,C
+STU1323,Karan Verma,Mechanical,BCA,2,C
+STU1324,Simran Verma,Civil,MCA,2,B
+STU1325,Priya Sharma,Civil,MCA,4,A
+STU1326,Rohan Sharma,Computer Science,BCA,3,B
+STU1327,Kavita Das,Information Technology,BTech,1,D
+STU1328,Karan Nair,Computer Science,MTech,1,C
+STU1329,Vikram Verma,Electronics,BCA,1,A
+STU1330,Pooja Nair,Mechanical,MTech,1,D
+STU1331,Simran Nair,Civil,BCA,4,B
+STU1332,Kavita Kaur,Information Technology,BCA,1,C
+STU1333,Neha Patel,Civil,MTech,4,B
+STU1334,Rahul Nair,Computer Science,MCA,3,A
+STU1335,Ananya Reddy,Computer Science,MCA,2,A
+STU1336,Karan Reddy,Mechanical,BTech,1,A
+STU1337,Aarav Kumar,Information Technology,MTech,2,A
+STU1338,Aarav Gupta,Information Technology,BTech,3,A
+STU1339,Rahul Kumar,Mechanical,BCA,3,B
+STU1340,Aarav Kaur,Computer Science,BTech,1,A
+STU1341,Kavita Sharma,Computer Science,BCA,3,A
+STU1342,Pooja Kaur,Computer Science,MTech,2,C
+STU1343,Pooja Yadav,Civil,MTech,1,A
+STU1344,Neha Verma,Electronics,MTech,4,C
+STU1345,Kavita Das,Computer Science,MTech,1,C
+STU1346,Vikram Kaur,Electronics,BTech,2,C
+STU1347,Neha Das,Electronics,BCA,1,B
+STU1348,Ananya Gupta,Information Technology,MCA,1,B
+STU1349,Aarav Sharma,Mechanical,MTech,2,D
+STU1350,Kavita Singh,Civil,MTech,1,D
+STU1351,Neha Patel,Electronics,BCA,1,C
+STU1352,Karan Yadav,Civil,MCA,2,B
+STU1353,Aarav Singh,Information Technology,MTech,3,A
+STU1354,Karan Gupta,Computer Science,MCA,2,D
+STU1355,Neha Kumar,Electronics,MTech,1,B
+STU1356,Vikram Das,Mechanical,BTech,4,A
+STU1357,Aarav Patel,Information Technology,BTech,4,A
+STU1358,Neha Patel,Civil,MCA,2,B
+STU1359,Neha Sharma,Computer Science,BCA,4,D
+STU1360,Karan Nair,Civil,BCA,1,B
+STU1361,Karan Gupta,Mechanical,BTech,1,D
+STU1362,Pooja Nair,Electronics,BCA,2,C
+STU1363,Amit Nair,Mechanical,BCA,1,B
+STU1364,Rohan Singh,Civil,BCA,3,B
+STU1365,Rohan Yadav,Civil,MCA,1,D
+STU1366,Rohan Das,Mechanical,MCA,2,D
+STU1367,Pooja Verma,Mechanical,BCA,3,B
+STU1368,Karan Iyer,Mechanical,BTech,3,A
+STU1369,Neha Reddy,Computer Science,BCA,4,A
+STU1370,Ananya Yadav,Civil,MTech,1,A
+STU1371,Aarav Gupta,Information Technology,BTech,2,C
+STU1372,Neha Kumar,Computer Science,MCA,4,C
+STU1373,Rahul Kaur,Computer Science,MTech,4,D
+STU1374,Simran Patel,Computer Science,BCA,1,C
+STU1375,Aarav Nair,Information Technology,BCA,1,A
+STU1376,Priya Kumar,Mechanical,BTech,2,B
+STU1377,Rahul Kumar,Civil,BTech,4,C
+STU1378,Pooja Singh,Electronics,BCA,2,C
+STU1379,Simran Reddy,Electronics,BCA,4,A
+STU1380,Karan Nair,Civil,BTech,4,C
+STU1381,Kavita Das,Information Technology,MTech,4,D
+STU1382,Neha Kaur,Electronics,MCA,1,B
+STU1383,Ananya Verma,Computer Science,BTech,4,A
+STU1384,Kavita Kaur,Electronics,MTech,4,D
+STU1385,Amit Reddy,Civil,BCA,4,A
+STU1386,Aarav Gupta,Computer Science,MCA,3,D
+STU1387,Simran Singh,Electronics,MTech,1,B
+STU1388,Rahul Kumar,Civil,MCA,3,B
+STU1389,Neha Das,Information Technology,MCA,1,D
+STU1390,Kavita Reddy,Civil,MCA,2,D
+STU1391,Rahul Kaur,Information Technology,MTech,3,D
+STU1392,Ananya Nair,Computer Science,MTech,2,D
+STU1393,Priya Verma,Civil,BCA,4,D
+STU1394,Kavita Patel,Mechanical,MCA,2,D
+STU1395,Aarav Gupta,Mechanical,BTech,2,B
+STU1396,Karan Patel,Mechanical,BTech,2,D
+STU1397,Pooja Singh,Mechanical,BTech,2,C
+STU1398,Vikram Sharma,Mechanical,MTech,1,B
+STU1399,Kavita Kumar,Information Technology,BCA,3,A
+STU1400,Simran Verma,Civil,MTech,1,B
+STU1401,Karan Gupta,Computer Science,MCA,1,A
+STU1402,Neha Singh,Mechanical,BTech,1,A
+STU1403,Vikram Yadav,Mechanical,MTech,2,C
+STU1404,Amit Iyer,Computer Science,BTech,1,D
+STU1405,Ananya Das,Computer Science,MTech,3,D
+STU1406,Rahul Iyer,Mechanical,BTech,1,B
+STU1407,Kavita Kaur,Information Technology,MCA,4,D
+STU1408,Simran Verma,Computer Science,BTech,2,C
+STU1409,Priya Das,Civil,MCA,4,B
+STU1410,Simran Patel,Civil,MCA,3,B
+STU1411,Vikram Gupta,Information Technology,MTech,3,B
+STU1412,Kavita Iyer,Electronics,MTech,3,D
+STU1413,Amit Verma,Information Technology,MTech,3,D
+STU1414,Aarav Gupta,Mechanical,MCA,1,D
+STU1415,Rohan Iyer,Electronics,BCA,2,B
+STU1416,Rohan Singh,Mechanical,BCA,3,B
+STU1417,Vikram Yadav,Civil,MCA,4,A
+STU1418,Rahul Verma,Computer Science,MCA,3,A
+STU1419,Neha Reddy,Mechanical,MTech,2,D
+STU1420,Pooja Gupta,Civil,MTech,4,B
+STU1421,Aarav Yadav,Information Technology,MTech,4,D
+STU1422,Karan Patel,Mechanical,BCA,4,D
+STU1423,Aarav Nair,Civil,BCA,1,A
+STU1424,Neha Patel,Computer Science,MCA,3,C
+STU1425,Pooja Kaur,Mechanical,BCA,1,D
+STU1426,Amit Kumar,Civil,MTech,4,C
+STU1427,Pooja Verma,Mechanical,MTech,1,C
+STU1428,Vikram Das,Computer Science,MTech,1,B
+STU1429,Amit Kaur,Mechanical,MTech,1,B
+STU1430,Rahul Kumar,Mechanical,MTech,3,D
+STU1431,Priya Nair,Civil,BTech,4,A
+STU1432,Ananya Reddy,Electronics,MCA,4,A
+STU1433,Pooja Reddy,Mechanical,MCA,3,D
+STU1434,Ananya Yadav,Electronics,BCA,1,D
+STU1435,Aarav Kumar,Information Technology,MTech,1,A
+STU1436,Simran Verma,Mechanical,BTech,2,C
+STU1437,Rahul Nair,Electronics,MTech,2,D
+STU1438,Amit Patel,Information Technology,MTech,2,C
+STU1439,Vikram Iyer,Civil,BCA,3,D
+STU1440,Neha Patel,Mechanical,BTech,4,D
+STU1441,Karan Reddy,Civil,BTech,2,C
+STU1442,Priya Nair,Information Technology,MCA,4,C
+STU1443,Priya Reddy,Civil,MTech,4,A
+STU1444,Neha Iyer,Civil,BTech,4,D
+STU1445,Rohan Reddy,Computer Science,MCA,3,B
+STU1446,Karan Iyer,Information Technology,BTech,3,B
+STU1447,Karan Iyer,Civil,MTech,3,D
+STU1448,Neha Singh,Electronics,MCA,3,D
+STU1449,Karan Reddy,Information Technology,BTech,2,D
+STU1450,Ananya Nair,Computer Science,BCA,1,C
+STU1451,Kavita Kumar,Mechanical,BTech,1,B
+STU1452,Priya Sharma,Civil,MTech,1,B
+STU1453,Vikram Singh,Electronics,BCA,2,B
+STU1454,Priya Patel,Computer Science,BTech,1,D
+STU1455,Neha Verma,Information Technology,BTech,2,C
+STU1456,Pooja Singh,Civil,MCA,2,D
+STU1457,Priya Nair,Computer Science,MTech,2,A
+STU1458,Neha Gupta,Computer Science,BTech,1,A
+STU1459,Simran Kaur,Electronics,BTech,4,B
+STU1460,Rohan Yadav,Mechanical,BTech,1,D
+STU1461,Kavita Patel,Mechanical,MTech,1,A
+STU1462,Aarav Patel,Mechanical,BCA,3,A
+STU1463,Ananya Gupta,Information Technology,MTech,2,D
+STU1464,Kavita Reddy,Computer Science,MCA,4,C
+STU1465,Ananya Verma,Information Technology,MCA,3,D
+STU1466,Priya Patel,Computer Science,MTech,4,D
+STU1467,Priya Singh,Electronics,BTech,4,C
+STU1468,Aarav Singh,Electronics,BTech,2,B
+STU1469,Aarav Kaur,Information Technology,BCA,1,B
+STU1470,Priya Sharma,Information Technology,MTech,2,B
+STU1471,Amit Yadav,Electronics,MTech,2,C
+STU1472,Amit Das,Civil,BTech,3,A
+STU1473,Rahul Yadav,Mechanical,MCA,2,C
+STU1474,Ananya Sharma,Mechanical,MCA,1,D
+STU1475,Aarav Iyer,Electronics,BCA,4,C
+STU1476,Priya Nair,Mechanical,BCA,2,A
+STU1477,Amit Iyer,Civil,MCA,4,A
+STU1478,Kavita Das,Civil,MTech,2,D
+STU1479,Vikram Kumar,Computer Science,BCA,4,B
+STU1480,Pooja Verma,Information Technology,BTech,2,A
+STU1481,Rahul Nair,Mechanical,MTech,3,A
+STU1482,Pooja Kaur,Civil,BTech,4,A
+STU1483,Rohan Das,Information Technology,BCA,2,D
+STU1484,Aarav Iyer,Information Technology,MCA,2,A
+STU1485,Ananya Sharma,Computer Science,BCA,3,B
+STU1486,Amit Patel,Information Technology,MCA,3,D
+STU1487,Karan Patel,Information Technology,MTech,3,B
+STU1488,Pooja Patel,Electronics,BCA,4,A
+STU1489,Pooja Patel,Computer Science,BCA,4,A
+STU1490,Karan Verma,Computer Science,BCA,3,B
+STU1491,Priya Sharma,Mechanical,MTech,1,D
+STU1492,Karan Reddy,Information Technology,BTech,1,D
+STU1493,Karan Nair,Mechanical,BTech,2,B
+STU1494,Ananya Reddy,Civil,MCA,1,A
+STU1495,Priya Singh,Information Technology,BCA,2,C
+STU1496,Vikram Kaur,Civil,BTech,4,B
+STU1497,Rohan Sharma,Electronics,MTech,4,B
+STU1498,Neha Kumar,Information Technology,BCA,1,B
+STU1499,Priya Iyer,Mechanical,MCA,4,A
+STU1500,Rahul Iyer,Mechanical,BTech,3,D
+STU1501,Kavita Yadav,Information Technology,MTech,3,A
+STU1502,Kavita Kumar,Mechanical,MTech,1,B
+STU1503,Priya Gupta,Information Technology,MCA,1,A
+STU1504,Rahul Nair,Computer Science,BTech,2,A
+STU1505,Karan Gupta,Mechanical,BCA,4,B
+STU1506,Kavita Reddy,Information Technology,MTech,2,A
+STU1507,Ananya Yadav,Information Technology,MCA,2,C
+STU1508,Vikram Patel,Mechanical,MTech,3,A
+STU1509,Vikram Yadav,Computer Science,MTech,3,A
+STU1510,Neha Reddy,Mechanical,BTech,3,D
+STU1511,Ananya Reddy,Information Technology,BTech,3,D
+STU1512,Rahul Iyer,Computer Science,BCA,2,B
+STU1513,Kavita Kumar,Civil,MTech,3,B
+STU1514,Priya Gupta,Electronics,MCA,4,D
+STU1515,Amit Nair,Mechanical,MTech,3,C
+STU1516,Simran Reddy,Information Technology,MCA,3,A
+STU1517,Amit Kumar,Computer Science,MTech,3,C
+STU1518,Karan Nair,Computer Science,MCA,1,C
+STU1519,Simran Sharma,Civil,MTech,4,D
+STU1520,Amit Singh,Mechanical,MTech,4,B
+STU1521,Ananya Kaur,Computer Science,BCA,2,A
+STU1522,Neha Das,Civil,BTech,2,B
+STU1523,Priya Gupta,Information Technology,BTech,3,C
+STU1524,Vikram Verma,Civil,MCA,1,C
+STU1525,Pooja Reddy,Mechanical,MTech,2,B
+STU1526,Kavita Gupta,Civil,MTech,2,B
+STU1527,Rahul Verma,Computer Science,BTech,3,D
+STU1528,Pooja Verma,Computer Science,MCA,3,B
+STU1529,Simran Verma,Electronics,BCA,2,B
+STU1530,Rohan Singh,Civil,BCA,2,D
+STU1531,Pooja Verma,Information Technology,BCA,4,B
+STU1532,Neha Sharma,Mechanical,MTech,1,C
+STU1533,Rohan Patel,Electronics,MCA,4,B
+STU1534,Rahul Verma,Civil,BTech,2,A
+STU1535,Kavita Kumar,Information Technology,MTech,4,C
+STU1536,Rahul Sharma,Electronics,MTech,4,D
+STU1537,Simran Verma,Computer Science,BCA,2,C
+STU1538,Priya Reddy,Mechanical,MCA,3,D
+STU1539,Rahul Singh,Civil,MCA,2,A
+STU1540,Ananya Singh,Information Technology,BCA,3,A
+STU1541,Aarav Sharma,Computer Science,BCA,2,C
+STU1542,Neha Kaur,Electronics,BCA,2,B
+STU1543,Kavita Reddy,Mechanical,MTech,2,C
+STU1544,Amit Kumar,Electronics,MTech,1,C
+STU1545,Vikram Iyer,Electronics,MTech,3,A
+STU1546,Aarav Sharma,Information Technology,BTech,1,D
+STU1547,Simran Iyer,Computer Science,BTech,2,C
+STU1548,Ananya Kaur,Civil,MCA,4,B
+STU1549,Aarav Reddy,Information Technology,BCA,1,A
+STU1550,Karan Verma,Mechanical,BCA,3,C
+STU1551,Simran Iyer,Electronics,MTech,2,C
+STU1552,Rahul Kaur,Mechanical,BTech,1,B
+STU1553,Pooja Kaur,Information Technology,BCA,4,C
+STU1554,Rohan Singh,Information Technology,MCA,1,C
+STU1555,Ananya Yadav,Civil,BCA,3,C
+STU1556,Neha Gupta,Electronics,MTech,1,C
+STU1557,Ananya Yadav,Information Technology,MTech,4,B
+STU1558,Amit Reddy,Mechanical,BTech,4,C
+STU1559,Rohan Patel,Civil,MCA,3,C
+STU1560,Aarav Singh,Mechanical,MCA,4,C
+STU1561,Karan Nair,Electronics,BCA,2,A
+STU1562,Pooja Nair,Civil,MCA,4,B
+STU1563,Priya Iyer,Civil,BCA,2,A
+STU1564,Neha Gupta,Civil,BCA,1,A
+STU1565,Karan Iyer,Computer Science,BTech,2,B
+STU1566,Priya Yadav,Civil,MCA,2,A
+STU1567,Amit Kumar,Mechanical,MTech,1,A
+STU1568,Neha Reddy,Mechanical,BCA,4,A
+STU1569,Kavita Reddy,Electronics,BCA,2,B
+STU1570,Aarav Kaur,Information Technology,BCA,4,C
+STU1571,Rahul Gupta,Information Technology,MCA,1,D
+STU1572,Rohan Gupta,Computer Science,MCA,3,D
+STU1573,Kavita Sharma,Civil,MCA,4,B
+STU1574,Pooja Nair,Computer Science,BCA,4,D
+STU1575,Rohan Iyer,Electronics,MTech,3,B
+STU1576,Vikram Nair,Electronics,MTech,3,B
+STU1577,Vikram Kumar,Information Technology,MCA,1,D
+STU1578,Amit Kaur,Electronics,MTech,4,A
+STU1579,Amit Patel,Civil,BCA,4,C
+STU1580,Karan Patel,Mechanical,MCA,1,D
+STU1581,Amit Gupta,Electronics,MCA,4,D
+STU1582,Kavita Reddy,Computer Science,BCA,2,D
+STU1583,Neha Gupta,Civil,MCA,2,D
+STU1584,Kavita Yadav,Electronics,BCA,2,B
+STU1585,Rahul Nair,Electronics,MCA,4,B
+STU1586,Karan Verma,Civil,MTech,2,C
+STU1587,Neha Singh,Electronics,MCA,2,C
+STU1588,Rahul Gupta,Mechanical,MCA,1,D
+STU1589,Simran Reddy,Information Technology,MCA,1,D
+STU1590,Kavita Nair,Civil,BTech,3,D
+STU1591,Ananya Yadav,Computer Science,MTech,3,C
+STU1592,Simran Singh,Electronics,BCA,3,D
+STU1593,Rohan Patel,Information Technology,BTech,3,A
+STU1594,Amit Kaur,Computer Science,MTech,1,C
+STU1595,Amit Gupta,Computer Science,MCA,1,A
+STU1596,Ananya Sharma,Mechanical,MCA,1,D
+STU1597,Kavita Sharma,Information Technology,BCA,2,B
+STU1598,Vikram Gupta,Civil,BCA,2,A
+STU1599,Karan Yadav,Information Technology,MTech,3,C
+STU1600,Amit Verma,Information Technology,MTech,2,A
+STU1601,Priya Iyer,Computer Science,BCA,4,C
+STU1602,Ananya Patel,Mechanical,MTech,1,D
+STU1603,Rahul Yadav,Mechanical,BCA,3,A
+STU1604,Amit Singh,Information Technology,MCA,3,B
+STU1605,Aarav Singh,Information Technology,BCA,4,A
+STU1606,Karan Verma,Electronics,BTech,2,B
+STU1607,Simran Nair,Computer Science,BCA,3,C
+STU1608,Kavita Iyer,Civil,BCA,2,D
+STU1609,Pooja Das,Civil,BTech,2,D
+STU1610,Vikram Das,Mechanical,BTech,4,B
+STU1611,Karan Kumar,Computer Science,BTech,3,C
+STU1612,Rohan Sharma,Mechanical,BTech,2,D
+STU1613,Priya Kumar,Civil,BCA,2,C
+STU1614,Priya Kaur,Information Technology,MTech,4,B
+STU1615,Pooja Verma,Computer Science,BTech,4,B
+STU1616,Rohan Yadav,Computer Science,MCA,2,A
+STU1617,Rahul Nair,Electronics,BCA,4,D
+STU1618,Ananya Kaur,Information Technology,MTech,2,D
+STU1619,Ananya Patel,Information Technology,MCA,3,A
+STU1620,Kavita Yadav,Mechanical,BCA,1,B
+STU1621,Rahul Das,Computer Science,BCA,4,B
+STU1622,Simran Yadav,Mechanical,MCA,1,B
+STU1623,Kavita Kumar,Information Technology,BTech,2,B
+STU1624,Karan Gupta,Electronics,BTech,2,C
+STU1625,Simran Iyer,Computer Science,MCA,2,D
+STU1626,Rohan Yadav,Information Technology,MTech,1,D
+STU1627,Kavita Reddy,Electronics,BTech,2,B
+STU1628,Karan Yadav,Civil,BCA,4,B
+STU1629,Neha Reddy,Information Technology,BCA,3,B
+STU1630,Aarav Verma,Civil,MTech,3,D
+STU1631,Rohan Nair,Mechanical,BCA,4,D
+STU1632,Simran Kumar,Civil,BTech,3,B
+STU1633,Rohan Kaur,Information Technology,MTech,1,C
+STU1634,Pooja Das,Civil,BTech,2,A
+STU1635,Rahul Singh,Computer Science,MTech,2,A
+STU1636,Ananya Sharma,Information Technology,MCA,2,A
+STU1637,Karan Yadav,Electronics,BCA,1,D
+STU1638,Amit Das,Civil,MTech,1,D
+STU1639,Rohan Sharma,Computer Science,MCA,1,A
+STU1640,Priya Kaur,Mechanical,BTech,4,A
+STU1641,Simran Patel,Mechanical,MCA,1,C
+STU1642,Neha Gupta,Civil,BTech,3,D
+STU1643,Kavita Singh,Mechanical,MTech,4,D
+STU1644,Ananya Kumar,Electronics,MTech,4,A
+STU1645,Priya Yadav,Information Technology,BCA,4,C
+STU1646,Aarav Gupta,Computer Science,BCA,1,C
+STU1647,Vikram Singh,Civil,MTech,4,A
+STU1648,Rohan Nair,Mechanical,BTech,1,A
+STU1649,Pooja Kumar,Information Technology,BTech,1,D
+STU1650,Ananya Verma,Electronics,MTech,4,A
+STU1651,Rohan Kumar,Mechanical,BTech,2,B
+STU1652,Karan Verma,Mechanical,MTech,2,C
+STU1653,Priya Nair,Computer Science,BCA,4,A
+STU1654,Kavita Sharma,Electronics,BTech,2,B
+STU1655,Vikram Kumar,Electronics,BCA,3,C
+STU1656,Rohan Yadav,Civil,MCA,3,B
+STU1657,Simran Patel,Computer Science,BCA,1,B
+STU1658,Aarav Iyer,Civil,MCA,2,A
+STU1659,Amit Das,Computer Science,BCA,3,C
+STU1660,Vikram Das,Electronics,BCA,4,B
+STU1661,Amit Kaur,Computer Science,BTech,2,D
+STU1662,Neha Iyer,Computer Science,BCA,3,C
+STU1663,Priya Verma,Computer Science,MTech,3,D
+STU1664,Neha Patel,Information Technology,BTech,4,A
+STU1665,Rohan Das,Information Technology,BTech,1,D
+STU1666,Priya Sharma,Electronics,BTech,4,C
+STU1667,Rahul Gupta,Computer Science,BCA,1,B
+STU1668,Neha Reddy,Electronics,BTech,3,B
+STU1669,Ananya Singh,Information Technology,MCA,1,C
+STU1670,Ananya Kumar,Computer Science,MCA,3,B
+STU1671,Rohan Patel,Civil,BCA,3,D
+STU1672,Rohan Reddy,Information Technology,BTech,2,B
+STU1673,Rohan Kumar,Information Technology,MTech,1,B
+STU1674,Kavita Nair,Information Technology,MTech,1,D
+STU1675,Vikram Kumar,Computer Science,MCA,1,D
+STU1676,Amit Yadav,Mechanical,BCA,4,D
+STU1677,Vikram Kumar,Civil,BCA,2,A
+STU1678,Kavita Patel,Civil,BCA,2,D
+STU1679,Priya Gupta,Electronics,BCA,2,D
+STU1680,Ananya Verma,Computer Science,BCA,4,A
+STU1681,Priya Gupta,Information Technology,BTech,1,B
+STU1682,Aarav Kumar,Mechanical,BTech,1,D
+STU1683,Aarav Gupta,Computer Science,BTech,1,C
+STU1684,Priya Kumar,Computer Science,MTech,2,D
+STU1685,Amit Verma,Mechanical,BTech,2,D
+STU1686,Rohan Kumar,Information Technology,BCA,3,A
+STU1687,Amit Kumar,Computer Science,BCA,4,C
+STU1688,Priya Das,Civil,MTech,4,B
+STU1689,Priya Yadav,Civil,MTech,2,B
+STU1690,Neha Kaur,Mechanical,MCA,3,C
+STU1691,Rahul Iyer,Information Technology,MTech,1,D
+STU1692,Rahul Gupta,Mechanical,MCA,2,A
+STU1693,Vikram Sharma,Computer Science,BTech,4,C
+STU1694,Kavita Patel,Civil,BCA,4,C
+STU1695,Amit Kaur,Electronics,MCA,4,B
+STU1696,Karan Verma,Mechanical,MCA,1,A
+STU1697,Karan Nair,Electronics,MCA,4,C
+STU1698,Karan Patel,Electronics,MTech,1,A
+STU1699,Kavita Sharma,Civil,MTech,1,D
+STU1700,Karan Kumar,Mechanical,MTech,1,B
+STU1701,Rahul Nair,Electronics,MCA,2,D
+STU1702,Rohan Sharma,Computer Science,BTech,1,A
+STU1703,Simran Gupta,Information Technology,BCA,3,D
+STU1704,Aarav Gupta,Information Technology,MTech,4,B
+STU1705,Vikram Gupta,Civil,BTech,2,A
+STU1706,Kavita Iyer,Mechanical,MTech,4,C
+STU1707,Kavita Kumar,Mechanical,MTech,1,D
+STU1708,Rohan Reddy,Information Technology,MCA,2,B
+STU1709,Priya Iyer,Computer Science,MCA,3,C
+STU1710,Neha Verma,Information Technology,MTech,1,B
+STU1711,Rohan Iyer,Information Technology,BCA,4,A
+STU1712,Priya Kumar,Mechanical,MTech,3,A
+STU1713,Rohan Nair,Electronics,BCA,1,D
+STU1714,Vikram Singh,Computer Science,BTech,3,B
+STU1715,Kavita Yadav,Mechanical,MTech,1,B
+STU1716,Priya Iyer,Information Technology,BCA,2,B
+STU1717,Kavita Patel,Electronics,BTech,1,A
+STU1718,Ananya Yadav,Computer Science,BTech,2,D
+STU1719,Simran Gupta,Civil,MCA,1,B
+STU1720,Simran Das,Computer Science,BTech,1,B
+STU1721,Vikram Kumar,Computer Science,MCA,4,C
+STU1722,Aarav Gupta,Information Technology,BTech,3,B
+STU1723,Vikram Iyer,Information Technology,BTech,3,D
+STU1724,Ananya Iyer,Civil,BCA,3,C
+STU1725,Rahul Kaur,Civil,BCA,1,C
+STU1726,Aarav Yadav,Civil,MCA,1,C
+STU1727,Ananya Reddy,Mechanical,MTech,1,A
+STU1728,Amit Gupta,Mechanical,BCA,2,C
+STU1729,Rohan Yadav,Information Technology,BTech,2,B
+STU1730,Pooja Sharma,Information Technology,MCA,4,A
+STU1731,Rahul Sharma,Civil,MCA,1,A
+STU1732,Rohan Gupta,Mechanical,MCA,3,A
+STU1733,Rohan Nair,Electronics,BTech,3,A
+STU1734,Neha Sharma,Mechanical,BCA,4,A
+STU1735,Ananya Sharma,Information Technology,MTech,3,A
+STU1736,Aarav Gupta,Mechanical,MCA,4,A
+STU1737,Amit Nair,Information Technology,BTech,1,C
+STU1738,Kavita Sharma,Civil,BCA,3,D
+STU1739,Pooja Singh,Civil,BCA,1,B
+STU1740,Karan Verma,Civil,MTech,2,B
+STU1741,Aarav Reddy,Electronics,MCA,3,C
+STU1742,Amit Iyer,Electronics,BTech,2,C
+STU1743,Rahul Kumar,Information Technology,BCA,3,A
+STU1744,Neha Verma,Computer Science,BTech,1,D
+STU1745,Aarav Kumar,Electronics,BCA,4,A
+STU1746,Aarav Gupta,Information Technology,MCA,1,C
+STU1747,Karan Patel,Mechanical,MCA,1,A
+STU1748,Amit Singh,Civil,MTech,1,B
+STU1749,Vikram Kumar,Civil,BCA,3,B
+STU1750,Vikram Das,Civil,BTech,4,A
+STU1751,Rohan Das,Information Technology,BCA,2,D
+STU1752,Aarav Gupta,Civil,BTech,1,A
+STU1753,Kavita Patel,Electronics,MTech,3,A
+STU1754,Kavita Gupta,Mechanical,BCA,2,D
+STU1755,Neha Verma,Civil,MCA,1,D
+STU1756,Kavita Sharma,Information Technology,BTech,2,D
+STU1757,Pooja Singh,Mechanical,MCA,1,B
+STU1758,Kavita Reddy,Civil,MTech,2,A
+STU1759,Karan Gupta,Computer Science,MTech,2,C
+STU1760,Rahul Das,Civil,BTech,4,D
+STU1761,Vikram Singh,Electronics,BCA,4,D
+STU1762,Aarav Nair,Mechanical,MCA,1,A
+STU1763,Simran Kaur,Electronics,MCA,3,C
+STU1764,Simran Nair,Computer Science,BTech,4,A
+STU1765,Aarav Nair,Computer Science,BTech,2,A
+STU1766,Simran Verma,Electronics,BTech,4,D
+STU1767,Rohan Yadav,Mechanical,MTech,4,D
+STU1768,Neha Nair,Computer Science,MTech,1,B
+STU1769,Aarav Sharma,Computer Science,MCA,4,C
+STU1770,Kavita Reddy,Civil,BCA,4,C
+STU1771,Rohan Kumar,Information Technology,BTech,2,D
+STU1772,Vikram Kaur,Computer Science,MTech,4,D
+STU1773,Rahul Reddy,Mechanical,BCA,2,D
+STU1774,Simran Patel,Mechanical,BTech,4,C
+STU1775,Amit Reddy,Civil,BCA,4,B
+STU1776,Simran Patel,Mechanical,BTech,3,C
+STU1777,Ananya Kumar,Civil,BCA,4,D
+STU1778,Rahul Singh,Computer Science,MCA,2,D
+STU1779,Kavita Patel,Computer Science,BTech,2,B
+STU1780,Priya Iyer,Computer Science,BTech,1,A
+STU1781,Amit Verma,Computer Science,MCA,1,A
+STU1782,Simran Iyer,Information Technology,BTech,3,C
+STU1783,Rohan Gupta,Information Technology,BTech,2,A
+STU1784,Simran Sharma,Computer Science,MTech,2,A
+STU1785,Rahul Yadav,Mechanical,MCA,2,C
+STU1786,Rohan Das,Civil,MTech,3,D
+STU1787,Aarav Singh,Electronics,MCA,2,A
+STU1788,Pooja Verma,Civil,BCA,1,D
+STU1789,Karan Sharma,Electronics,MCA,3,C
+STU1790,Rahul Singh,Electronics,MCA,1,D
+STU1791,Neha Kumar,Computer Science,MTech,1,D
+STU1792,Ananya Yadav,Electronics,BTech,3,C
+STU1793,Karan Iyer,Computer Science,MCA,4,D
+STU1794,Amit Kaur,Information Technology,BTech,4,A
+STU1795,Priya Patel,Mechanical,MCA,1,A
+STU1796,Vikram Kumar,Electronics,MTech,4,A
+STU1797,Karan Iyer,Mechanical,MCA,2,A
+STU1798,Pooja Yadav,Computer Science,BCA,3,D
+STU1799,Kavita Kaur,Electronics,MCA,1,A
+STU1800,Rohan Patel,Civil,MCA,2,D
+STU1801,Kavita Yadav,Information Technology,BTech,4,B
+STU1802,Rahul Singh,Information Technology,BTech,2,D
+STU1803,Neha Das,Electronics,BCA,4,A
+STU1804,Pooja Das,Information Technology,MCA,1,B
+STU1805,Rahul Iyer,Civil,BTech,2,C
+STU1806,Priya Yadav,Mechanical,MCA,3,D
+STU1807,Aarav Gupta,Civil,MTech,1,A
+STU1808,Vikram Kaur,Information Technology,MTech,2,A
+STU1809,Neha Yadav,Mechanical,BCA,2,A
+STU1810,Karan Singh,Civil,MTech,4,C
+STU1811,Priya Verma,Computer Science,BTech,1,B
+STU1812,Neha Sharma,Computer Science,BTech,1,B
+STU1813,Aarav Nair,Mechanical,BCA,1,A
+STU1814,Rohan Reddy,Mechanical,MCA,1,D
+STU1815,Kavita Kaur,Mechanical,BTech,4,A
+STU1816,Kavita Patel,Computer Science,MTech,3,A
+STU1817,Amit Das,Civil,BTech,1,D
+STU1818,Amit Sharma,Mechanical,BCA,4,A
+STU1819,Aarav Iyer,Computer Science,MTech,3,C
+STU1820,Karan Gupta,Mechanical,MTech,3,A
+STU1821,Simran Nair,Mechanical,MTech,4,C
+STU1822,Neha Yadav,Mechanical,BCA,1,A
+STU1823,Ananya Sharma,Computer Science,BCA,3,B
+STU1824,Priya Sharma,Civil,MCA,1,D
+STU1825,Simran Verma,Computer Science,MCA,1,B
+STU1826,Neha Gupta,Computer Science,MCA,2,A
+STU1827,Amit Patel,Mechanical,BCA,1,A
+STU1828,Amit Nair,Electronics,MTech,2,C
+STU1829,Pooja Das,Electronics,MTech,3,A
+STU1830,Ananya Das,Electronics,BTech,4,A
+STU1831,Amit Reddy,Computer Science,MCA,2,A
+STU1832,Rohan Kaur,Mechanical,MTech,4,B
+STU1833,Ananya Das,Electronics,MTech,3,C
+STU1834,Karan Reddy,Information Technology,MTech,1,B
+STU1835,Karan Reddy,Information Technology,MTech,3,C
+STU1836,Karan Reddy,Information Technology,BCA,4,B
+STU1837,Kavita Verma,Civil,MCA,3,A
+STU1838,Rohan Singh,Mechanical,MTech,1,B
+STU1839,Ananya Nair,Computer Science,MTech,3,B
+STU1840,Simran Yadav,Computer Science,MTech,1,C
+STU1841,Rahul Sharma,Mechanical,MTech,2,C
+STU1842,Amit Nair,Civil,BTech,4,B
+STU1843,Aarav Iyer,Mechanical,MTech,1,C
+STU1844,Priya Verma,Civil,MTech,1,C
+STU1845,Karan Kumar,Electronics,MTech,3,C
+STU1846,Aarav Kaur,Electronics,BTech,2,D
+STU1847,Ananya Verma,Civil,BCA,1,C
+STU1848,Amit Singh,Mechanical,BTech,2,D
+STU1849,Rohan Patel,Electronics,MTech,2,D
+STU1850,Pooja Kaur,Mechanical,BCA,3,C
+STU1851,Rohan Reddy,Electronics,MTech,1,B
+STU1852,Aarav Verma,Mechanical,BCA,3,C
+STU1853,Kavita Verma,Mechanical,MTech,4,A
+STU1854,Kavita Das,Information Technology,MTech,4,B
+STU1855,Vikram Nair,Civil,BCA,1,D
+STU1856,Rohan Sharma,Computer Science,BCA,2,D
+STU1857,Kavita Gupta,Civil,MTech,1,B
+STU1858,Rohan Kaur,Mechanical,BTech,1,B
+STU1859,Amit Nair,Mechanical,BTech,4,C
+STU1860,Rohan Sharma,Civil,BTech,4,D
+STU1861,Rohan Yadav,Mechanical,BTech,2,A
+STU1862,Simran Gupta,Electronics,BCA,2,C
+STU1863,Ananya Kumar,Mechanical,BCA,1,B
+STU1864,Neha Reddy,Civil,BTech,3,D
+STU1865,Rohan Verma,Civil,MCA,1,B
+STU1866,Vikram Verma,Civil,MCA,2,B
+STU1867,Neha Yadav,Information Technology,MCA,3,B
+STU1868,Karan Sharma,Information Technology,MTech,4,C
+STU1869,Karan Nair,Information Technology,BTech,2,A
+STU1870,Ananya Patel,Information Technology,MTech,2,A
+STU1871,Amit Verma,Information Technology,BCA,3,D
+STU1872,Simran Das,Information Technology,BCA,2,B
+STU1873,Ananya Yadav,Information Technology,MCA,2,A
+STU1874,Ananya Verma,Civil,MCA,2,B
+STU1875,Ananya Das,Computer Science,BCA,2,D
+STU1876,Vikram Yadav,Information Technology,MCA,2,B
+STU1877,Karan Sharma,Civil,MCA,2,A
+STU1878,Neha Nair,Computer Science,BCA,2,B
+STU1879,Rahul Reddy,Information Technology,MTech,2,A
+STU1880,Kavita Iyer,Computer Science,MCA,4,D
+STU1881,Aarav Patel,Computer Science,MTech,2,B
+STU1882,Rohan Reddy,Electronics,MCA,4,A
+STU1883,Kavita Yadav,Mechanical,BTech,4,D
+STU1884,Priya Iyer,Electronics,MTech,1,B
+STU1885,Vikram Reddy,Computer Science,MTech,1,D
+STU1886,Priya Iyer,Civil,MCA,4,A
+STU1887,Amit Sharma,Information Technology,MTech,4,B
+STU1888,Neha Singh,Mechanical,BTech,2,B
+STU1889,Amit Das,Information Technology,BCA,1,B
+STU1890,Rahul Patel,Civil,BTech,3,D
+STU1891,Simran Sharma,Mechanical,BCA,1,D
+STU1892,Rohan Verma,Electronics,BTech,4,A
+STU1893,Amit Kaur,Computer Science,BTech,4,C
+STU1894,Kavita Patel,Civil,MTech,2,B
+STU1895,Priya Singh,Computer Science,BTech,2,B
+STU1896,Rohan Kumar,Computer Science,MCA,1,A
+STU1897,Neha Nair,Information Technology,MCA,2,B
+STU1898,Aarav Sharma,Civil,MCA,3,D
+STU1899,Aarav Sharma,Computer Science,MCA,3,D
+STU1900,Neha Patel,Electronics,MTech,2,B
+STU1901,Ananya Patel,Mechanical,MCA,3,B
+STU1902,Amit Verma,Civil,BTech,3,D
+STU1903,Vikram Kaur,Information Technology,MCA,1,B
+STU1904,Ananya Iyer,Civil,MTech,3,D
+STU1905,Amit Patel,Information Technology,BCA,4,C
+STU1906,Ananya Reddy,Mechanical,BTech,4,C
+STU1907,Pooja Verma,Electronics,BTech,1,B
+STU1908,Kavita Kaur,Computer Science,MTech,2,B
+STU1909,Rahul Gupta,Civil,BCA,1,B
+STU1910,Rohan Gupta,Information Technology,MCA,2,D
+STU1911,Rahul Patel,Mechanical,BCA,2,C
+STU1912,Rohan Kaur,Computer Science,BTech,2,C
+STU1913,Neha Reddy,Mechanical,BTech,2,A
+STU1914,Aarav Gupta,Electronics,BTech,2,A
+STU1915,Vikram Singh,Computer Science,BCA,1,B
+STU1916,Rohan Sharma,Computer Science,MCA,2,D
+STU1917,Priya Kumar,Computer Science,BTech,3,B
+STU1918,Karan Sharma,Information Technology,MTech,3,C
+STU1919,Karan Gupta,Computer Science,MCA,2,B
+STU1920,Neha Verma,Mechanical,BTech,3,B
+STU1921,Kavita Kumar,Information Technology,MCA,4,C
+STU1922,Aarav Nair,Computer Science,MTech,1,C
+STU1923,Rohan Kaur,Mechanical,BCA,1,C
+STU1924,Neha Singh,Mechanical,BTech,2,C
+STU1925,Rahul Kaur,Civil,MTech,2,A
+STU1926,Priya Iyer,Mechanical,BTech,4,D
+STU1927,Amit Patel,Electronics,BTech,2,D
+STU1928,Neha Patel,Computer Science,BCA,3,C
+STU1929,Kavita Kaur,Computer Science,BCA,4,D
+STU1930,Rohan Das,Computer Science,MCA,3,D
+STU1931,Ananya Kaur,Mechanical,MTech,1,D
+STU1932,Neha Sharma,Mechanical,MTech,3,D
+STU1933,Vikram Kaur,Computer Science,BCA,1,C
+STU1934,Pooja Yadav,Information Technology,BTech,3,B
+STU1935,Ananya Yadav,Information Technology,MCA,1,B
+STU1936,Simran Kaur,Electronics,BCA,2,B
+STU1937,Pooja Gupta,Civil,MCA,3,A
+STU1938,Kavita Kaur,Electronics,MCA,1,D
+STU1939,Vikram Patel,Computer Science,MTech,3,C
+STU1940,Neha Singh,Computer Science,MCA,4,C
+STU1941,Neha Singh,Computer Science,MTech,2,A
+STU1942,Amit Iyer,Civil,BTech,1,C
+STU1943,Vikram Verma,Mechanical,BTech,4,B
+STU1944,Vikram Sharma,Civil,BCA,3,A
+STU1945,Aarav Kumar,Electronics,BTech,4,C
+STU1946,Karan Verma,Mechanical,MTech,3,A
+STU1947,Rohan Verma,Mechanical,MCA,2,A
+STU1948,Rohan Kumar,Electronics,MCA,4,C
+STU1949,Rahul Iyer,Mechanical,BTech,2,B
+STU1950,Aarav Singh,Information Technology,MTech,1,C
+STU1951,Vikram Reddy,Electronics,MCA,3,D
+STU1952,Pooja Nair,Electronics,BTech,3,D
+STU1953,Neha Iyer,Information Technology,MTech,2,C
+STU1954,Priya Nair,Civil,MTech,2,B
+STU1955,Simran Kaur,Civil,MCA,1,D
+STU1956,Kavita Nair,Civil,BCA,4,D
+STU1957,Karan Gupta,Mechanical,BCA,3,C
+STU1958,Ananya Nair,Information Technology,MTech,3,C
+STU1959,Amit Singh,Electronics,MTech,1,C
+STU1960,Neha Kaur,Electronics,BTech,1,A
+STU1961,Kavita Singh,Electronics,MTech,2,A
+STU1962,Simran Kaur,Mechanical,BTech,2,A
+STU1963,Neha Kaur,Mechanical,BTech,4,C
+STU1964,Amit Kumar,Civil,BTech,1,B
+STU1965,Kavita Sharma,Mechanical,MTech,4,D
+STU1966,Rahul Sharma,Civil,MTech,1,A
+STU1967,Pooja Reddy,Civil,BTech,3,B
+STU1968,Simran Iyer,Electronics,MCA,1,C
+STU1969,Ananya Sharma,Mechanical,MTech,1,A
+STU1970,Vikram Gupta,Civil,BCA,3,C
+STU1971,Simran Gupta,Information Technology,MCA,1,B
+STU1972,Rahul Iyer,Information Technology,BCA,4,A
+STU1973,Karan Yadav,Mechanical,MTech,2,A
+STU1974,Rahul Yadav,Electronics,MCA,2,A
+STU1975,Amit Kumar,Electronics,MTech,4,A
+STU1976,Aarav Das,Civil,MTech,3,B
+STU1977,Rohan Kumar,Mechanical,MCA,1,A
+STU1978,Amit Kaur,Information Technology,MTech,4,D
+STU1979,Kavita Nair,Civil,MCA,2,D
+STU1980,Priya Kaur,Civil,MTech,2,C
+STU1981,Rohan Patel,Computer Science,BTech,4,A
+STU1982,Aarav Iyer,Mechanical,BCA,2,D
+STU1983,Neha Yadav,Civil,BTech,4,D
+STU1984,Rohan Verma,Information Technology,MTech,2,D
+STU1985,Aarav Reddy,Computer Science,MTech,4,B
+STU1986,Vikram Reddy,Information Technology,MTech,1,A
+STU1987,Aarav Yadav,Electronics,BTech,1,B
+STU1988,Amit Kumar,Computer Science,MTech,1,B
+STU1989,Neha Singh,Computer Science,MCA,1,D
+STU1990,Pooja Singh,Civil,BCA,2,D
+STU1991,Karan Verma,Electronics,MTech,3,C
+STU1992,Amit Verma,Civil,MTech,4,A
+STU1993,Aarav Gupta,Mechanical,BCA,3,A
+STU1994,Kavita Das,Information Technology,BCA,2,D
+STU1995,Aarav Nair,Information Technology,BCA,2,D
+STU1996,Rahul Kumar,Civil,BTech,3,A
+STU1997,Karan Nair,Information Technology,BTech,3,C
+STU1998,Rohan Patel,Information Technology,MTech,2,D
+STU1999,Kavita Verma,Mechanical,BCA,2,C
+STU2000,Pooja Sharma,Electronics,MTech,4,B
+STU2001,Karan Iyer,Computer Science,MTech,1,D
+STU2002,Vikram Yadav,Civil,MTech,1,B
+STU2003,Rahul Patel,Civil,BTech,4,D
+STU2004,Simran Patel,Mechanical,BCA,3,B
+STU2005,Kavita Kumar,Mechanical,MTech,2,D
+STU2006,Kavita Singh,Computer Science,BTech,3,C
+STU2007,Rahul Kaur,Electronics,MCA,1,C
+STU2008,Karan Nair,Civil,MCA,1,C
+STU2009,Simran Kumar,Mechanical,MTech,3,B
+STU2010,Rahul Iyer,Civil,MTech,1,C
+STU2011,Amit Iyer,Information Technology,BCA,2,B
+STU2012,Neha Iyer,Civil,BCA,4,D
+STU2013,Aarav Nair,Electronics,MTech,3,B
+STU2014,Vikram Kaur,Electronics,BTech,2,D
+STU2015,Rahul Gupta,Civil,MTech,2,A
+STU2016,Neha Singh,Information Technology,BCA,1,A
+STU2017,Priya Kaur,Electronics,BCA,2,A
+STU2018,Rohan Yadav,Mechanical,BTech,3,B
+STU2019,Ananya Yadav,Civil,MTech,2,A
+STU2020,Kavita Verma,Information Technology,BCA,4,A
+STU2021,Kavita Gupta,Mechanical,MTech,2,A
+STU2022,Ananya Iyer,Civil,BCA,2,D
+STU2023,Aarav Nair,Information Technology,MCA,4,C
+STU2024,Karan Yadav,Mechanical,MCA,2,B
+STU2025,Amit Patel,Electronics,MCA,2,A
+STU2026,Rahul Sharma,Civil,BCA,1,D
+STU2027,Ananya Iyer,Civil,BTech,3,C
+STU2028,Pooja Verma,Electronics,MCA,1,C
+STU2029,Kavita Verma,Computer Science,BCA,3,C
+STU2030,Pooja Verma,Mechanical,MTech,4,D
+STU2031,Ananya Gupta,Electronics,MCA,4,A
+STU2032,Simran Iyer,Civil,BTech,4,C
+STU2033,Aarav Nair,Mechanical,BTech,3,D
+STU2034,Pooja Patel,Mechanical,BTech,3,D
+STU2035,Rahul Patel,Computer Science,MTech,3,B
+STU2036,Ananya Sharma,Civil,MTech,4,D
+STU2037,Kavita Iyer,Information Technology,BTech,3,C
+STU2038,Priya Gupta,Computer Science,BTech,2,C
+STU2039,Amit Kumar,Computer Science,BTech,1,D
+STU2040,Priya Reddy,Information Technology,MTech,4,C
+STU2041,Kavita Reddy,Information Technology,MTech,1,D
+STU2042,Ananya Sharma,Computer Science,BCA,2,C
+STU2043,Priya Singh,Mechanical,MCA,3,B
+STU2044,Kavita Sharma,Electronics,MTech,1,A
+STU2045,Neha Yadav,Electronics,BTech,2,B
+STU2046,Pooja Yadav,Computer Science,MCA,2,B
+STU2047,Amit Iyer,Mechanical,MTech,1,A
+STU2048,Karan Reddy,Information Technology,MCA,4,C
+STU2049,Amit Kumar,Computer Science,BCA,1,A
+STU2050,Simran Verma,Civil,MTech,4,D
+STU2051,Ananya Singh,Mechanical,BTech,3,A
+STU2052,Karan Kumar,Civil,BTech,4,B
+STU2053,Aarav Singh,Civil,BCA,3,A
+STU2054,Pooja Singh,Computer Science,BCA,1,C
+STU2055,Priya Kumar,Mechanical,BCA,3,B
+STU2056,Kavita Das,Civil,BCA,2,D
+STU2057,Karan Nair,Mechanical,BCA,3,C
+STU2058,Vikram Nair,Electronics,MTech,4,B
+STU2059,Rohan Kumar,Civil,MTech,4,D
+STU2060,Amit Gupta,Civil,MCA,4,C
+STU2061,Aarav Singh,Mechanical,BCA,3,D
+STU2062,Rahul Gupta,Electronics,BTech,4,A
+STU2063,Neha Iyer,Civil,BTech,4,A
+STU2064,Amit Nair,Computer Science,BCA,2,D
+STU2065,Neha Patel,Mechanical,BCA,3,A
+STU2066,Rahul Kaur,Mechanical,BCA,2,D
+STU2067,Simran Yadav,Civil,BCA,4,C
+STU2068,Kavita Singh,Electronics,BCA,4,B
+STU2069,Kavita Reddy,Civil,BTech,4,D
+STU2070,Priya Reddy,Information Technology,MCA,3,B
+STU2071,Neha Kumar,Civil,BCA,1,B
+STU2072,Vikram Verma,Information Technology,BCA,4,D
+STU2073,Neha Nair,Computer Science,BCA,4,A
+STU2074,Simran Das,Mechanical,MTech,4,C
+STU2075,Kavita Iyer,Mechanical,BTech,4,B
+STU2076,Rahul Sharma,Electronics,BTech,3,C
+STU2077,Amit Reddy,Civil,MCA,1,B
+STU2078,Kavita Singh,Computer Science,MTech,1,D
+STU2079,Pooja Kumar,Information Technology,MTech,1,A
+STU2080,Pooja Kumar,Electronics,MTech,4,C
+STU2081,Pooja Das,Computer Science,MCA,4,B
+STU2082,Rohan Das,Computer Science,MCA,1,D
+STU2083,Karan Gupta,Information Technology,MCA,1,D
+STU2084,Neha Nair,Information Technology,MTech,4,B
+STU2085,Kavita Das,Mechanical,BTech,4,B
+STU2086,Amit Sharma,Civil,MTech,2,B
+STU2087,Aarav Nair,Electronics,MCA,2,A
+STU2088,Ananya Gupta,Civil,MTech,2,B
+STU2089,Ananya Yadav,Electronics,BCA,1,B
+STU2090,Rahul Kumar,Computer Science,MTech,3,A
+STU2091,Simran Reddy,Information Technology,MTech,4,D
+STU2092,Aarav Kaur,Information Technology,BTech,2,B
+STU2093,Karan Nair,Computer Science,BTech,3,C
+STU2094,Priya Kumar,Computer Science,BTech,4,D
+STU2095,Amit Gupta,Electronics,BCA,3,C
+STU2096,Ananya Sharma,Computer Science,BTech,1,B
+STU2097,Simran Iyer,Electronics,BCA,1,A
+STU2098,Amit Kaur,Civil,MCA,1,A
+STU2099,Pooja Verma,Information Technology,BTech,2,A
+STU2100,Karan Iyer,Information Technology,MTech,4,B
+STU2101,Ananya Iyer,Information Technology,MTech,1,B
+STU2102,Simran Reddy,Civil,BCA,2,C
+STU2103,Rohan Iyer,Civil,BTech,2,A
+STU2104,Neha Yadav,Mechanical,MTech,2,B
+STU2105,Amit Yadav,Electronics,MCA,2,D
+STU2106,Aarav Sharma,Electronics,BTech,1,B
+STU2107,Amit Kaur,Mechanical,MCA,2,B
+STU2108,Amit Yadav,Information Technology,MTech,1,D
+STU2109,Kavita Iyer,Electronics,BTech,1,A
+STU2110,Rahul Nair,Electronics,BCA,2,D
+STU2111,Rohan Yadav,Information Technology,MTech,1,A
+STU2112,Neha Das,Computer Science,MCA,4,D
+STU2113,Pooja Kumar,Computer Science,BTech,4,C
+STU2114,Kavita Das,Mechanical,MCA,3,A
+STU2115,Karan Kumar,Civil,MCA,4,B
+STU2116,Simran Patel,Electronics,BCA,1,C
+STU2117,Vikram Singh,Electronics,BCA,1,A
+STU2118,Ananya Iyer,Mechanical,MTech,4,A
+STU2119,Simran Reddy,Mechanical,BCA,2,A
+STU2120,Ananya Nair,Electronics,BCA,2,D
+STU2121,Kavita Patel,Information Technology,MTech,1,A
+STU2122,Amit Kaur,Information Technology,MTech,2,B
+STU2123,Aarav Das,Civil,MTech,3,A
+STU2124,Amit Verma,Electronics,MTech,3,B
+STU2125,Simran Kaur,Electronics,MCA,4,B
+STU2126,Vikram Gupta,Electronics,MCA,4,B
+STU2127,Pooja Gupta,Electronics,MTech,2,C
+STU2128,Priya Sharma,Mechanical,MTech,1,B
+STU2129,Amit Singh,Computer Science,BTech,4,D
+STU2130,Aarav Das,Electronics,BTech,3,A
+STU2131,Priya Gupta,Computer Science,BTech,4,D
+STU2132,Simran Iyer,Information Technology,BCA,4,C
+STU2133,Ananya Yadav,Civil,MCA,3,A
+STU2134,Rahul Verma,Information Technology,MCA,1,B
+STU2135,Pooja Nair,Electronics,BTech,4,A
+STU2136,Karan Yadav,Information Technology,BTech,4,C
+STU2137,Kavita Reddy,Mechanical,MCA,4,C
+STU2138,Amit Verma,Computer Science,BCA,2,D
+STU2139,Neha Reddy,Electronics,BTech,4,A
+STU2140,Kavita Gupta,Mechanical,MTech,3,A
+STU2141,Simran Singh,Computer Science,BTech,1,A
+STU2142,Neha Das,Mechanical,MCA,1,D
+STU2143,Ananya Verma,Information Technology,MCA,3,C
+STU2144,Amit Kumar,Electronics,BTech,2,B
+STU2145,Rohan Yadav,Information Technology,BTech,3,A
+STU2146,Pooja Nair,Civil,MTech,1,D
+STU2147,Rahul Iyer,Electronics,MTech,3,D
+STU2148,Neha Singh,Information Technology,BCA,2,B
+STU2149,Amit Kaur,Electronics,BCA,1,C
+STU2150,Rohan Sharma,Computer Science,MTech,2,A
+STU2151,Rahul Singh,Electronics,BCA,3,A
+STU2152,Aarav Patel,Electronics,BCA,4,D
+STU2153,Priya Nair,Computer Science,BTech,3,C
+STU2154,Karan Patel,Information Technology,MTech,2,A
+STU2155,Rohan Sharma,Electronics,BTech,3,B
+STU2156,Vikram Das,Mechanical,BTech,4,C
+STU2157,Pooja Sharma,Electronics,BCA,2,C
+STU2158,Simran Nair,Information Technology,BTech,3,D
+STU2159,Priya Verma,Computer Science,MCA,2,D
+STU2160,Amit Kaur,Information Technology,BCA,2,A
+STU2161,Priya Sharma,Civil,MCA,1,D
+STU2162,Simran Sharma,Electronics,BCA,1,C
+STU2163,Pooja Reddy,Electronics,BTech,2,A
+STU2164,Priya Nair,Computer Science,BCA,3,A
+STU2165,Vikram Reddy,Electronics,MCA,3,C
+STU2166,Amit Das,Mechanical,BCA,3,A
+STU2167,Rahul Kumar,Mechanical,MCA,4,B
+STU2168,Karan Reddy,Information Technology,MTech,2,B
+STU2169,Aarav Sharma,Computer Science,BTech,2,A
+STU2170,Ananya Kaur,Civil,MCA,4,D
+STU2171,Neha Kumar,Information Technology,MTech,2,B
+STU2172,Priya Verma,Computer Science,BTech,2,A
+STU2173,Amit Gupta,Computer Science,MTech,4,B
+STU2174,Rohan Verma,Information Technology,MCA,1,D
+STU2175,Rohan Yadav,Information Technology,BTech,2,C
+STU2176,Pooja Patel,Electronics,MTech,4,A
+STU2177,Rohan Yadav,Civil,MCA,3,A
+STU2178,Vikram Singh,Mechanical,MTech,1,A
+STU2179,Vikram Reddy,Electronics,BTech,3,A
+STU2180,Neha Verma,Computer Science,BTech,2,A
+STU2181,Karan Nair,Civil,BTech,1,A
+STU2182,Vikram Reddy,Civil,MCA,4,D
+STU2183,Priya Kaur,Information Technology,MTech,2,C
+STU2184,Priya Gupta,Civil,MTech,4,D
+STU2185,Rahul Patel,Civil,MCA,1,D
+STU2186,Vikram Yadav,Computer Science,BTech,3,C
+STU2187,Rahul Das,Electronics,BCA,2,D
+STU2188,Priya Reddy,Civil,BTech,2,B
+STU2189,Rohan Verma,Information Technology,BCA,4,D
+STU2190,Aarav Patel,Electronics,BTech,1,A
+STU2191,Neha Das,Information Technology,MCA,4,B
+STU2192,Neha Nair,Civil,BCA,1,B
+STU2193,Simran Gupta,Electronics,MCA,2,C
+STU2194,Neha Reddy,Civil,BCA,1,D
+STU2195,Priya Patel,Computer Science,MTech,2,D
+STU2196,Simran Kumar,Electronics,BCA,1,B
+STU2197,Aarav Singh,Information Technology,BCA,3,D
+STU2198,Karan Gupta,Computer Science,BCA,1,D
+STU2199,Priya Singh,Mechanical,MTech,3,C
+STU2200,Karan Verma,Information Technology,MCA,1,B
+STU2201,Rahul Kumar,Civil,MTech,1,A
+STU2202,Rahul Yadav,Information Technology,BCA,4,B
+STU2203,Ananya Iyer,Mechanical,BTech,4,C
+STU2204,Karan Kumar,Information Technology,MTech,2,C
+STU2205,Pooja Gupta,Computer Science,BTech,4,C
+STU2206,Vikram Singh,Information Technology,MTech,1,D
+STU2207,Ananya Verma,Electronics,MTech,4,B
+STU2208,Priya Patel,Mechanical,BCA,1,D
+STU2209,Rohan Iyer,Information Technology,MCA,3,D
+STU2210,Priya Yadav,Mechanical,MCA,1,B
+STU2211,Kavita Iyer,Computer Science,BCA,2,C
+STU2212,Rohan Nair,Electronics,MTech,3,A
+STU2213,Rahul Verma,Civil,MCA,2,A
+STU2214,Vikram Reddy,Information Technology,MCA,2,B
+STU2215,Simran Verma,Computer Science,MCA,2,B
+STU2216,Rahul Das,Mechanical,BCA,4,C
+STU2217,Rohan Kumar,Mechanical,BTech,2,B
+STU2218,Amit Iyer,Computer Science,BTech,3,B
+STU2219,Priya Singh,Information Technology,BTech,1,C
+STU2220,Neha Iyer,Civil,BTech,2,C
+STU2221,Karan Iyer,Information Technology,BTech,3,D
+STU2222,Karan Gupta,Electronics,MCA,2,B
+STU2223,Aarav Das,Information Technology,MCA,1,A
+STU2224,Vikram Reddy,Electronics,MTech,3,B
+STU2225,Pooja Das,Mechanical,MCA,3,A
+STU2226,Simran Kumar,Electronics,BCA,1,A
+STU2227,Aarav Das,Civil,MTech,3,A
+STU2228,Pooja Iyer,Computer Science,MCA,1,D
+STU2229,Rahul Sharma,Electronics,MTech,3,C
+STU2230,Priya Nair,Information Technology,MTech,3,C
+STU2231,Rahul Das,Electronics,BTech,1,D
+STU2232,Karan Verma,Mechanical,MTech,1,C
+STU2233,Ananya Sharma,Electronics,MCA,3,D
+STU2234,Aarav Kumar,Civil,BTech,3,B
+STU2235,Rohan Nair,Electronics,MCA,1,D
+STU2236,Aarav Kumar,Civil,BTech,4,C
+STU2237,Neha Kaur,Information Technology,MCA,1,C
+STU2238,Neha Singh,Mechanical,BTech,3,B
+STU2239,Amit Iyer,Computer Science,BTech,3,D
+STU2240,Aarav Singh,Information Technology,BCA,3,B
+STU2241,Pooja Singh,Information Technology,MCA,1,A
+STU2242,Rahul Sharma,Computer Science,MTech,3,D
+STU2243,Simran Das,Electronics,BTech,4,B
+STU2244,Rahul Kumar,Electronics,MCA,2,B
+STU2245,Ananya Iyer,Electronics,BTech,4,C
+STU2246,Priya Nair,Mechanical,BCA,1,D
+STU2247,Karan Patel,Information Technology,BCA,3,A
+STU2248,Aarav Sharma,Civil,BCA,1,A
+STU2249,Kavita Singh,Computer Science,BCA,2,D
+STU2250,Aarav Sharma,Information Technology,MTech,1,D
+STU2251,Rohan Reddy,Electronics,MTech,3,B
+STU2252,Priya Nair,Computer Science,BTech,2,C
+STU2253,Simran Sharma,Civil,MCA,2,C
+STU2254,Rohan Das,Information Technology,BCA,3,C
+STU2255,Priya Patel,Information Technology,BCA,3,D
+STU2256,Neha Reddy,Mechanical,MTech,3,C
+STU2257,Aarav Kaur,Information Technology,MTech,1,B
+STU2258,Vikram Nair,Information Technology,BCA,4,D
+STU2259,Neha Das,Civil,MCA,1,D
+STU2260,Rohan Iyer,Civil,BTech,1,C
+STU2261,Rahul Sharma,Computer Science,BTech,4,A
+STU2262,Aarav Gupta,Electronics,BTech,3,A
+STU2263,Rohan Verma,Civil,BTech,3,B
+STU2264,Aarav Verma,Computer Science,MCA,4,C
+STU2265,Amit Iyer,Information Technology,MCA,4,C
+STU2266,Neha Patel,Computer Science,MCA,1,D
+STU2267,Rohan Yadav,Computer Science,MTech,2,D
+STU2268,Amit Das,Computer Science,BCA,4,C
+STU2269,Pooja Kumar,Computer Science,MCA,1,D
+STU2270,Priya Nair,Civil,BTech,2,C
+STU2271,Kavita Singh,Electronics,MCA,3,B
+STU2272,Simran Gupta,Computer Science,BCA,3,D
+STU2273,Ananya Patel,Mechanical,MTech,1,C
+STU2274,Rahul Verma,Information Technology,BTech,1,D
+STU2275,Neha Singh,Information Technology,MTech,4,B
+STU2276,Neha Singh,Information Technology,MCA,3,D
+STU2277,Rohan Kaur,Information Technology,BTech,1,C
+STU2278,Vikram Patel,Information Technology,BTech,3,D
+STU2279,Rohan Kaur,Computer Science,MCA,3,D
+STU2280,Priya Gupta,Electronics,MCA,4,C
+STU2281,Kavita Sharma,Mechanical,BCA,2,A
+STU2282,Aarav Yadav,Civil,MCA,4,D
+STU2283,Karan Das,Mechanical,MCA,1,D
+STU2284,Karan Das,Civil,MCA,4,B
+STU2285,Kavita Sharma,Civil,BTech,4,A
+STU2286,Ananya Sharma,Mechanical,BCA,3,B
+STU2287,Karan Kumar,Computer Science,BTech,4,C
+STU2288,Kavita Verma,Information Technology,MCA,1,C
+STU2289,Ananya Gupta,Computer Science,BCA,2,B
+STU2290,Amit Sharma,Information Technology,MCA,4,D
+STU2291,Simran Kumar,Electronics,BTech,4,A
+STU2292,Rohan Iyer,Civil,BTech,2,B
+STU2293,Karan Das,Mechanical,MCA,1,B
+STU2294,Simran Singh,Electronics,BCA,1,C
+STU2295,Priya Sharma,Information Technology,BTech,4,D
+STU2296,Priya Iyer,Computer Science,MCA,3,A
+STU2297,Vikram Singh,Mechanical,MTech,4,B
+STU2298,Vikram Patel,Civil,MCA,2,A
+STU2299,Ananya Gupta,Electronics,MCA,2,A
+STU2300,Priya Gupta,Civil,BCA,2,B
+STU2301,Simran Reddy,Information Technology,MCA,4,A
+STU2302,Rahul Kumar,Civil,MTech,4,C
+STU2303,Neha Reddy,Computer Science,MCA,1,D
+STU2304,Pooja Sharma,Electronics,MTech,3,D
+STU2305,Simran Iyer,Electronics,BTech,4,D
+STU2306,Pooja Verma,Computer Science,MCA,1,C
+STU2307,Kavita Kumar,Civil,BCA,4,C
+STU2308,Karan Kaur,Computer Science,MCA,1,C
+STU2309,Pooja Nair,Mechanical,MTech,1,D
+STU2310,Rahul Sharma,Computer Science,MTech,3,A
+STU2311,Amit Sharma,Civil,BCA,4,C
+STU2312,Kavita Singh,Computer Science,MTech,1,B
+STU2313,Amit Patel,Information Technology,MCA,2,C
+STU2314,Pooja Kaur,Computer Science,MTech,2,B
+STU2315,Rahul Patel,Computer Science,MCA,2,D
+STU2316,Simran Yadav,Civil,MCA,3,B
+STU2317,Neha Reddy,Mechanical,MTech,1,C
+STU2318,Ananya Iyer,Mechanical,BCA,3,C
+STU2319,Pooja Das,Civil,BTech,4,A
+STU2320,Vikram Singh,Civil,BCA,4,D
+STU2321,Amit Iyer,Civil,BTech,1,B
+STU2322,Priya Das,Information Technology,BCA,2,D
+STU2323,Rahul Iyer,Electronics,MCA,1,C
+STU2324,Priya Yadav,Computer Science,MCA,1,A
+STU2325,Rohan Nair,Civil,MTech,1,C
+STU2326,Rohan Kaur,Civil,BTech,3,C
+STU2327,Karan Kaur,Civil,BTech,4,C
+STU2328,Ananya Patel,Mechanical,MTech,1,B
+STU2329,Ananya Das,Civil,BCA,1,C
+STU2330,Pooja Kumar,Computer Science,MTech,1,D
+STU2331,Aarav Iyer,Civil,BCA,3,D
+STU2332,Rahul Das,Computer Science,MTech,3,A
+STU2333,Priya Das,Information Technology,BTech,3,D
+STU2334,Kavita Kaur,Electronics,BTech,1,C
+STU2335,Priya Sharma,Mechanical,BCA,2,C
+STU2336,Rohan Reddy,Computer Science,BTech,2,D
+STU2337,Rahul Reddy,Information Technology,BTech,2,A
+STU2338,Karan Das,Electronics,BTech,4,A
+STU2339,Ananya Patel,Electronics,BTech,1,D
+STU2340,Karan Das,Electronics,MCA,2,B
+STU2341,Neha Iyer,Computer Science,MTech,2,B
+STU2342,Priya Kaur,Information Technology,MTech,2,B
+STU2343,Rahul Yadav,Civil,MCA,1,B
+STU2344,Aarav Sharma,Information Technology,BTech,2,D
+STU2345,Priya Singh,Information Technology,MTech,2,A
+STU2346,Aarav Kumar,Information Technology,MTech,1,C
+STU2347,Priya Patel,Computer Science,MTech,4,C
+STU2348,Aarav Reddy,Computer Science,BCA,3,D
+STU2349,Priya Kumar,Computer Science,MCA,2,C
+STU2350,Pooja Iyer,Information Technology,BCA,3,B
+STU2351,Ananya Sharma,Computer Science,BCA,4,A
+STU2352,Pooja Kaur,Electronics,MCA,4,D
+STU2353,Amit Iyer,Computer Science,MTech,2,A
+STU2354,Simran Patel,Mechanical,BCA,1,D
+STU2355,Priya Das,Computer Science,MTech,4,D
+STU2356,Karan Kumar,Computer Science,BCA,3,D
+STU2357,Kavita Nair,Computer Science,MTech,3,D
+STU2358,Amit Kumar,Computer Science,BTech,3,A
+STU2359,Amit Reddy,Mechanical,BTech,3,C
+STU2360,Rohan Gupta,Civil,BTech,4,D
+STU2361,Kavita Sharma,Computer Science,MCA,2,B
+STU2362,Amit Kumar,Electronics,BTech,2,D
+STU2363,Rahul Reddy,Mechanical,BCA,3,A
+STU2364,Simran Nair,Civil,MTech,2,D
+STU2365,Neha Singh,Computer Science,MTech,3,B
+STU2366,Aarav Verma,Civil,MTech,3,A
+STU2367,Vikram Nair,Electronics,MTech,1,D
+STU2368,Aarav Kumar,Mechanical,BCA,4,B
+STU2369,Karan Das,Mechanical,MTech,4,A
+STU2370,Simran Gupta,Civil,BCA,3,D
+STU2371,Amit Kaur,Computer Science,BCA,4,B
+STU2372,Rohan Reddy,Information Technology,MTech,2,A
+STU2373,Aarav Das,Mechanical,MTech,3,D
+STU2374,Simran Singh,Information Technology,MTech,1,A
+STU2375,Pooja Kaur,Mechanical,BCA,2,B
+STU2376,Ananya Patel,Computer Science,MCA,1,D
+STU2377,Priya Das,Computer Science,BCA,1,D
+STU2378,Neha Patel,Mechanical,MCA,4,D
+STU2379,Pooja Iyer,Civil,MTech,4,B
+STU2380,Aarav Singh,Computer Science,BCA,3,C
+STU2381,Neha Das,Computer Science,MTech,4,D
+STU2382,Neha Patel,Electronics,MCA,1,B
+STU2383,Pooja Sharma,Computer Science,MCA,1,A
+STU2384,Rahul Iyer,Electronics,BCA,2,A
+STU2385,Amit Kumar,Computer Science,BCA,1,B
+STU2386,Vikram Sharma,Computer Science,BCA,3,C
+STU2387,Kavita Yadav,Civil,BCA,3,B
+STU2388,Aarav Iyer,Civil,BTech,4,A
+STU2389,Karan Kumar,Computer Science,BTech,4,A
+STU2390,Simran Gupta,Mechanical,MTech,4,D
+STU2391,Amit Verma,Mechanical,MCA,3,C
+STU2392,Simran Reddy,Computer Science,MCA,1,B
+STU2393,Amit Das,Mechanical,MTech,4,A
+STU2394,Kavita Iyer,Computer Science,MTech,2,A
+STU2395,Pooja Gupta,Civil,MTech,4,A
+STU2396,Priya Kaur,Information Technology,BTech,3,B
+STU2397,Kavita Das,Electronics,MTech,4,B
+STU2398,Karan Yadav,Mechanical,MCA,1,C
+STU2399,Simran Kaur,Mechanical,MTech,4,D
+STU2400,Ananya Das,Civil,BCA,3,D
+STU2401,Pooja Kumar,Mechanical,MCA,3,D
+STU2402,Priya Iyer,Computer Science,MCA,2,A
+STU2403,Vikram Das,Computer Science,MCA,3,D
+STU2404,Ananya Gupta,Information Technology,BTech,2,A
+STU2405,Priya Yadav,Information Technology,BTech,1,C
+STU2406,Aarav Singh,Information Technology,MCA,3,A
+STU2407,Rohan Iyer,Computer Science,BCA,4,C
+STU2408,Simran Kumar,Information Technology,MCA,1,C
+STU2409,Aarav Iyer,Information Technology,BTech,4,D
+STU2410,Ananya Verma,Computer Science,BCA,4,D
+STU2411,Karan Sharma,Civil,MCA,4,A
+STU2412,Pooja Yadav,Mechanical,BTech,1,B
+STU2413,Karan Kaur,Electronics,BCA,1,D
+STU2414,Vikram Patel,Computer Science,MTech,3,D
+STU2415,Priya Patel,Computer Science,MTech,4,B
+STU2416,Rohan Nair,Electronics,MCA,2,B
+STU2417,Karan Sharma,Electronics,MTech,3,D
+STU2418,Priya Yadav,Information Technology,BTech,1,B
+STU2419,Kavita Das,Electronics,BCA,2,A
+STU2420,Neha Reddy,Mechanical,MCA,1,C
+STU2421,Vikram Kumar,Mechanical,BCA,2,C
+STU2422,Karan Reddy,Mechanical,BCA,3,D
+STU2423,Priya Gupta,Mechanical,BCA,2,D
+STU2424,Rahul Singh,Mechanical,BTech,3,A
+STU2425,Vikram Verma,Information Technology,MCA,1,B
+STU2426,Priya Reddy,Computer Science,MTech,2,D
+STU2427,Aarav Reddy,Electronics,BCA,4,C
+STU2428,Pooja Singh,Computer Science,BCA,4,A
+STU2429,Aarav Sharma,Electronics,BCA,1,A
+STU2430,Karan Kumar,Information Technology,BTech,2,B
+STU2431,Ananya Patel,Information Technology,MTech,4,D
+STU2432,Rohan Singh,Civil,BCA,3,D
+STU2433,Ananya Kumar,Civil,BTech,2,A
+STU2434,Ananya Verma,Information Technology,BTech,2,C
+STU2435,Pooja Singh,Information Technology,BCA,4,D
+STU2436,Aarav Yadav,Electronics,BCA,3,C
+STU2437,Vikram Patel,Information Technology,BTech,3,A
+STU2438,Rahul Iyer,Computer Science,BTech,3,D
+STU2439,Rahul Verma,Electronics,BCA,2,C
+STU2440,Vikram Nair,Information Technology,BTech,1,A
+STU2441,Vikram Sharma,Electronics,BTech,2,C
+STU2442,Vikram Gupta,Electronics,BCA,2,D
+STU2443,Karan Kaur,Mechanical,BCA,4,B
+STU2444,Karan Iyer,Civil,MCA,1,C
+STU2445,Kavita Kaur,Electronics,MTech,3,B
+STU2446,Ananya Iyer,Electronics,BCA,4,D
+STU2447,Aarav Sharma,Mechanical,BCA,2,B
+STU2448,Amit Reddy,Information Technology,BCA,1,A
+STU2449,Rohan Reddy,Electronics,MTech,3,B
+STU2450,Pooja Yadav,Mechanical,MCA,3,C
+STU2451,Rohan Nair,Computer Science,BTech,2,C
+STU2452,Simran Kumar,Mechanical,MTech,3,B
+STU2453,Pooja Yadav,Civil,BCA,3,A
+STU2454,Amit Singh,Civil,BCA,1,D
+STU2455,Vikram Iyer,Information Technology,MCA,4,B
+STU2456,Rohan Iyer,Information Technology,MCA,1,C
+STU2457,Kavita Gupta,Civil,MCA,4,C
+STU2458,Neha Das,Civil,BTech,4,B
+STU2459,Rahul Sharma,Electronics,MTech,4,B
+STU2460,Aarav Patel,Civil,MTech,3,B
+STU2461,Rohan Reddy,Information Technology,MCA,1,D
+STU2462,Neha Reddy,Civil,BTech,3,C
+STU2463,Aarav Kaur,Information Technology,MTech,2,C
+STU2464,Simran Patel,Computer Science,BCA,1,C
+STU2465,Ananya Sharma,Civil,BCA,4,D
+STU2466,Simran Sharma,Information Technology,BCA,3,A
+STU2467,Karan Singh,Mechanical,MTech,3,C
+STU2468,Neha Reddy,Electronics,MCA,1,C
+STU2469,Aarav Singh,Information Technology,BCA,1,A
+STU2470,Karan Reddy,Civil,MCA,4,D
+STU2471,Aarav Patel,Civil,BTech,4,A
+STU2472,Vikram Reddy,Computer Science,BCA,2,A
+STU2473,Aarav Singh,Mechanical,BTech,4,A
+STU2474,Karan Sharma,Information Technology,MCA,3,A
+STU2475,Aarav Sharma,Mechanical,MTech,2,D
+STU2476,Amit Kumar,Computer Science,MCA,2,D
+STU2477,Amit Patel,Electronics,BCA,2,A
+STU2478,Karan Das,Mechanical,BCA,1,B
+STU2479,Pooja Yadav,Computer Science,MCA,4,B
+STU2480,Rahul Iyer,Information Technology,BCA,2,B
+STU2481,Kavita Kumar,Electronics,BCA,1,B
+STU2482,Neha Gupta,Civil,BTech,1,C
+STU2483,Aarav Kumar,Computer Science,MTech,2,D
+STU2484,Ananya Kumar,Civil,MCA,2,D
+STU2485,Rohan Yadav,Electronics,BTech,3,A
+STU2486,Rohan Iyer,Computer Science,BCA,2,C
+STU2487,Rahul Singh,Computer Science,BTech,3,A
+STU2488,Rohan Patel,Electronics,MTech,2,A
+STU2489,Simran Kumar,Information Technology,MCA,2,D
+STU2490,Rohan Das,Computer Science,MTech,4,C
+STU2491,Karan Kumar,Electronics,MTech,2,B
+STU2492,Neha Kaur,Mechanical,BTech,2,D
+STU2493,Rohan Kaur,Civil,BTech,3,C
+STU2494,Neha Iyer,Computer Science,MTech,3,C
+STU2495,Ananya Yadav,Mechanical,BCA,4,D
+STU2496,Rahul Gupta,Computer Science,MCA,2,D
+STU2497,Priya Yadav,Information Technology,BCA,2,A
+STU2498,Priya Kumar,Electronics,BCA,3,A
+STU2499,Aarav Kaur,Computer Science,MCA,1,A
+STU2500,Simran Iyer,Electronics,BTech,1,B
+STU2501,Priya Das,Computer Science,BCA,1,D
+STU2502,Pooja Patel,Information Technology,BTech,3,C
+STU2503,Rohan Patel,Information Technology,MCA,3,D
+STU2504,Ananya Gupta,Mechanical,BCA,1,C
+STU2505,Amit Singh,Information Technology,BTech,1,B
+STU2506,Priya Das,Electronics,BTech,2,D
+STU2507,Kavita Nair,Information Technology,BCA,3,C
+STU2508,Amit Reddy,Computer Science,MCA,3,C
+STU2509,Amit Das,Information Technology,MTech,1,A
+STU2510,Amit Kaur,Electronics,BTech,1,B
+STU2511,Aarav Kumar,Computer Science,MCA,4,D
+STU2512,Kavita Yadav,Mechanical,BCA,3,A
+STU2513,Simran Gupta,Mechanical,BTech,4,B
+STU2514,Rahul Nair,Mechanical,BTech,2,A
+STU2515,Neha Kumar,Computer Science,BTech,4,D
+STU2516,Pooja Reddy,Mechanical,MCA,1,C
+STU2517,Karan Singh,Information Technology,BTech,3,D
+STU2518,Pooja Nair,Computer Science,BTech,3,B
+STU2519,Aarav Patel,Computer Science,BCA,4,D
+STU2520,Karan Patel,Computer Science,BTech,4,B
+STU2521,Kavita Das,Civil,MCA,2,A
+STU2522,Vikram Yadav,Electronics,BCA,2,B
+STU2523,Rahul Yadav,Civil,MTech,1,C
+STU2524,Ananya Reddy,Civil,BCA,1,C
+STU2525,Aarav Singh,Civil,BTech,1,C
+STU2526,Rohan Verma,Electronics,MTech,4,A
+STU2527,Pooja Nair,Civil,BCA,4,B
+STU2528,Pooja Verma,Mechanical,BTech,3,A
+STU2529,Karan Iyer,Computer Science,BCA,1,D
+STU2530,Pooja Yadav,Computer Science,MCA,4,D
+STU2531,Pooja Das,Information Technology,BTech,3,D
+STU2532,Ananya Gupta,Mechanical,MCA,1,D
+STU2533,Neha Das,Electronics,BTech,2,C
+STU2534,Rahul Gupta,Computer Science,MCA,2,B
+STU2535,Amit Kaur,Civil,MTech,4,C
+STU2536,Kavita Reddy,Information Technology,MCA,3,B
+STU2537,Kavita Das,Information Technology,BCA,2,B
+STU2538,Aarav Reddy,Computer Science,BTech,3,A
+STU2539,Simran Kaur,Mechanical,BCA,3,D
+STU2540,Kavita Patel,Information Technology,MCA,2,B
+STU2541,Pooja Singh,Computer Science,BTech,3,D
+STU2542,Simran Sharma,Mechanical,MCA,2,D
+STU2543,Ananya Kumar,Computer Science,MTech,4,D
+STU2544,Rohan Iyer,Computer Science,MTech,1,C
+STU2545,Rohan Sharma,Mechanical,MTech,1,D
+STU2546,Kavita Verma,Mechanical,MCA,4,B
+STU2547,Pooja Das,Mechanical,MCA,2,C
+STU2548,Priya Singh,Computer Science,MTech,2,D
+STU2549,Ananya Reddy,Information Technology,MCA,2,A
+STU2550,Vikram Verma,Electronics,BCA,2,D
+STU2551,Priya Singh,Electronics,MCA,4,D
+STU2552,Vikram Iyer,Computer Science,BCA,1,C
+STU2553,Neha Nair,Computer Science,MTech,3,B
+STU2554,Pooja Verma,Information Technology,MCA,3,D
+STU2555,Priya Yadav,Mechanical,MTech,1,C
+STU2556,Aarav Yadav,Computer Science,BTech,4,C
+STU2557,Neha Sharma,Civil,MCA,3,B
+STU2558,Karan Iyer,Mechanical,MCA,1,C
+STU2559,Ananya Verma,Computer Science,MTech,4,B
+STU2560,Rohan Verma,Civil,MTech,3,A
+STU2561,Kavita Gupta,Information Technology,MTech,2,D
+STU2562,Simran Iyer,Civil,BTech,2,C
+STU2563,Rahul Gupta,Computer Science,BTech,4,A
+STU2564,Amit Gupta,Electronics,MTech,2,C
+STU2565,Neha Singh,Computer Science,MCA,4,C
+STU2566,Neha Iyer,Electronics,MCA,1,A
+STU2567,Simran Kaur,Information Technology,MTech,1,C
+STU2568,Neha Das,Information Technology,BCA,3,C
+STU2569,Aarav Iyer,Mechanical,BTech,4,A
+STU2570,Ananya Das,Mechanical,BTech,3,C
+STU2571,Priya Yadav,Electronics,BCA,3,B
+STU2572,Amit Das,Electronics,MTech,1,C
+STU2573,Pooja Patel,Information Technology,MCA,3,D
+STU2574,Amit Patel,Civil,MCA,2,C
+STU2575,Aarav Patel,Electronics,BTech,3,D
+STU2576,Priya Das,Electronics,BCA,4,D
+STU2577,Amit Verma,Civil,MCA,2,C
+STU2578,Rohan Iyer,Mechanical,BTech,1,A
+STU2579,Amit Yadav,Mechanical,MCA,4,B
+STU2580,Karan Patel,Electronics,MCA,2,B
+STU2581,Ananya Iyer,Mechanical,MCA,4,C
+STU2582,Neha Kaur,Mechanical,BTech,2,A
+STU2583,Aarav Nair,Mechanical,BCA,4,A
+STU2584,Vikram Das,Information Technology,MTech,4,B
+STU2585,Pooja Patel,Computer Science,BCA,2,A
+STU2586,Rohan Verma,Electronics,MCA,1,C
+STU2587,Karan Reddy,Electronics,BCA,1,C
+STU2588,Rohan Kumar,Information Technology,MCA,4,A
+STU2589,Priya Patel,Computer Science,BTech,4,C
+STU2590,Amit Kaur,Computer Science,BTech,1,D
+STU2591,Pooja Das,Information Technology,BTech,1,B
+STU2592,Rahul Nair,Civil,MCA,3,C
+STU2593,Rohan Singh,Civil,BCA,1,A
+STU2594,Neha Das,Computer Science,MTech,4,B
+STU2595,Simran Singh,Civil,MTech,2,C
+STU2596,Kavita Verma,Civil,BTech,1,B
+STU2597,Amit Verma,Civil,MTech,3,A
+STU2598,Rohan Verma,Computer Science,MCA,3,D
+STU2599,Kavita Kaur,Civil,BCA,3,D
+STU2600,Priya Iyer,Electronics,MTech,2,C
+STU2601,Aarav Reddy,Computer Science,MTech,1,D
+STU2602,Priya Iyer,Information Technology,BCA,1,C
+STU2603,Rahul Das,Civil,MTech,1,B
+STU2604,Amit Kaur,Mechanical,BCA,2,C
+STU2605,Amit Singh,Computer Science,MCA,2,C
+STU2606,Ananya Kaur,Information Technology,MCA,4,C
+STU2607,Neha Singh,Electronics,MCA,3,D
+STU2608,Amit Verma,Information Technology,BTech,3,C
+STU2609,Kavita Verma,Civil,MCA,1,A
+STU2610,Vikram Kumar,Mechanical,MTech,2,C
+STU2611,Amit Kumar,Civil,BTech,2,B
+STU2612,Rahul Iyer,Information Technology,BTech,1,A
+STU2613,Pooja Iyer,Computer Science,BTech,1,B
+STU2614,Rohan Sharma,Mechanical,MCA,4,B
+STU2615,Vikram Nair,Mechanical,BTech,3,B
+STU2616,Aarav Gupta,Information Technology,MCA,3,A
+STU2617,Kavita Iyer,Civil,MCA,3,A
+STU2618,Ananya Kaur,Information Technology,BTech,4,D
+STU2619,Aarav Kaur,Mechanical,BTech,1,A
+STU2620,Priya Kaur,Information Technology,MTech,1,C
+STU2621,Aarav Singh,Mechanical,BTech,3,B
+STU2622,Amit Das,Civil,MCA,3,D
+STU2623,Kavita Gupta,Computer Science,MTech,4,A
+STU2624,Ananya Nair,Computer Science,MTech,2,B
+STU2625,Ananya Patel,Information Technology,MCA,2,A
+STU2626,Kavita Gupta,Mechanical,BTech,3,D
+STU2627,Pooja Kaur,Computer Science,BTech,4,A
+STU2628,Karan Sharma,Mechanical,BCA,3,A
+STU2629,Ananya Kaur,Civil,BTech,2,B
+STU2630,Priya Iyer,Information Technology,BCA,3,C
+STU2631,Pooja Das,Mechanical,MTech,2,A
+STU2632,Neha Yadav,Information Technology,MTech,2,D
+STU2633,Neha Das,Mechanical,MTech,2,A
+STU2634,Ananya Nair,Mechanical,BCA,1,A
+STU2635,Neha Gupta,Civil,MCA,1,C
+STU2636,Pooja Sharma,Information Technology,MCA,3,B
+STU2637,Priya Nair,Electronics,MTech,2,D
+STU2638,Vikram Das,Mechanical,BCA,1,B
+STU2639,Vikram Das,Mechanical,BCA,3,B
+STU2640,Neha Das,Computer Science,MTech,3,B
+STU2641,Karan Singh,Information Technology,BTech,3,A
+STU2642,Neha Kumar,Electronics,MTech,3,C
+STU2643,Rohan Patel,Civil,BCA,3,A
+STU2644,Priya Verma,Electronics,BTech,4,D
+STU2645,Pooja Sharma,Civil,MCA,2,C
+STU2646,Vikram Kumar,Electronics,BTech,3,B
+STU2647,Neha Verma,Electronics,MCA,4,C
+STU2648,Priya Yadav,Information Technology,BCA,2,D
+STU2649,Vikram Verma,Computer Science,MTech,1,A
+STU2650,Vikram Yadav,Electronics,MTech,3,A
+STU2651,Aarav Sharma,Mechanical,MTech,4,B
+STU2652,Pooja Patel,Mechanical,MTech,1,A
+STU2653,Amit Kaur,Mechanical,MTech,4,A
+STU2654,Simran Singh,Computer Science,BCA,2,D
+STU2655,Kavita Reddy,Electronics,BCA,2,C
+STU2656,Simran Das,Civil,MTech,1,A
+STU2657,Priya Kaur,Civil,BTech,4,D
+STU2658,Ananya Gupta,Information Technology,MTech,3,D
+STU2659,Pooja Nair,Computer Science,MCA,3,B
+STU2660,Karan Nair,Electronics,MCA,1,D
+STU2661,Rohan Verma,Mechanical,MCA,1,B
+STU2662,Rahul Gupta,Computer Science,MCA,1,A
+STU2663,Neha Gupta,Computer Science,MTech,4,B
+STU2664,Kavita Gupta,Electronics,MCA,3,D
+STU2665,Vikram Gupta,Information Technology,BTech,3,C
+STU2666,Amit Gupta,Information Technology,MTech,3,C
+STU2667,Neha Yadav,Information Technology,MCA,1,A
+STU2668,Pooja Singh,Mechanical,MTech,3,A
+STU2669,Kavita Sharma,Mechanical,MTech,2,C
+STU2670,Priya Nair,Electronics,MTech,1,B
+STU2671,Karan Reddy,Information Technology,BCA,3,A
+STU2672,Ananya Nair,Electronics,MCA,4,D
+STU2673,Simran Iyer,Information Technology,BCA,1,A
+STU2674,Neha Gupta,Computer Science,BTech,2,B
+STU2675,Vikram Iyer,Civil,BTech,2,A
+STU2676,Simran Singh,Civil,BCA,4,D
+STU2677,Amit Yadav,Information Technology,MCA,4,D
+STU2678,Karan Iyer,Electronics,MTech,1,D
+STU2679,Pooja Gupta,Mechanical,BTech,1,B
+STU2680,Neha Patel,Information Technology,BTech,2,B
+STU2681,Kavita Yadav,Information Technology,BTech,4,D
+STU2682,Vikram Sharma,Mechanical,MCA,1,D
+STU2683,Aarav Singh,Information Technology,BCA,2,B
+STU2684,Pooja Kumar,Computer Science,BCA,4,B
+STU2685,Vikram Reddy,Mechanical,MCA,2,B
+STU2686,Karan Gupta,Computer Science,BTech,3,C
+STU2687,Simran Kumar,Civil,MCA,4,B
+STU2688,Ananya Kumar,Mechanical,MCA,1,D
+STU2689,Simran Patel,Mechanical,BCA,1,C
+STU2690,Kavita Gupta,Electronics,MCA,3,B
+STU2691,Aarav Reddy,Electronics,MCA,4,D
+STU2692,Vikram Singh,Mechanical,BTech,2,A
+STU2693,Aarav Kumar,Civil,MTech,1,C
+STU2694,Neha Nair,Information Technology,BTech,3,D
+STU2695,Pooja Das,Electronics,BCA,3,A
+STU2696,Karan Kaur,Civil,MTech,4,D
+STU2697,Rahul Yadav,Civil,BTech,4,B
+STU2698,Kavita Iyer,Electronics,MCA,1,B
+STU2699,Rohan Yadav,Information Technology,MCA,3,A
+STU2700,Vikram Kumar,Electronics,MTech,2,B
+STU2701,Rohan Kaur,Civil,MTech,3,D
+STU2702,Vikram Singh,Computer Science,MCA,2,A
+STU2703,Priya Das,Electronics,BCA,2,D
+STU2704,Rahul Gupta,Civil,BTech,1,D
+STU2705,Aarav Sharma,Electronics,MCA,3,D
+STU2706,Karan Iyer,Civil,BTech,2,B
+STU2707,Rohan Kumar,Information Technology,BTech,4,B
+STU2708,Kavita Reddy,Civil,BTech,2,D
+STU2709,Ananya Nair,Mechanical,BTech,4,C
+STU2710,Kavita Singh,Computer Science,BCA,4,D
+STU2711,Neha Kumar,Civil,BCA,3,D
+STU2712,Amit Iyer,Electronics,BCA,4,A
+STU2713,Ananya Gupta,Electronics,MCA,2,D
+STU2714,Kavita Verma,Civil,MCA,4,B
+STU2715,Rohan Yadav,Mechanical,MCA,3,A
+STU2716,Rohan Iyer,Civil,BCA,1,C
+STU2717,Simran Iyer,Information Technology,BTech,2,A
+STU2718,Ananya Gupta,Mechanical,BCA,2,C
+STU2719,Vikram Gupta,Civil,MCA,3,A
+STU2720,Rahul Iyer,Computer Science,MTech,3,A
+STU2721,Rohan Reddy,Mechanical,MCA,3,C
+STU2722,Rohan Das,Civil,BTech,3,B
+STU2723,Kavita Sharma,Computer Science,BCA,2,B
+STU2724,Amit Verma,Civil,MTech,1,B
+STU2725,Priya Kumar,Information Technology,MTech,4,A
+STU2726,Rahul Verma,Electronics,BTech,4,D
+STU2727,Pooja Nair,Civil,BCA,1,A
+STU2728,Vikram Iyer,Mechanical,MTech,1,D
+STU2729,Priya Reddy,Civil,MCA,1,D
+STU2730,Simran Sharma,Civil,BTech,3,B
+STU2731,Priya Nair,Civil,MTech,2,D
+STU2732,Aarav Iyer,Civil,BTech,2,A
+STU2733,Priya Sharma,Mechanical,BCA,2,A
+STU2734,Aarav Sharma,Mechanical,BCA,3,B
+STU2735,Neha Reddy,Civil,BCA,2,C
+STU2736,Neha Kaur,Electronics,MCA,3,A
+STU2737,Amit Singh,Civil,MTech,2,D
+STU2738,Neha Gupta,Mechanical,BCA,1,A
+STU2739,Amit Reddy,Information Technology,MCA,4,A
+STU2740,Amit Singh,Civil,BCA,4,A
+STU2741,Karan Sharma,Civil,BCA,3,C
+STU2742,Kavita Kumar,Civil,MTech,2,D
+STU2743,Vikram Kaur,Civil,MCA,4,B
+STU2744,Ananya Kaur,Computer Science,BCA,1,A
+STU2745,Aarav Singh,Civil,MCA,1,D
+STU2746,Simran Kaur,Mechanical,MCA,1,D
+STU2747,Amit Verma,Mechanical,BCA,3,B
+STU2748,Karan Singh,Computer Science,BCA,3,A
+STU2749,Aarav Gupta,Civil,BTech,2,C
+STU2750,Rohan Nair,Electronics,MTech,1,D
+STU2751,Rahul Nair,Civil,BCA,2,B
+STU2752,Pooja Yadav,Mechanical,BTech,2,C
+STU2753,Karan Singh,Information Technology,MTech,1,D
+STU2754,Priya Sharma,Information Technology,BCA,2,A
+STU2755,Rahul Nair,Electronics,MCA,4,D
+STU2756,Rahul Iyer,Civil,MTech,3,C
+STU2757,Aarav Yadav,Computer Science,MCA,2,C
+STU2758,Rohan Das,Civil,BTech,1,A
+STU2759,Simran Kumar,Electronics,BCA,3,A
+STU2760,Kavita Sharma,Electronics,BTech,3,B
+STU2761,Rahul Kumar,Electronics,BCA,2,A
+STU2762,Neha Gupta,Information Technology,BCA,4,B
+STU2763,Amit Yadav,Civil,MCA,2,C
+STU2764,Aarav Das,Civil,BTech,4,C
+STU2765,Neha Reddy,Computer Science,MCA,3,D
+STU2766,Rohan Das,Electronics,MCA,2,D
+STU2767,Vikram Das,Electronics,MCA,1,B
+STU2768,Aarav Sharma,Mechanical,BTech,2,A
+STU2769,Pooja Verma,Mechanical,BCA,4,A
+STU2770,Karan Gupta,Information Technology,BCA,4,D
+STU2771,Vikram Gupta,Civil,BTech,2,C
+STU2772,Ananya Iyer,Computer Science,BCA,4,B
+STU2773,Simran Iyer,Computer Science,BTech,3,C
+STU2774,Karan Patel,Electronics,BTech,2,C
+STU2775,Ananya Gupta,Computer Science,BCA,4,A
+STU2776,Rahul Sharma,Electronics,MTech,2,B
+STU2777,Rohan Patel,Civil,MCA,2,C
+STU2778,Amit Gupta,Computer Science,BTech,1,D
+STU2779,Aarav Verma,Electronics,BTech,2,D
+STU2780,Rohan Kaur,Civil,MTech,1,A
+STU2781,Neha Patel,Civil,BTech,4,D
+STU2782,Vikram Yadav,Electronics,BTech,1,D
+STU2783,Amit Sharma,Electronics,BCA,1,C
+STU2784,Ananya Patel,Information Technology,BCA,1,D
+STU2785,Neha Iyer,Civil,MTech,3,D
+STU2786,Kavita Kaur,Electronics,BTech,1,C
+STU2787,Ananya Singh,Civil,MCA,2,A
+STU2788,Karan Patel,Computer Science,BCA,1,A
+STU2789,Priya Nair,Mechanical,MCA,2,B
+STU2790,Ananya Reddy,Mechanical,MCA,1,D
+STU2791,Aarav Das,Electronics,MTech,3,C
+STU2792,Priya Reddy,Electronics,MTech,4,B
+STU2793,Priya Reddy,Civil,BTech,1,A
+STU2794,Aarav Kumar,Electronics,MTech,1,A
+STU2795,Priya Singh,Civil,BCA,3,C
+STU2796,Kavita Patel,Electronics,BTech,1,B
+STU2797,Pooja Yadav,Civil,BTech,2,B
+STU2798,Rohan Gupta,Electronics,MCA,1,C
+STU2799,Neha Das,Information Technology,MCA,1,C
+STU2800,Kavita Sharma,Civil,MCA,4,B
+STU2801,Pooja Kaur,Information Technology,BTech,4,A
+STU2802,Neha Sharma,Information Technology,MTech,1,D
+STU2803,Kavita Gupta,Information Technology,MTech,3,A
+STU2804,Neha Kaur,Information Technology,MTech,4,C
+STU2805,Priya Iyer,Computer Science,BTech,1,B
+STU2806,Kavita Das,Mechanical,BTech,4,B
+STU2807,Rahul Gupta,Computer Science,BTech,1,D
+STU2808,Kavita Gupta,Electronics,BTech,4,B
+STU2809,Vikram Kumar,Electronics,BTech,4,D
+STU2810,Simran Patel,Mechanical,MTech,2,A
+STU2811,Pooja Gupta,Mechanical,BTech,1,A
+STU2812,Ananya Reddy,Mechanical,MTech,1,B
+STU2813,Rahul Reddy,Information Technology,BTech,1,B
+STU2814,Priya Gupta,Computer Science,MTech,1,C
+STU2815,Pooja Patel,Electronics,BCA,4,C
+STU2816,Rohan Gupta,Computer Science,BCA,2,B
+STU2817,Karan Patel,Computer Science,MTech,2,B
+STU2818,Pooja Das,Computer Science,BCA,3,A
+STU2819,Aarav Patel,Mechanical,BCA,1,B
+STU2820,Kavita Kumar,Mechanical,MTech,3,C
+STU2821,Karan Yadav,Electronics,BTech,4,A
+STU2822,Pooja Kaur,Electronics,BTech,3,D
+STU2823,Vikram Kaur,Electronics,MTech,1,C
+STU2824,Priya Yadav,Computer Science,MCA,2,C
+STU2825,Vikram Nair,Mechanical,MCA,2,A
+STU2826,Vikram Singh,Information Technology,BCA,1,D
+STU2827,Aarav Iyer,Computer Science,MCA,4,C
+STU2828,Rahul Kaur,Civil,BCA,1,B
+STU2829,Rohan Reddy,Computer Science,BTech,4,C
+STU2830,Karan Kumar,Mechanical,MTech,2,A
+STU2831,Priya Sharma,Civil,BTech,4,A
+STU2832,Priya Iyer,Computer Science,MTech,1,A
+STU2833,Karan Sharma,Mechanical,MCA,1,C
+STU2834,Priya Iyer,Mechanical,BTech,1,D
+STU2835,Pooja Reddy,Information Technology,BTech,4,B
+STU2836,Priya Kumar,Computer Science,BCA,4,A
+STU2837,Karan Gupta,Mechanical,MTech,4,D
+STU2838,Rahul Reddy,Electronics,MCA,2,B
+STU2839,Karan Iyer,Mechanical,BTech,3,A
+STU2840,Aarav Das,Information Technology,MTech,3,B
+STU2841,Kavita Singh,Mechanical,MCA,1,B
+STU2842,Priya Das,Computer Science,BTech,2,D
+STU2843,Simran Verma,Computer Science,MTech,4,B
+STU2844,Kavita Patel,Civil,BCA,1,A
+STU2845,Ananya Gupta,Computer Science,BTech,2,D
+STU2846,Vikram Patel,Civil,MTech,1,C
+STU2847,Neha Kaur,Electronics,MCA,2,C
+STU2848,Pooja Kumar,Information Technology,MCA,2,D
+STU2849,Priya Sharma,Electronics,BCA,3,C
+STU2850,Neha Singh,Civil,BTech,1,B
+STU2851,Amit Verma,Mechanical,BCA,4,A
+STU2852,Pooja Verma,Mechanical,MTech,3,B
+STU2853,Vikram Verma,Electronics,MCA,3,D
+STU2854,Neha Das,Mechanical,BCA,4,A
+STU2855,Ananya Verma,Civil,BTech,2,D
+STU2856,Rahul Das,Information Technology,MTech,4,D
+STU2857,Simran Sharma,Computer Science,BTech,1,D
+STU2858,Neha Yadav,Civil,BCA,4,B
+STU2859,Rohan Das,Civil,MCA,2,A
+STU2860,Kavita Yadav,Computer Science,MCA,4,A
+STU2861,Kavita Singh,Computer Science,BCA,2,A
+STU2862,Pooja Das,Information Technology,BTech,2,B
+STU2863,Neha Iyer,Information Technology,BTech,1,C
+STU2864,Kavita Reddy,Information Technology,BTech,4,B
+STU2865,Rahul Singh,Mechanical,BTech,4,B
+STU2866,Pooja Verma,Civil,MCA,1,D
+STU2867,Neha Kaur,Computer Science,BTech,2,A
+STU2868,Vikram Nair,Civil,BCA,4,A
+STU2869,Rahul Yadav,Civil,BCA,1,C
+STU2870,Aarav Singh,Information Technology,BCA,2,C
+STU2871,Ananya Gupta,Information Technology,BCA,1,D
+STU2872,Karan Sharma,Civil,BTech,4,A
+STU2873,Aarav Kumar,Information Technology,MCA,1,C
+STU2874,Pooja Iyer,Mechanical,MTech,3,C
+STU2875,Pooja Verma,Computer Science,BTech,2,A
+STU2876,Aarav Iyer,Civil,MTech,3,B
+STU2877,Ananya Patel,Computer Science,MCA,3,C
+STU2878,Neha Sharma,Mechanical,BTech,2,A
+STU2879,Aarav Iyer,Information Technology,MTech,2,C
+STU2880,Pooja Sharma,Electronics,MCA,1,D
+STU2881,Ananya Sharma,Mechanical,MTech,2,C
+STU2882,Ananya Patel,Electronics,BCA,3,A
+STU2883,Neha Iyer,Computer Science,BCA,3,C
+STU2884,Amit Sharma,Civil,MCA,4,D
+STU2885,Karan Gupta,Information Technology,MCA,2,D
+STU2886,Rohan Yadav,Mechanical,MTech,3,C
+STU2887,Ananya Verma,Information Technology,MCA,4,C
+STU2888,Ananya Reddy,Electronics,BCA,4,D
+STU2889,Aarav Singh,Electronics,BCA,1,D
+STU2890,Rahul Kaur,Civil,BTech,3,B
+STU2891,Pooja Verma,Electronics,MTech,1,B
+STU2892,Pooja Nair,Civil,MCA,3,D
+STU2893,Ananya Iyer,Mechanical,MCA,1,C
+STU2894,Amit Kaur,Civil,MCA,1,A
+STU2895,Simran Nair,Electronics,MTech,2,C
+STU2896,Aarav Kumar,Computer Science,BCA,1,C
+STU2897,Vikram Yadav,Civil,MCA,2,B
+STU2898,Vikram Patel,Information Technology,MCA,4,B
+STU2899,Amit Yadav,Computer Science,BCA,3,B
+STU2900,Rohan Sharma,Civil,MCA,4,D
+STU2901,Rohan Patel,Information Technology,BTech,3,D
+STU2902,Priya Nair,Computer Science,BCA,4,C
+STU2903,Rohan Reddy,Civil,BCA,3,C
+STU2904,Kavita Gupta,Mechanical,BCA,1,A
+STU2905,Neha Sharma,Information Technology,BTech,3,C
+STU2906,Vikram Das,Mechanical,BCA,3,C
+STU2907,Simran Sharma,Electronics,MTech,4,B
+STU2908,Rohan Nair,Civil,MTech,4,B
+STU2909,Ananya Reddy,Civil,MTech,4,B
+STU2910,Karan Nair,Information Technology,BCA,2,B
+STU2911,Neha Das,Civil,BCA,2,B
+STU2912,Kavita Nair,Electronics,BCA,3,A
+STU2913,Pooja Yadav,Civil,BTech,3,A
+STU2914,Simran Patel,Computer Science,MTech,1,A
+STU2915,Ananya Gupta,Mechanical,MCA,1,B
+STU2916,Neha Das,Electronics,MCA,3,D
+STU2917,Rahul Singh,Electronics,BCA,2,B
+STU2918,Simran Gupta,Mechanical,BTech,3,B
+STU2919,Vikram Gupta,Mechanical,BCA,1,A
+STU2920,Kavita Patel,Electronics,MCA,2,B
+STU2921,Vikram Reddy,Mechanical,MTech,2,A
+STU2922,Rahul Patel,Information Technology,MCA,1,B
+STU2923,Pooja Iyer,Mechanical,MTech,3,C
+STU2924,Simran Kaur,Computer Science,MTech,4,D
+STU2925,Karan Verma,Computer Science,BTech,3,D
+STU2926,Vikram Yadav,Information Technology,MCA,3,A
+STU2927,Simran Das,Mechanical,BCA,1,C
+STU2928,Vikram Verma,Computer Science,BTech,2,D
+STU2929,Ananya Gupta,Civil,MTech,1,A
+STU2930,Pooja Yadav,Mechanical,MCA,3,B
+STU2931,Priya Singh,Information Technology,BCA,4,B
+STU2932,Ananya Reddy,Mechanical,BTech,4,C
+STU2933,Simran Gupta,Electronics,BCA,4,D
+STU2934,Pooja Kumar,Electronics,MCA,1,B
+STU2935,Karan Reddy,Computer Science,BCA,2,A
+STU2936,Priya Iyer,Electronics,BTech,1,B
+STU2937,Neha Das,Information Technology,BCA,4,B
+STU2938,Rohan Reddy,Computer Science,MCA,3,D
+STU2939,Amit Das,Information Technology,BTech,2,D
+STU2940,Aarav Nair,Information Technology,MTech,1,A
+STU2941,Priya Sharma,Electronics,BTech,1,C
+STU2942,Rahul Patel,Electronics,MCA,2,C
+STU2943,Karan Iyer,Information Technology,BCA,2,B
+STU2944,Neha Iyer,Electronics,MTech,3,A
+STU2945,Rohan Iyer,Electronics,MTech,2,C
+STU2946,Aarav Nair,Electronics,BCA,3,C
+STU2947,Ananya Singh,Mechanical,MCA,4,B
+STU2948,Amit Das,Information Technology,BTech,4,A
+STU2949,Pooja Patel,Civil,MCA,1,C
+STU2950,Rahul Yadav,Information Technology,MTech,4,D
+STU2951,Kavita Singh,Computer Science,BTech,4,D
+STU2952,Aarav Kaur,Electronics,BTech,3,B
+STU2953,Aarav Das,Electronics,BCA,1,B
+STU2954,Rahul Kumar,Civil,MCA,2,B
+STU2955,Vikram Reddy,Computer Science,BTech,1,B
+STU2956,Rohan Verma,Mechanical,BCA,4,C
+STU2957,Priya Singh,Information Technology,MCA,2,A
+STU2958,Rahul Yadav,Mechanical,MTech,1,B
+STU2959,Simran Gupta,Computer Science,MTech,1,B
+STU2960,Rahul Reddy,Civil,MCA,1,C
+STU2961,Pooja Kumar,Computer Science,BTech,1,B
+STU2962,Pooja Singh,Civil,BTech,3,B
+STU2963,Rahul Kumar,Mechanical,MTech,1,A
+STU2964,Rohan Nair,Mechanical,MTech,4,D
+STU2965,Simran Reddy,Computer Science,BTech,4,B
+STU2966,Rohan Das,Computer Science,MCA,3,C
+STU2967,Amit Verma,Electronics,MTech,2,A
+STU2968,Karan Iyer,Civil,BTech,2,C
+STU2969,Vikram Singh,Electronics,MCA,4,A
+STU2970,Aarav Kaur,Information Technology,BCA,4,A
+STU2971,Kavita Kumar,Information Technology,MCA,3,B
+STU2972,Pooja Kaur,Computer Science,BTech,2,B
+STU2973,Ananya Das,Mechanical,MCA,2,B
+STU2974,Amit Sharma,Information Technology,BTech,1,D
+STU2975,Rohan Kaur,Information Technology,MTech,1,D
+STU2976,Rohan Verma,Electronics,BCA,1,C
+STU2977,Amit Reddy,Electronics,MTech,3,B
+STU2978,Ananya Kumar,Information Technology,MTech,4,D
+STU2979,Kavita Das,Computer Science,BTech,3,B
+STU2980,Pooja Yadav,Electronics,BTech,2,D
+STU2981,Kavita Nair,Information Technology,BTech,4,D
+STU2982,Vikram Iyer,Mechanical,BTech,1,A
+STU2983,Simran Reddy,Electronics,MTech,3,B
+STU2984,Amit Das,Information Technology,BTech,3,B
+STU2985,Amit Gupta,Civil,BTech,1,D
+STU2986,Vikram Singh,Electronics,MTech,3,B
+STU2987,Neha Yadav,Civil,BCA,1,D
+STU2988,Kavita Das,Electronics,BCA,2,B
+STU2989,Aarav Sharma,Electronics,MCA,4,A
+STU2990,Neha Nair,Civil,MTech,2,B
+STU2991,Karan Gupta,Computer Science,BTech,2,A
+STU2992,Karan Reddy,Information Technology,MCA,1,C
+STU2993,Priya Yadav,Computer Science,BCA,3,B
+STU2994,Ananya Yadav,Computer Science,BCA,2,B
+STU2995,Karan Singh,Information Technology,MTech,2,B
+STU2996,Pooja Singh,Mechanical,BTech,2,A
+STU2997,Priya Yadav,Computer Science,BTech,3,B
+STU2998,Karan Patel,Computer Science,MCA,3,B
+STU2999,Priya Nair,Computer Science,BCA,1,D
+STU3000,Rohan Reddy,Mechanical,MCA,2,C
+STU3001,Karan Verma,Electronics,MCA,4,A
+STU3002,Amit Singh,Civil,MCA,3,D
+STU3003,Priya Nair,Civil,BTech,1,A
+STU3004,Rahul Iyer,Mechanical,BCA,2,D
+STU3005,Priya Kaur,Computer Science,MCA,4,C
+STU3006,Ananya Kaur,Civil,BCA,3,D
+STU3007,Karan Iyer,Mechanical,BCA,4,A
+STU3008,Priya Patel,Information Technology,MCA,3,B
+STU3009,Vikram Kaur,Civil,MCA,1,B
+STU3010,Amit Iyer,Information Technology,MTech,4,C
+STU3011,Priya Iyer,Computer Science,BTech,2,A
+STU3012,Priya Nair,Civil,BCA,2,A
+STU3013,Priya Kumar,Mechanical,MCA,3,A
+STU3014,Vikram Patel,Electronics,MCA,2,C
+STU3015,Rohan Iyer,Civil,BCA,4,B
+STU3016,Ananya Nair,Civil,MCA,1,D
+STU3017,Rahul Nair,Civil,MTech,3,C
+STU3018,Rahul Nair,Civil,BCA,4,D
+STU3019,Simran Kaur,Mechanical,MCA,3,B
+STU3020,Karan Nair,Mechanical,BCA,1,C
+STU3021,Vikram Das,Electronics,MCA,3,B
+STU3022,Karan Iyer,Mechanical,MCA,2,D
+STU3023,Pooja Nair,Mechanical,BTech,2,A
+STU3024,Kavita Kaur,Computer Science,BCA,3,A
+STU3025,Pooja Kumar,Computer Science,BTech,1,D
+STU3026,Pooja Singh,Information Technology,MCA,1,A
+STU3027,Priya Patel,Electronics,BCA,2,D
+STU3028,Pooja Patel,Computer Science,BCA,1,C
+STU3029,Rahul Verma,Electronics,MTech,3,C
+STU3030,Rohan Verma,Electronics,MTech,4,C
+STU3031,Simran Das,Civil,MCA,3,A
+STU3032,Priya Reddy,Electronics,MCA,2,B
+STU3033,Simran Kaur,Civil,MCA,2,A
+STU3034,Kavita Gupta,Information Technology,MCA,2,A
+STU3035,Aarav Singh,Information Technology,MTech,1,B
+STU3036,Karan Das,Information Technology,BCA,3,B
+STU3037,Neha Sharma,Civil,BTech,4,B
+STU3038,Amit Singh,Civil,BCA,3,B
+STU3039,Karan Nair,Information Technology,BCA,4,A
+STU3040,Vikram Reddy,Civil,MTech,3,D
+STU3041,Simran Yadav,Mechanical,BCA,2,C
+STU3042,Aarav Sharma,Mechanical,BCA,4,D
+STU3043,Amit Yadav,Civil,MCA,3,A
+STU3044,Aarav Yadav,Civil,BTech,1,B
+STU3045,Karan Reddy,Computer Science,BCA,1,C
+STU3046,Vikram Kaur,Computer Science,BCA,3,C
+STU3047,Pooja Gupta,Electronics,BTech,2,D
+STU3048,Priya Yadav,Electronics,MCA,4,A
+STU3049,Rohan Reddy,Electronics,MTech,3,A
+STU3050,Amit Gupta,Information Technology,MTech,1,A
+STU3051,Simran Das,Mechanical,BCA,4,C
+STU3052,Amit Patel,Information Technology,MCA,1,D
+STU3053,Kavita Patel,Civil,MTech,1,C
+STU3054,Pooja Das,Computer Science,MTech,3,C
+STU3055,Aarav Iyer,Civil,MTech,1,B
+STU3056,Simran Sharma,Civil,MTech,4,D
+STU3057,Simran Yadav,Computer Science,MTech,2,B
+STU3058,Ananya Nair,Civil,BCA,3,A
+STU3059,Ananya Yadav,Electronics,MTech,4,C
+STU3060,Rahul Reddy,Computer Science,BCA,3,D
+STU3061,Kavita Reddy,Civil,BTech,1,A
+STU3062,Neha Sharma,Electronics,BTech,1,D
+STU3063,Neha Kumar,Electronics,MCA,4,C
+STU3064,Ananya Reddy,Mechanical,BCA,4,D
+STU3065,Karan Iyer,Electronics,MCA,2,A
+STU3066,Ananya Kumar,Information Technology,BTech,4,B
+STU3067,Priya Kaur,Computer Science,BTech,4,C
+STU3068,Amit Das,Computer Science,BTech,3,B
+STU3069,Rahul Kaur,Computer Science,BTech,1,C
+STU3070,Pooja Kumar,Civil,MTech,4,A
+STU3071,Simran Yadav,Civil,BTech,2,C
+STU3072,Neha Kumar,Information Technology,MTech,4,B
+STU3073,Kavita Reddy,Electronics,MTech,1,C
+STU3074,Rahul Reddy,Civil,MCA,4,A
+STU3075,Rahul Kaur,Electronics,MTech,3,C
+STU3076,Priya Singh,Electronics,MCA,1,B
+STU3077,Kavita Kaur,Civil,MTech,4,A
+STU3078,Aarav Patel,Civil,MTech,3,B
+STU3079,Kavita Nair,Information Technology,BTech,1,C
+STU3080,Neha Iyer,Mechanical,BCA,4,D
+STU3081,Amit Kaur,Computer Science,MTech,3,B
+STU3082,Rahul Kaur,Civil,BCA,2,C
+STU3083,Kavita Verma,Civil,BCA,3,D
+STU3084,Kavita Nair,Electronics,BCA,2,D
+STU3085,Vikram Gupta,Mechanical,MTech,4,A
+STU3086,Karan Reddy,Civil,BCA,3,D
+STU3087,Karan Kaur,Mechanical,MTech,2,B
+STU3088,Neha Kaur,Computer Science,BTech,1,B
+STU3089,Pooja Yadav,Electronics,MTech,3,D
+STU3090,Ananya Gupta,Information Technology,MCA,4,C
+STU3091,Ananya Nair,Computer Science,BTech,1,B
+STU3092,Priya Iyer,Mechanical,BCA,2,B
+STU3093,Priya Gupta,Mechanical,BCA,3,A
+STU3094,Rahul Sharma,Computer Science,MCA,3,C
+STU3095,Priya Nair,Mechanical,BTech,4,D
+STU3096,Simran Iyer,Information Technology,MCA,1,C
+STU3097,Rohan Singh,Information Technology,BCA,3,A
+STU3098,Amit Das,Mechanical,MTech,3,A
+STU3099,Karan Nair,Mechanical,BCA,1,C
+STU3100,Karan Gupta,Information Technology,MCA,3,A
+STU3101,Rohan Singh,Mechanical,MTech,1,A
+STU3102,Ananya Yadav,Civil,MTech,1,A
+STU3103,Aarav Singh,Electronics,BCA,1,C
+STU3104,Vikram Yadav,Civil,MTech,4,A
+STU3105,Aarav Kumar,Mechanical,BTech,1,D
+STU3106,Ananya Yadav,Mechanical,BCA,1,D
+STU3107,Simran Verma,Electronics,BCA,2,B
+STU3108,Amit Nair,Mechanical,BTech,2,D
+STU3109,Vikram Gupta,Electronics,BCA,4,B
+STU3110,Amit Das,Information Technology,MCA,1,C
+STU3111,Aarav Verma,Electronics,MCA,2,A
+STU3112,Rohan Sharma,Electronics,BCA,2,D
+STU3113,Kavita Patel,Civil,BTech,3,B
+STU3114,Ananya Singh,Mechanical,MTech,1,C
+STU3115,Neha Das,Information Technology,BTech,2,B
+STU3116,Priya Patel,Computer Science,MCA,4,A
+STU3117,Karan Kumar,Electronics,BCA,3,D
+STU3118,Ananya Kumar,Computer Science,BTech,3,C
+STU3119,Ananya Kaur,Mechanical,MTech,1,B
+STU3120,Karan Yadav,Electronics,MTech,1,C
+STU3121,Amit Kumar,Computer Science,MTech,3,B
+STU3122,Neha Singh,Civil,MTech,4,B
+STU3123,Aarav Nair,Computer Science,BTech,1,A
+STU3124,Kavita Singh,Civil,MTech,1,A
+STU3125,Amit Singh,Information Technology,MCA,3,B
+STU3126,Ananya Gupta,Mechanical,MTech,3,D
+STU3127,Amit Iyer,Computer Science,MCA,1,C
+STU3128,Pooja Patel,Electronics,BTech,2,C
+STU3129,Priya Patel,Mechanical,MCA,1,A
+STU3130,Aarav Reddy,Computer Science,BTech,2,D
+STU3131,Karan Sharma,Electronics,MTech,3,B
+STU3132,Aarav Kaur,Electronics,BCA,2,A
+STU3133,Priya Iyer,Electronics,MCA,4,B
+STU3134,Neha Patel,Electronics,MCA,3,B
+STU3135,Aarav Patel,Computer Science,BCA,1,A
+STU3136,Kavita Patel,Information Technology,BTech,1,D
+STU3137,Karan Das,Civil,BTech,3,C
+STU3138,Kavita Yadav,Civil,MTech,3,A
+STU3139,Priya Nair,Civil,MCA,4,D
+STU3140,Rahul Singh,Information Technology,BTech,3,B
+STU3141,Priya Patel,Electronics,MTech,1,A
+STU3142,Ananya Patel,Electronics,BTech,4,C
+STU3143,Ananya Das,Mechanical,BCA,1,C
+STU3144,Amit Yadav,Civil,BCA,2,B
+STU3145,Rahul Iyer,Civil,BCA,3,A
+STU3146,Kavita Nair,Electronics,MTech,2,C
+STU3147,Karan Iyer,Civil,MCA,1,A
+STU3148,Amit Patel,Electronics,BCA,2,C
+STU3149,Neha Nair,Electronics,BCA,2,B
+STU3150,Neha Reddy,Electronics,BTech,1,B
+STU3151,Pooja Patel,Computer Science,BCA,1,A
+STU3152,Pooja Singh,Computer Science,MCA,3,D
+STU3153,Amit Yadav,Computer Science,MTech,2,D
+STU3154,Rahul Nair,Computer Science,BCA,4,B
+STU3155,Neha Patel,Information Technology,MTech,4,C
+STU3156,Vikram Patel,Mechanical,MTech,1,D
+STU3157,Kavita Singh,Mechanical,MCA,1,B
+STU3158,Amit Reddy,Electronics,BTech,2,C
+STU3159,Pooja Das,Civil,BTech,1,C
+STU3160,Amit Iyer,Computer Science,MTech,4,D
+STU3161,Simran Das,Mechanical,BCA,3,B
+STU3162,Rohan Iyer,Mechanical,MTech,3,C
+STU3163,Priya Iyer,Computer Science,BTech,2,C
+STU3164,Aarav Reddy,Information Technology,BCA,3,A
+STU3165,Kavita Sharma,Information Technology,BTech,1,A
+STU3166,Rohan Gupta,Mechanical,MCA,1,D
+STU3167,Neha Das,Information Technology,BTech,1,A
+STU3168,Priya Iyer,Computer Science,BCA,1,B
+STU3169,Neha Singh,Mechanical,BCA,2,D
+STU3170,Amit Singh,Computer Science,MTech,3,D
+STU3171,Priya Kumar,Information Technology,BCA,4,A
+STU3172,Kavita Reddy,Computer Science,MCA,3,C
+STU3173,Ananya Yadav,Information Technology,BTech,1,B
+STU3174,Amit Patel,Information Technology,MTech,4,B
+STU3175,Karan Verma,Computer Science,MTech,2,B
+STU3176,Karan Gupta,Information Technology,BCA,1,D
+STU3177,Rahul Kumar,Electronics,MCA,1,B
+STU3178,Ananya Iyer,Computer Science,MTech,4,C
+STU3179,Rahul Nair,Electronics,MCA,2,C
+STU3180,Ananya Nair,Computer Science,MCA,4,A
+STU3181,Amit Sharma,Information Technology,BTech,2,B
+STU3182,Vikram Reddy,Information Technology,BTech,1,D
+STU3183,Amit Yadav,Mechanical,BTech,3,A
+STU3184,Ananya Kumar,Mechanical,MCA,1,C
+STU3185,Vikram Singh,Electronics,BTech,3,B
+STU3186,Simran Yadav,Information Technology,MTech,3,C
+STU3187,Amit Kumar,Mechanical,MTech,2,A
+STU3188,Pooja Kumar,Information Technology,BCA,4,C
+STU3189,Ananya Patel,Computer Science,MCA,2,B
+STU3190,Aarav Nair,Mechanical,BTech,1,B
+STU3191,Rohan Yadav,Electronics,MTech,4,A
+STU3192,Aarav Patel,Mechanical,MCA,3,B
+STU3193,Priya Gupta,Information Technology,MCA,3,C
+STU3194,Rahul Patel,Civil,BTech,1,C
+STU3195,Ananya Reddy,Civil,MCA,4,D
+STU3196,Amit Verma,Information Technology,BTech,1,D
+STU3197,Ananya Nair,Computer Science,BTech,1,D
+STU3198,Pooja Iyer,Mechanical,BTech,2,C
+STU3199,Vikram Kumar,Civil,MCA,1,C
+STU3200,Pooja Singh,Computer Science,MCA,4,A
+STU3201,Ananya Sharma,Information Technology,BTech,1,D
+STU3202,Simran Sharma,Computer Science,MCA,4,C
+STU3203,Rahul Reddy,Information Technology,BTech,3,A
+STU3204,Pooja Kumar,Mechanical,BCA,1,C
+STU3205,Vikram Kaur,Computer Science,MCA,4,A
+STU3206,Ananya Das,Mechanical,MCA,3,D
+STU3207,Priya Sharma,Computer Science,BCA,4,D
+STU3208,Aarav Yadav,Information Technology,BCA,3,D
+STU3209,Karan Yadav,Information Technology,BCA,2,C
+STU3210,Simran Nair,Computer Science,BTech,1,C
+STU3211,Aarav Nair,Information Technology,BTech,1,A
+STU3212,Amit Iyer,Electronics,MTech,3,B
+STU3213,Pooja Nair,Electronics,BCA,2,B
+STU3214,Aarav Singh,Mechanical,MTech,4,D
+STU3215,Simran Kumar,Electronics,BTech,2,B
+STU3216,Rohan Gupta,Electronics,MCA,4,D
+STU3217,Neha Patel,Civil,BCA,4,A
+STU3218,Priya Kaur,Civil,MCA,1,B
+STU3219,Priya Das,Civil,BTech,3,B
+STU3220,Amit Das,Civil,BCA,1,D
+STU3221,Rahul Kaur,Information Technology,MTech,1,A
+STU3222,Kavita Yadav,Mechanical,MTech,1,B
+STU3223,Rohan Das,Mechanical,BTech,4,B
+STU3224,Amit Nair,Electronics,MCA,1,B
+STU3225,Karan Sharma,Mechanical,BTech,4,A
+STU3226,Vikram Reddy,Electronics,MCA,3,A
+STU3227,Vikram Kumar,Mechanical,BTech,4,B
+STU3228,Priya Iyer,Computer Science,MTech,4,D
+STU3229,Amit Kaur,Computer Science,MCA,2,D
+STU3230,Kavita Yadav,Mechanical,BTech,1,B
+STU3231,Priya Kaur,Information Technology,BCA,1,A
+STU3232,Pooja Verma,Electronics,MTech,1,B
+STU3233,Vikram Sharma,Mechanical,MTech,1,A
+STU3234,Pooja Reddy,Electronics,BCA,2,B
+STU3235,Vikram Reddy,Civil,BTech,2,A
+STU3236,Ananya Iyer,Mechanical,MCA,2,C
+STU3237,Kavita Gupta,Information Technology,MTech,2,D
+STU3238,Neha Iyer,Civil,BTech,1,C
+STU3239,Rohan Verma,Mechanical,BCA,4,D
+STU3240,Simran Verma,Computer Science,MCA,3,A
+STU3241,Rahul Reddy,Mechanical,BTech,2,C
+STU3242,Aarav Reddy,Computer Science,BTech,4,D
+STU3243,Karan Yadav,Computer Science,MTech,2,B
+STU3244,Ananya Das,Mechanical,MTech,1,A
+STU3245,Vikram Kumar,Mechanical,MCA,1,A
+STU3246,Ananya Verma,Computer Science,BTech,4,B
+STU3247,Kavita Singh,Electronics,BCA,4,B
+STU3248,Aarav Das,Civil,BCA,4,D
+STU3249,Karan Kaur,Information Technology,MCA,1,A
+STU3250,Priya Singh,Mechanical,BTech,1,D
+STU3251,Karan Yadav,Civil,MTech,3,B
+STU3252,Ananya Kaur,Civil,BTech,4,A
+STU3253,Rohan Singh,Electronics,MTech,3,B
+STU3254,Amit Kaur,Civil,BCA,2,D
+STU3255,Kavita Iyer,Mechanical,MCA,3,D
+STU3256,Karan Reddy,Civil,MCA,2,D
+STU3257,Aarav Yadav,Mechanical,MCA,2,A
+STU3258,Amit Reddy,Mechanical,MTech,3,B
+STU3259,Amit Nair,Computer Science,BCA,4,B
+STU3260,Amit Kaur,Electronics,BCA,2,D
+STU3261,Priya Sharma,Information Technology,MCA,4,D
+STU3262,Simran Gupta,Computer Science,MCA,1,D
+STU3263,Ananya Kaur,Information Technology,MTech,2,D
+STU3264,Kavita Iyer,Mechanical,MTech,1,C
+STU3265,Pooja Kumar,Computer Science,BTech,3,C
+STU3266,Vikram Kumar,Civil,MTech,4,C
+STU3267,Karan Singh,Civil,BTech,3,D
+STU3268,Amit Singh,Information Technology,MCA,2,D
+STU3269,Kavita Yadav,Mechanical,BCA,1,B
+STU3270,Rohan Singh,Information Technology,MTech,2,A
+STU3271,Aarav Kumar,Electronics,BCA,3,B
+STU3272,Pooja Iyer,Civil,MTech,4,C
+STU3273,Karan Singh,Computer Science,MTech,4,B
+STU3274,Karan Reddy,Computer Science,BTech,2,D
+STU3275,Karan Das,Computer Science,MTech,2,C
+STU3276,Pooja Das,Civil,MCA,1,C
+STU3277,Vikram Reddy,Mechanical,BCA,3,A
+STU3278,Vikram Das,Civil,MTech,2,A
+STU3279,Rohan Patel,Civil,BCA,1,C
+STU3280,Pooja Yadav,Computer Science,BCA,2,C
+STU3281,Rohan Iyer,Civil,BCA,4,B
+STU3282,Kavita Iyer,Computer Science,MTech,1,C
+STU3283,Rohan Patel,Mechanical,BTech,1,D
+STU3284,Neha Gupta,Electronics,BCA,2,B
+STU3285,Vikram Reddy,Computer Science,BCA,3,D
+STU3286,Priya Nair,Information Technology,MTech,4,D
+STU3287,Rohan Verma,Electronics,MTech,3,D
+STU3288,Rohan Gupta,Mechanical,MCA,1,C
+STU3289,Vikram Patel,Electronics,MCA,3,A
+STU3290,Rahul Yadav,Computer Science,BTech,1,A
+STU3291,Karan Kumar,Mechanical,BTech,3,D
+STU3292,Vikram Singh,Information Technology,BTech,2,C
+STU3293,Ananya Kaur,Computer Science,BTech,3,B
+STU3294,Rahul Iyer,Computer Science,BCA,1,D
+STU3295,Neha Sharma,Mechanical,MTech,4,B
+STU3296,Karan Yadav,Mechanical,MCA,4,B
+STU3297,Aarav Reddy,Electronics,BCA,4,C
+STU3298,Amit Gupta,Information Technology,MTech,1,C
+STU3299,Neha Sharma,Electronics,MTech,3,A
+STU3300,Rahul Kaur,Electronics,BCA,4,A
+STU3301,Kavita Kumar,Computer Science,BCA,4,C
+STU3302,Aarav Yadav,Mechanical,MCA,4,D
+STU3303,Pooja Kumar,Computer Science,BTech,2,A
+STU3304,Priya Kumar,Information Technology,BTech,1,B
+STU3305,Vikram Das,Electronics,MCA,1,D
+STU3306,Ananya Verma,Information Technology,MCA,1,B
+STU3307,Amit Kumar,Mechanical,BTech,1,C
+STU3308,Simran Das,Mechanical,BCA,1,B
+STU3309,Kavita Kaur,Civil,BTech,2,D
+STU3310,Amit Yadav,Information Technology,MTech,3,C
+STU3311,Rahul Yadav,Computer Science,MTech,2,D
+STU3312,Rohan Gupta,Information Technology,MCA,4,B
+STU3313,Amit Kumar,Electronics,BTech,2,D
+STU3314,Neha Nair,Mechanical,BTech,1,C
+STU3315,Kavita Sharma,Mechanical,MTech,2,B
+STU3316,Priya Kumar,Information Technology,BTech,1,B
+STU3317,Simran Patel,Information Technology,MCA,2,A
+STU3318,Pooja Gupta,Information Technology,MCA,1,A
+STU3319,Ananya Gupta,Electronics,MTech,4,D
+STU3320,Vikram Verma,Electronics,BTech,1,A
+STU3321,Rahul Nair,Computer Science,BTech,2,A
+STU3322,Ananya Kaur,Information Technology,MTech,4,A
+STU3323,Simran Kaur,Computer Science,BCA,2,A
+STU3324,Pooja Singh,Civil,BCA,4,C
+STU3325,Simran Yadav,Electronics,BTech,3,C
+STU3326,Simran Kumar,Mechanical,MCA,3,A
+STU3327,Vikram Das,Civil,BCA,3,D
+STU3328,Rohan Patel,Mechanical,BTech,2,C
+STU3329,Vikram Verma,Civil,BCA,2,A
+STU3330,Pooja Iyer,Computer Science,MTech,4,C
+STU3331,Kavita Gupta,Computer Science,BCA,4,B
+STU3332,Rahul Sharma,Electronics,BCA,4,C
+STU3333,Rohan Das,Mechanical,MTech,4,C
+STU3334,Vikram Iyer,Civil,MCA,1,D
+STU3335,Vikram Gupta,Information Technology,BTech,3,C
+STU3336,Ananya Patel,Information Technology,MCA,1,D
+STU3337,Simran Yadav,Electronics,MCA,1,B
+STU3338,Vikram Yadav,Mechanical,BCA,1,A
+STU3339,Kavita Yadav,Information Technology,BTech,1,D
+STU3340,Amit Sharma,Electronics,BCA,3,C
+STU3341,Rohan Yadav,Electronics,MTech,1,C
+STU3342,Amit Nair,Mechanical,MCA,4,D
+STU3343,Aarav Verma,Information Technology,MCA,2,B
+STU3344,Pooja Patel,Information Technology,MTech,4,A
+STU3345,Simran Patel,Information Technology,BTech,2,C
+STU3346,Neha Iyer,Computer Science,MCA,4,B
+STU3347,Vikram Yadav,Information Technology,MCA,4,A
+STU3348,Ananya Iyer,Civil,BTech,2,A
+STU3349,Kavita Patel,Computer Science,BCA,3,C
+STU3350,Kavita Gupta,Computer Science,MTech,1,D
+STU3351,Kavita Singh,Computer Science,BTech,4,C
+STU3352,Vikram Iyer,Computer Science,MTech,3,C
+STU3353,Karan Reddy,Electronics,MTech,1,C
+STU3354,Neha Verma,Civil,MCA,3,B
+STU3355,Rahul Kumar,Mechanical,BTech,3,D
+STU3356,Aarav Iyer,Information Technology,MTech,1,B
+STU3357,Vikram Patel,Computer Science,BCA,4,C
+STU3358,Vikram Das,Mechanical,MTech,3,D
+STU3359,Amit Singh,Electronics,MCA,4,A
+STU3360,Amit Kaur,Mechanical,BCA,4,D
+STU3361,Vikram Sharma,Computer Science,BCA,4,C
+STU3362,Karan Kumar,Civil,BTech,1,D
+STU3363,Vikram Singh,Mechanical,BCA,2,A
+STU3364,Amit Yadav,Computer Science,BTech,4,A
+STU3365,Simran Gupta,Computer Science,BTech,2,D
+STU3366,Rohan Gupta,Information Technology,BCA,2,A
+STU3367,Rohan Reddy,Information Technology,BTech,3,B
+STU3368,Vikram Kaur,Civil,BTech,4,D
+STU3369,Priya Das,Information Technology,BCA,4,A
+STU3370,Ananya Das,Civil,MCA,4,A
+STU3371,Rahul Verma,Electronics,MTech,2,D
+STU3372,Rahul Verma,Electronics,BTech,1,B
+STU3373,Pooja Gupta,Information Technology,BTech,2,D
+STU3374,Aarav Singh,Electronics,BCA,4,A
+STU3375,Priya Verma,Mechanical,MTech,4,D
+STU3376,Ananya Verma,Mechanical,MTech,4,A
+STU3377,Kavita Sharma,Mechanical,BTech,2,C
+STU3378,Kavita Kumar,Electronics,BCA,4,D
+STU3379,Simran Kumar,Mechanical,MCA,3,D
+STU3380,Pooja Kaur,Civil,MTech,4,A
+STU3381,Rahul Iyer,Computer Science,MCA,1,A
+STU3382,Amit Kumar,Information Technology,BCA,3,A
+STU3383,Ananya Iyer,Civil,MCA,4,A
+STU3384,Amit Kaur,Mechanical,BCA,3,D
+STU3385,Neha Patel,Computer Science,BTech,4,A
+STU3386,Vikram Verma,Information Technology,MCA,1,D
+STU3387,Rohan Sharma,Civil,BTech,4,B
+STU3388,Neha Patel,Information Technology,BTech,3,D
+STU3389,Simran Sharma,Electronics,BCA,1,A
+STU3390,Priya Gupta,Mechanical,MCA,2,A
+STU3391,Rohan Sharma,Civil,MTech,1,B
+STU3392,Priya Kumar,Civil,MCA,1,D
+STU3393,Aarav Yadav,Computer Science,MTech,1,B
+STU3394,Amit Kaur,Computer Science,BTech,3,D
+STU3395,Rahul Kaur,Computer Science,BTech,1,A
+STU3396,Rohan Singh,Information Technology,BCA,4,D
+STU3397,Rohan Kumar,Mechanical,MTech,1,A
+STU3398,Ananya Patel,Information Technology,MCA,1,A
+STU3399,Rahul Sharma,Mechanical,BCA,4,C
+STU3400,Pooja Patel,Civil,BCA,4,C
+STU3401,Aarav Kaur,Information Technology,BCA,2,D
+STU3402,Kavita Gupta,Information Technology,MCA,1,A
+STU3403,Vikram Kaur,Information Technology,BCA,3,B
+STU3404,Simran Kumar,Electronics,MCA,1,A
+STU3405,Ananya Verma,Mechanical,BCA,1,B
+STU3406,Pooja Iyer,Mechanical,MTech,4,D
+STU3407,Rahul Das,Information Technology,BTech,2,D
+STU3408,Vikram Reddy,Electronics,MTech,1,B
+STU3409,Pooja Kumar,Information Technology,MTech,3,B
+STU3410,Priya Kaur,Mechanical,BCA,1,A
+STU3411,Kavita Gupta,Civil,MTech,3,D
+STU3412,Priya Kumar,Electronics,MTech,4,A
+STU3413,Priya Gupta,Electronics,MTech,2,B
+STU3414,Rahul Kumar,Information Technology,BCA,1,C
+STU3415,Pooja Nair,Civil,MCA,2,C
+STU3416,Aarav Patel,Mechanical,BTech,1,C
+STU3417,Rahul Nair,Computer Science,BTech,3,B
+STU3418,Karan Singh,Mechanical,MCA,2,A
+STU3419,Karan Nair,Mechanical,MCA,1,D
+STU3420,Simran Kaur,Civil,MTech,4,B
+STU3421,Priya Reddy,Electronics,BTech,3,C
+STU3422,Pooja Kumar,Mechanical,MCA,2,A
+STU3423,Neha Patel,Electronics,MTech,1,D
+STU3424,Rahul Verma,Civil,BTech,2,D
+STU3425,Amit Patel,Civil,BCA,1,B
+STU3426,Karan Reddy,Information Technology,BCA,3,B
+STU3427,Priya Gupta,Computer Science,BTech,4,D
+STU3428,Kavita Verma,Civil,BTech,3,D
+STU3429,Pooja Yadav,Civil,BCA,2,C
+STU3430,Neha Kumar,Electronics,BCA,2,D
+STU3431,Priya Singh,Civil,BTech,1,B
+STU3432,Simran Iyer,Mechanical,MTech,3,A
+STU3433,Neha Yadav,Information Technology,MCA,1,C
+STU3434,Vikram Singh,Information Technology,MCA,3,C
+STU3435,Neha Singh,Mechanical,BTech,2,D
+STU3436,Karan Singh,Civil,MCA,1,A
+STU3437,Pooja Patel,Computer Science,BCA,1,C
+STU3438,Karan Singh,Civil,BCA,3,B
+STU3439,Rahul Kaur,Information Technology,MCA,4,D
+STU3440,Priya Yadav,Computer Science,BTech,3,B
+STU3441,Vikram Sharma,Electronics,BCA,4,D
+STU3442,Simran Kumar,Electronics,MTech,3,C
+STU3443,Pooja Singh,Civil,MTech,2,D
+STU3444,Kavita Reddy,Civil,BCA,1,A
+STU3445,Vikram Iyer,Computer Science,BCA,3,B
+STU3446,Rohan Reddy,Computer Science,MCA,2,A
+STU3447,Rohan Kaur,Civil,BTech,3,B
+STU3448,Amit Iyer,Information Technology,MCA,1,B
+STU3449,Priya Verma,Electronics,BTech,3,D
+STU3450,Rohan Iyer,Computer Science,MTech,4,C
+STU3451,Amit Yadav,Information Technology,MTech,1,C
+STU3452,Rohan Gupta,Civil,BTech,4,A
+STU3453,Rahul Nair,Mechanical,MCA,2,D
+STU3454,Rahul Yadav,Computer Science,BCA,2,C
+STU3455,Vikram Patel,Mechanical,BTech,3,B
+STU3456,Vikram Sharma,Information Technology,MCA,4,B
+STU3457,Rohan Iyer,Electronics,MTech,4,D
+STU3458,Priya Singh,Information Technology,BCA,1,A
+STU3459,Rohan Sharma,Electronics,MTech,4,D
+STU3460,Rahul Iyer,Information Technology,BTech,4,A
+STU3461,Neha Patel,Computer Science,MTech,1,D
+STU3462,Neha Kaur,Computer Science,MTech,1,B
+STU3463,Kavita Nair,Mechanical,BTech,4,D
+STU3464,Rohan Reddy,Information Technology,BCA,3,C
+STU3465,Aarav Singh,Information Technology,BTech,1,C
+STU3466,Amit Reddy,Mechanical,MCA,1,D
+STU3467,Simran Nair,Civil,BTech,4,A
+STU3468,Rahul Iyer,Information Technology,BTech,4,A
+STU3469,Neha Kaur,Information Technology,BCA,1,B
+STU3470,Vikram Iyer,Information Technology,MCA,4,B
+STU3471,Rahul Singh,Civil,MTech,1,A
+STU3472,Aarav Gupta,Computer Science,MTech,3,D
+STU3473,Amit Reddy,Mechanical,MTech,3,B
+STU3474,Rohan Kaur,Civil,MTech,1,A
+STU3475,Kavita Patel,Electronics,BCA,1,A
+STU3476,Amit Iyer,Electronics,MCA,2,D
+STU3477,Rohan Reddy,Civil,BCA,2,C
+STU3478,Karan Iyer,Civil,BTech,4,A
+STU3479,Neha Singh,Computer Science,MCA,4,B
+STU3480,Amit Gupta,Electronics,MCA,1,D
+STU3481,Rohan Nair,Mechanical,MTech,1,D
+STU3482,Ananya Das,Information Technology,MTech,2,D
+STU3483,Vikram Kumar,Information Technology,MTech,2,C
+STU3484,Aarav Gupta,Computer Science,MTech,1,C
+STU3485,Neha Iyer,Computer Science,BTech,3,B
+STU3486,Priya Patel,Electronics,MTech,3,B
+STU3487,Amit Patel,Mechanical,BCA,4,D
+STU3488,Ananya Gupta,Mechanical,MCA,1,B
+STU3489,Vikram Das,Civil,BTech,1,A
+STU3490,Aarav Das,Computer Science,BTech,4,C
+STU3491,Ananya Singh,Information Technology,MCA,2,D
+STU3492,Kavita Singh,Information Technology,MCA,2,D
+STU3493,Rahul Das,Electronics,MCA,3,A
+STU3494,Amit Reddy,Information Technology,BTech,1,A
+STU3495,Karan Sharma,Mechanical,BCA,2,A
+STU3496,Simran Nair,Mechanical,BCA,3,A
+STU3497,Karan Kumar,Computer Science,MCA,3,D
+STU3498,Amit Sharma,Electronics,BTech,3,C
+STU3499,Rohan Verma,Information Technology,MTech,2,C
+STU3500,Rohan Nair,Computer Science,BTech,2,A
+STU3501,Rohan Nair,Civil,MCA,1,B
+STU3502,Aarav Yadav,Civil,BTech,1,D
+STU3503,Neha Nair,Information Technology,BTech,3,C
+STU3504,Vikram Kaur,Information Technology,BTech,3,A
+STU3505,Simran Iyer,Information Technology,MTech,2,B
+STU3506,Simran Iyer,Mechanical,MCA,2,B
+STU3507,Amit Kaur,Information Technology,MCA,1,A
+STU3508,Priya Singh,Civil,MCA,1,D
+STU3509,Neha Patel,Information Technology,BCA,4,C
+STU3510,Rahul Kaur,Electronics,BCA,1,B
+STU3511,Neha Gupta,Civil,MCA,2,C
+STU3512,Priya Sharma,Electronics,BTech,3,C
+STU3513,Aarav Kaur,Civil,BTech,4,B
+STU3514,Kavita Kumar,Computer Science,MCA,1,A
+STU3515,Simran Kaur,Civil,MTech,1,B
+STU3516,Ananya Singh,Civil,MTech,2,B
+STU3517,Vikram Kumar,Electronics,BTech,4,D
+STU3518,Ananya Gupta,Electronics,BTech,1,C
+STU3519,Amit Iyer,Civil,BCA,3,A
+STU3520,Simran Sharma,Civil,MTech,2,C
+STU3521,Karan Kumar,Mechanical,BTech,4,B
+STU3522,Neha Nair,Computer Science,BTech,1,A
+STU3523,Karan Verma,Computer Science,MCA,1,A
+STU3524,Ananya Patel,Information Technology,BCA,4,A
+STU3525,Karan Kaur,Civil,MTech,2,A
+STU3526,Pooja Sharma,Civil,MTech,4,D
+STU3527,Amit Sharma,Civil,BCA,4,A
+STU3528,Pooja Singh,Civil,BTech,2,B
+STU3529,Simran Nair,Computer Science,MTech,1,D
+STU3530,Karan Singh,Electronics,MTech,3,B
+STU3531,Simran Iyer,Mechanical,MTech,2,B
+STU3532,Aarav Singh,Electronics,MCA,3,C
+STU3533,Rahul Verma,Electronics,BCA,1,A
+STU3534,Karan Nair,Computer Science,MTech,4,A
+STU3535,Rohan Kumar,Mechanical,BCA,3,B
+STU3536,Karan Gupta,Civil,BTech,1,A
+STU3537,Rahul Verma,Computer Science,BCA,1,D
+STU3538,Pooja Kumar,Computer Science,MCA,4,C
+STU3539,Simran Kumar,Mechanical,MCA,4,A
+STU3540,Amit Nair,Information Technology,BCA,1,A
+STU3541,Ananya Iyer,Computer Science,MCA,1,D
+STU3542,Ananya Kaur,Electronics,MTech,3,C
+STU3543,Vikram Iyer,Electronics,MCA,1,D
+STU3544,Amit Sharma,Civil,BTech,1,B
+STU3545,Simran Singh,Computer Science,BCA,3,B
+STU3546,Aarav Sharma,Civil,BCA,2,A
+STU3547,Aarav Gupta,Computer Science,BTech,3,C
+STU3548,Priya Nair,Mechanical,BTech,3,B
+STU3549,Simran Das,Computer Science,BTech,4,D
+STU3550,Amit Das,Information Technology,BTech,3,B
+STU3551,Aarav Yadav,Electronics,MTech,1,B
+STU3552,Pooja Kumar,Mechanical,MCA,1,D
+STU3553,Vikram Nair,Electronics,MCA,1,A
+STU3554,Kavita Iyer,Civil,MTech,2,C
+STU3555,Simran Singh,Mechanical,BTech,1,A
+STU3556,Simran Reddy,Information Technology,BCA,2,D
+STU3557,Neha Gupta,Electronics,BCA,1,B
+STU3558,Aarav Gupta,Computer Science,BCA,3,C
+STU3559,Simran Iyer,Computer Science,BTech,4,A
+STU3560,Aarav Verma,Computer Science,MTech,1,D
+STU3561,Amit Singh,Mechanical,MTech,2,B
+STU3562,Pooja Sharma,Information Technology,MTech,2,B
+STU3563,Simran Singh,Information Technology,MCA,4,A
+STU3564,Ananya Patel,Information Technology,MCA,1,D
+STU3565,Pooja Kaur,Electronics,MCA,3,B
+STU3566,Pooja Nair,Mechanical,MCA,1,B
+STU3567,Rohan Singh,Computer Science,BCA,1,C
+STU3568,Neha Kaur,Electronics,BCA,4,B
+STU3569,Pooja Singh,Information Technology,MTech,1,A
+STU3570,Neha Iyer,Computer Science,MCA,3,D
+STU3571,Ananya Reddy,Mechanical,MTech,2,D
+STU3572,Aarav Nair,Civil,BTech,4,C
+STU3573,Aarav Nair,Information Technology,MCA,3,D
+STU3574,Simran Das,Information Technology,MCA,2,A
+STU3575,Karan Reddy,Information Technology,MTech,4,B
+STU3576,Rahul Das,Information Technology,MTech,4,C
+STU3577,Kavita Reddy,Computer Science,BTech,2,D
+STU3578,Rohan Gupta,Mechanical,MTech,2,C
+STU3579,Rohan Iyer,Electronics,MCA,3,C
+STU3580,Priya Gupta,Computer Science,BCA,1,D
+STU3581,Amit Iyer,Mechanical,BTech,1,C
+STU3582,Neha Sharma,Electronics,BTech,1,D
+STU3583,Ananya Sharma,Information Technology,MCA,1,A
+STU3584,Aarav Gupta,Mechanical,BCA,1,D
+STU3585,Vikram Patel,Information Technology,MTech,3,B
+STU3586,Ananya Kumar,Mechanical,MTech,4,D
+STU3587,Vikram Yadav,Civil,BCA,3,B
+STU3588,Rohan Iyer,Information Technology,BCA,3,C
+STU3589,Amit Nair,Information Technology,MCA,3,D
+STU3590,Rohan Kumar,Information Technology,MTech,4,B
+STU3591,Pooja Kaur,Computer Science,MCA,3,D
+STU3592,Aarav Kaur,Electronics,MTech,3,D
+STU3593,Vikram Reddy,Information Technology,MTech,4,D
+STU3594,Aarav Iyer,Information Technology,BCA,3,A
+STU3595,Vikram Kumar,Computer Science,MCA,1,B
+STU3596,Neha Iyer,Computer Science,BCA,2,A
+STU3597,Rohan Gupta,Civil,MCA,3,A
+STU3598,Vikram Patel,Mechanical,MTech,2,B
+STU3599,Rahul Yadav,Information Technology,BTech,3,D
+STU3600,Simran Patel,Mechanical,BTech,3,A
+STU3601,Simran Sharma,Computer Science,MCA,1,A
+STU3602,Priya Verma,Computer Science,MCA,4,A
+STU3603,Ananya Verma,Civil,BCA,2,D
+STU3604,Aarav Patel,Electronics,MTech,4,A
+STU3605,Aarav Das,Computer Science,BTech,1,C
+STU3606,Karan Verma,Information Technology,BCA,1,B
+STU3607,Kavita Das,Civil,MCA,2,C
+STU3608,Ananya Gupta,Electronics,MTech,4,D
+STU3609,Pooja Yadav,Civil,BCA,1,A
+STU3610,Aarav Nair,Computer Science,BCA,3,B
+STU3611,Pooja Das,Electronics,MCA,3,A
+STU3612,Aarav Kumar,Mechanical,MTech,3,D
+STU3613,Amit Singh,Electronics,BTech,4,B
+STU3614,Vikram Yadav,Information Technology,BCA,3,C
+STU3615,Karan Singh,Mechanical,MCA,3,B
+STU3616,Kavita Kaur,Mechanical,BCA,1,A
+STU3617,Priya Singh,Information Technology,MCA,1,B
+STU3618,Rohan Kaur,Mechanical,MCA,3,D
+STU3619,Pooja Kaur,Computer Science,MCA,3,D
+STU3620,Aarav Verma,Electronics,MTech,1,B
+STU3621,Kavita Iyer,Electronics,BTech,2,D
+STU3622,Ananya Kumar,Information Technology,MTech,4,D
+STU3623,Priya Sharma,Computer Science,BTech,4,D
+STU3624,Ananya Verma,Mechanical,MCA,1,C
+STU3625,Pooja Iyer,Electronics,BTech,4,A
+STU3626,Rohan Kaur,Electronics,MTech,1,D
+STU3627,Ananya Sharma,Electronics,BCA,1,B
+STU3628,Vikram Singh,Electronics,MTech,1,D
+STU3629,Pooja Singh,Civil,MTech,1,C
+STU3630,Kavita Das,Information Technology,MTech,2,B
+STU3631,Pooja Sharma,Mechanical,MTech,3,A
+STU3632,Priya Singh,Mechanical,MTech,3,B
+STU3633,Amit Kumar,Information Technology,BTech,2,B
+STU3634,Karan Kaur,Computer Science,BTech,4,B
+STU3635,Vikram Reddy,Information Technology,BCA,4,B
+STU3636,Aarav Singh,Electronics,MTech,3,D
+STU3637,Ananya Singh,Electronics,MTech,4,A
+STU3638,Pooja Patel,Information Technology,BCA,3,D
+STU3639,Rohan Singh,Information Technology,BCA,3,C
+STU3640,Simran Sharma,Mechanical,MCA,2,C
+STU3641,Rahul Kumar,Mechanical,BCA,4,B
+STU3642,Vikram Singh,Civil,BCA,2,D
+STU3643,Rohan Reddy,Civil,BCA,3,D
+STU3644,Simran Das,Electronics,MCA,3,A
+STU3645,Vikram Kumar,Civil,BTech,3,A
+STU3646,Aarav Nair,Civil,MCA,1,A
+STU3647,Ananya Singh,Computer Science,BTech,1,D
+STU3648,Pooja Singh,Information Technology,BCA,1,A
+STU3649,Pooja Kaur,Mechanical,MCA,2,A
+STU3650,Priya Verma,Civil,MCA,3,A
+STU3651,Kavita Sharma,Mechanical,BTech,4,B
+STU3652,Aarav Reddy,Civil,MCA,2,C
+STU3653,Rohan Reddy,Civil,MCA,2,C
+STU3654,Rohan Yadav,Electronics,MTech,2,D
+STU3655,Neha Kumar,Computer Science,BTech,4,D
+STU3656,Amit Yadav,Information Technology,MCA,3,B
+STU3657,Aarav Das,Information Technology,MCA,1,C
+STU3658,Simran Reddy,Electronics,BCA,3,A
+STU3659,Simran Nair,Electronics,MTech,3,A
+STU3660,Simran Singh,Information Technology,MTech,2,D
+STU3661,Rahul Singh,Information Technology,BCA,2,C
+STU3662,Kavita Iyer,Computer Science,BCA,2,D
+STU3663,Pooja Sharma,Civil,BCA,1,D
+STU3664,Amit Reddy,Computer Science,BCA,1,A
+STU3665,Rahul Verma,Information Technology,MTech,1,A
+STU3666,Amit Verma,Civil,MCA,3,C
+STU3667,Ananya Kumar,Information Technology,MCA,2,D
+STU3668,Neha Gupta,Computer Science,BCA,4,B
+STU3669,Neha Sharma,Computer Science,BTech,3,C
+STU3670,Aarav Gupta,Computer Science,BCA,1,D
+STU3671,Karan Kumar,Civil,MCA,4,C
+STU3672,Simran Kumar,Mechanical,BTech,4,C
+STU3673,Kavita Gupta,Mechanical,BCA,2,C
+STU3674,Rahul Nair,Information Technology,BTech,4,B
+STU3675,Aarav Sharma,Civil,BCA,1,B
+STU3676,Karan Kaur,Electronics,MTech,2,A
+STU3677,Neha Reddy,Mechanical,MCA,4,A
+STU3678,Amit Verma,Civil,BCA,2,D
+STU3679,Karan Kaur,Civil,BTech,4,C
+STU3680,Vikram Gupta,Mechanical,MCA,3,D
+STU3681,Pooja Sharma,Civil,BCA,3,A
+STU3682,Simran Reddy,Civil,BCA,1,B
+STU3683,Priya Verma,Mechanical,BCA,3,A
+STU3684,Simran Sharma,Computer Science,BCA,3,D
+STU3685,Rahul Sharma,Information Technology,MTech,3,A
+STU3686,Priya Kaur,Electronics,MCA,4,D
+STU3687,Amit Nair,Information Technology,MTech,4,D
+STU3688,Neha Gupta,Computer Science,MCA,2,D
+STU3689,Amit Yadav,Computer Science,BCA,4,D
+STU3690,Rahul Das,Civil,MCA,3,A
+STU3691,Kavita Verma,Information Technology,BTech,4,D
+STU3692,Vikram Patel,Computer Science,MCA,1,D
+STU3693,Pooja Nair,Information Technology,BTech,2,C
+STU3694,Pooja Kumar,Computer Science,BTech,2,D
+STU3695,Pooja Reddy,Electronics,MTech,4,A
+STU3696,Kavita Sharma,Computer Science,MCA,3,D
+STU3697,Simran Verma,Information Technology,BCA,2,B
+STU3698,Rohan Kaur,Civil,MCA,1,B
+STU3699,Aarav Reddy,Information Technology,MTech,1,D
+STU3700,Rohan Sharma,Mechanical,BTech,2,B
+STU3701,Kavita Sharma,Information Technology,BTech,3,B
+STU3702,Kavita Sharma,Electronics,MTech,3,A
+STU3703,Neha Patel,Electronics,MTech,4,C
+STU3704,Amit Sharma,Electronics,MCA,4,B
+STU3705,Vikram Reddy,Computer Science,BTech,2,B
+STU3706,Rohan Gupta,Electronics,MTech,4,C
+STU3707,Priya Nair,Information Technology,MCA,4,C
+STU3708,Karan Iyer,Civil,MCA,4,B
+STU3709,Vikram Nair,Electronics,BCA,1,D
+STU3710,Neha Iyer,Information Technology,BTech,4,B
+STU3711,Aarav Sharma,Computer Science,MCA,2,D
+STU3712,Rahul Reddy,Computer Science,MTech,3,D
+STU3713,Ananya Reddy,Civil,BTech,4,D
+STU3714,Neha Singh,Civil,MTech,3,C
+STU3715,Kavita Iyer,Information Technology,MTech,4,B
+STU3716,Priya Singh,Civil,MCA,2,B
+STU3717,Rahul Das,Civil,MCA,1,A
+STU3718,Pooja Reddy,Computer Science,BCA,2,C
+STU3719,Vikram Sharma,Information Technology,MTech,1,A
+STU3720,Pooja Kumar,Civil,MCA,4,A
+STU3721,Priya Patel,Information Technology,BCA,4,D
+STU3722,Priya Nair,Electronics,BTech,1,C
+STU3723,Pooja Das,Computer Science,BCA,2,A
+STU3724,Simran Yadav,Computer Science,BCA,2,B
+STU3725,Aarav Yadav,Computer Science,MTech,1,A
+STU3726,Pooja Yadav,Mechanical,BTech,4,C
+STU3727,Aarav Gupta,Information Technology,MTech,1,B
+STU3728,Simran Yadav,Electronics,MTech,4,B
+STU3729,Pooja Verma,Civil,BCA,1,B
+STU3730,Kavita Nair,Electronics,BCA,4,D
+STU3731,Neha Kaur,Information Technology,MCA,1,B
+STU3732,Pooja Kumar,Computer Science,BCA,3,D
+STU3733,Vikram Singh,Mechanical,MCA,4,D
+STU3734,Aarav Yadav,Information Technology,MTech,2,A
+STU3735,Simran Nair,Information Technology,BCA,1,A
+STU3736,Priya Das,Civil,BTech,2,B
+STU3737,Rohan Singh,Electronics,BTech,1,C
+STU3738,Kavita Gupta,Electronics,MTech,2,B
+STU3739,Simran Nair,Civil,MTech,2,A
+STU3740,Rohan Kaur,Mechanical,BCA,1,B
+STU3741,Kavita Iyer,Computer Science,MCA,1,A
+STU3742,Priya Iyer,Computer Science,BCA,2,B
+STU3743,Simran Yadav,Mechanical,MCA,2,C
+STU3744,Priya Das,Civil,BCA,2,B
+STU3745,Ananya Verma,Information Technology,BTech,4,C
+STU3746,Rohan Gupta,Electronics,BTech,4,C
+STU3747,Vikram Patel,Information Technology,MCA,3,B
+STU3748,Ananya Nair,Electronics,BCA,4,C
+STU3749,Amit Verma,Information Technology,MTech,4,C
+STU3750,Amit Verma,Civil,MCA,1,A
+STU3751,Vikram Das,Civil,BTech,3,A
+STU3752,Karan Das,Mechanical,MCA,3,C
+STU3753,Rohan Reddy,Information Technology,BCA,4,D
+STU3754,Karan Singh,Information Technology,MTech,1,B
+STU3755,Karan Verma,Mechanical,MTech,1,C
+STU3756,Rahul Patel,Mechanical,MCA,3,B
+STU3757,Ananya Sharma,Civil,BCA,1,A
+STU3758,Pooja Verma,Civil,BCA,2,B
+STU3759,Neha Verma,Information Technology,MTech,4,C
+STU3760,Rahul Das,Civil,BTech,2,C
+STU3761,Ananya Gupta,Civil,BCA,3,C
+STU3762,Pooja Gupta,Information Technology,MTech,3,C
+STU3763,Rohan Singh,Mechanical,MTech,1,D
+STU3764,Vikram Reddy,Information Technology,BCA,1,D
+STU3765,Kavita Iyer,Computer Science,BCA,3,D
+STU3766,Kavita Singh,Information Technology,MCA,3,C
+STU3767,Simran Kumar,Computer Science,BTech,2,D
+STU3768,Pooja Reddy,Information Technology,MCA,2,B
+STU3769,Aarav Sharma,Computer Science,MCA,1,C
+STU3770,Rohan Patel,Computer Science,MTech,2,A
+STU3771,Aarav Yadav,Information Technology,MTech,1,C
+STU3772,Vikram Nair,Civil,BTech,1,B
+STU3773,Pooja Kaur,Electronics,MCA,4,D
+STU3774,Pooja Verma,Civil,MCA,1,C
+STU3775,Ananya Kumar,Computer Science,MTech,2,D
+STU3776,Priya Kaur,Information Technology,MTech,3,C
+STU3777,Karan Patel,Information Technology,BCA,3,B
+STU3778,Simran Yadav,Information Technology,MCA,2,C
+STU3779,Aarav Reddy,Information Technology,BTech,3,D
+STU3780,Simran Iyer,Electronics,MCA,1,D
+STU3781,Neha Patel,Mechanical,MTech,3,B
+STU3782,Amit Kumar,Computer Science,BCA,2,C
+STU3783,Kavita Kumar,Electronics,MCA,3,A
+STU3784,Simran Gupta,Civil,BTech,1,C
+STU3785,Pooja Das,Mechanical,MTech,1,B
+STU3786,Kavita Verma,Mechanical,BCA,2,A
+STU3787,Priya Reddy,Information Technology,MCA,2,B
+STU3788,Karan Nair,Electronics,BTech,2,C
+STU3789,Neha Nair,Civil,MTech,4,A
+STU3790,Pooja Yadav,Information Technology,BTech,4,B
+STU3791,Ananya Kaur,Information Technology,MCA,1,D
+STU3792,Karan Iyer,Computer Science,MTech,4,A
+STU3793,Karan Yadav,Mechanical,MCA,4,A
+STU3794,Simran Singh,Civil,BCA,3,B
+STU3795,Priya Gupta,Mechanical,MCA,4,D
+STU3796,Vikram Singh,Electronics,BCA,3,A
+STU3797,Rahul Sharma,Computer Science,MCA,2,B
+STU3798,Pooja Iyer,Information Technology,BTech,3,A
+STU3799,Ananya Iyer,Computer Science,BTech,3,A
+STU3800,Kavita Iyer,Information Technology,MTech,2,A
+STU3801,Kavita Reddy,Computer Science,BTech,2,D
+STU3802,Vikram Reddy,Information Technology,BTech,1,C
+STU3803,Ananya Sharma,Mechanical,BCA,1,C
+STU3804,Rohan Kaur,Mechanical,BTech,1,D
+STU3805,Ananya Gupta,Mechanical,BCA,1,D
+STU3806,Rohan Reddy,Mechanical,BCA,3,B
+STU3807,Neha Gupta,Computer Science,BCA,3,A
+STU3808,Karan Gupta,Information Technology,MCA,1,D
+STU3809,Ananya Verma,Mechanical,BCA,4,B
+STU3810,Rahul Singh,Computer Science,MCA,1,C
+STU3811,Neha Sharma,Information Technology,BCA,4,C
+STU3812,Amit Kaur,Computer Science,MCA,2,C
+STU3813,Neha Yadav,Mechanical,MTech,3,C
+STU3814,Rahul Nair,Electronics,MTech,3,B
+STU3815,Kavita Reddy,Computer Science,MCA,4,A
+STU3816,Amit Reddy,Mechanical,MTech,1,B
+STU3817,Rahul Nair,Civil,BTech,3,A
+STU3818,Pooja Reddy,Information Technology,BCA,4,C
+STU3819,Pooja Kumar,Mechanical,MCA,2,D
+STU3820,Amit Singh,Civil,MTech,2,D
+STU3821,Simran Kumar,Computer Science,MTech,3,D
+STU3822,Priya Gupta,Computer Science,BTech,1,A
+STU3823,Vikram Singh,Civil,BCA,4,C
+STU3824,Neha Sharma,Civil,BTech,3,B
+STU3825,Karan Kaur,Information Technology,MCA,2,D
+STU3826,Simran Sharma,Computer Science,MTech,1,A
+STU3827,Karan Kaur,Civil,MTech,4,D
+STU3828,Priya Patel,Electronics,MTech,3,B
+STU3829,Rohan Kaur,Electronics,BTech,4,C
+STU3830,Ananya Kaur,Civil,BTech,1,B
+STU3831,Neha Gupta,Information Technology,BCA,1,C
+STU3832,Kavita Verma,Computer Science,MCA,2,C
+STU3833,Pooja Singh,Electronics,BCA,1,C
+STU3834,Priya Sharma,Civil,BCA,3,D
+STU3835,Amit Kaur,Civil,MTech,4,B
+STU3836,Pooja Reddy,Mechanical,BTech,1,D
+STU3837,Priya Sharma,Civil,MCA,1,B
+STU3838,Neha Kumar,Information Technology,BCA,3,A
+STU3839,Priya Reddy,Electronics,MCA,4,A
+STU3840,Rohan Kaur,Mechanical,MTech,4,B
+STU3841,Karan Patel,Electronics,BCA,2,B
+STU3842,Pooja Singh,Electronics,BTech,2,B
+STU3843,Amit Iyer,Information Technology,BCA,4,B
+STU3844,Aarav Yadav,Civil,MTech,3,C
+STU3845,Neha Kaur,Information Technology,BCA,3,D
+STU3846,Karan Kumar,Civil,MTech,2,C
+STU3847,Neha Kaur,Mechanical,BCA,1,D
+STU3848,Rahul Verma,Information Technology,MCA,3,D
+STU3849,Pooja Iyer,Information Technology,BTech,1,D
+STU3850,Rohan Patel,Computer Science,MTech,3,C
+STU3851,Pooja Gupta,Information Technology,MCA,4,B
+STU3852,Amit Reddy,Computer Science,MTech,2,C
+STU3853,Pooja Yadav,Civil,BCA,1,C
+STU3854,Simran Das,Civil,MTech,1,D
+STU3855,Kavita Yadav,Civil,MTech,4,A
+STU3856,Simran Verma,Computer Science,BTech,3,A
+STU3857,Ananya Yadav,Civil,MCA,1,C
+STU3858,Simran Verma,Electronics,BCA,3,D
+STU3859,Vikram Reddy,Information Technology,BTech,4,C
+STU3860,Pooja Gupta,Computer Science,MTech,2,C
+STU3861,Kavita Singh,Civil,BTech,1,B
+STU3862,Neha Yadav,Electronics,MTech,3,D
+STU3863,Rahul Verma,Information Technology,BCA,1,A
+STU3864,Karan Das,Information Technology,MTech,3,A
+STU3865,Pooja Nair,Civil,BTech,3,A
+STU3866,Rahul Verma,Electronics,BTech,3,C
+STU3867,Simran Reddy,Computer Science,MTech,4,D
+STU3868,Neha Singh,Civil,MCA,2,B
+STU3869,Neha Yadav,Information Technology,BTech,1,A
+STU3870,Rohan Nair,Information Technology,MCA,2,D
+STU3871,Karan Iyer,Information Technology,MCA,3,A
+STU3872,Aarav Nair,Civil,MCA,3,B
+STU3873,Amit Yadav,Mechanical,MCA,2,D
+STU3874,Pooja Verma,Mechanical,BTech,2,C
+STU3875,Vikram Verma,Mechanical,BTech,1,C
+STU3876,Aarav Das,Electronics,MCA,3,A
+STU3877,Vikram Gupta,Civil,BTech,2,A
+STU3878,Vikram Das,Information Technology,MCA,4,D
+STU3879,Priya Gupta,Electronics,MCA,3,B
+STU3880,Karan Reddy,Mechanical,MCA,3,A
+STU3881,Rahul Yadav,Computer Science,MTech,1,D
+STU3882,Kavita Reddy,Electronics,BCA,4,B
+STU3883,Karan Sharma,Electronics,BTech,1,A
+STU3884,Kavita Kumar,Civil,BTech,4,A
+STU3885,Kavita Verma,Electronics,MCA,1,D
+STU3886,Ananya Nair,Civil,MTech,4,A
+STU3887,Ananya Yadav,Computer Science,MTech,4,C
+STU3888,Neha Patel,Information Technology,BTech,4,B
+STU3889,Karan Kaur,Information Technology,MCA,2,B
+STU3890,Simran Singh,Mechanical,BTech,3,C
+STU3891,Pooja Reddy,Mechanical,MCA,4,D
+STU3892,Amit Reddy,Computer Science,MCA,2,C
+STU3893,Ananya Nair,Information Technology,BCA,2,C
+STU3894,Karan Sharma,Mechanical,MCA,1,B
+STU3895,Vikram Gupta,Electronics,BCA,3,D
+STU3896,Rahul Gupta,Civil,BTech,3,A
+STU3897,Karan Patel,Mechanical,BTech,1,C
+STU3898,Pooja Das,Computer Science,MTech,3,C
+STU3899,Rahul Iyer,Information Technology,BCA,1,D
+STU3900,Karan Patel,Computer Science,BTech,2,C
+STU3901,Ananya Patel,Civil,BCA,2,D
+STU3902,Pooja Yadav,Civil,BTech,4,A
+STU3903,Ananya Nair,Computer Science,BCA,1,D
+STU3904,Simran Gupta,Mechanical,BCA,2,A
+STU3905,Priya Kumar,Mechanical,MCA,2,D
+STU3906,Vikram Yadav,Information Technology,BTech,1,C
+STU3907,Simran Nair,Information Technology,MTech,2,A
+STU3908,Karan Patel,Electronics,MCA,3,C
+STU3909,Rahul Verma,Electronics,MTech,2,A
+STU3910,Simran Das,Information Technology,BCA,1,D
+STU3911,Rohan Kumar,Electronics,MCA,3,D
+STU3912,Vikram Kaur,Computer Science,BCA,3,D
+STU3913,Rahul Nair,Mechanical,BTech,2,B
+STU3914,Rahul Kaur,Electronics,BTech,4,B
+STU3915,Kavita Reddy,Electronics,MTech,3,A
+STU3916,Kavita Nair,Computer Science,BTech,1,B
+STU3917,Karan Kaur,Civil,MTech,4,D
+STU3918,Pooja Sharma,Information Technology,BCA,4,B
+STU3919,Vikram Reddy,Computer Science,MCA,3,B
+STU3920,Aarav Das,Civil,BTech,2,C
+STU3921,Amit Gupta,Computer Science,BCA,4,A
+STU3922,Rohan Reddy,Mechanical,MCA,2,A
+STU3923,Ananya Singh,Computer Science,BCA,3,A
+STU3924,Pooja Sharma,Computer Science,MTech,1,B
+STU3925,Ananya Singh,Mechanical,BCA,4,D
+STU3926,Ananya Nair,Information Technology,MTech,1,C
+STU3927,Aarav Das,Civil,MTech,2,A
+STU3928,Rahul Nair,Electronics,BTech,2,B
+STU3929,Vikram Singh,Information Technology,MTech,1,D
+STU3930,Simran Sharma,Computer Science,MTech,3,C
+STU3931,Neha Gupta,Electronics,BCA,3,C
+STU3932,Vikram Gupta,Mechanical,MTech,4,A
+STU3933,Rohan Das,Information Technology,MTech,4,A
+STU3934,Simran Singh,Civil,BCA,3,D
+STU3935,Neha Sharma,Information Technology,MCA,3,B
+STU3936,Kavita Reddy,Information Technology,BTech,1,D
+STU3937,Rahul Das,Electronics,BCA,2,A
+STU3938,Priya Yadav,Mechanical,MTech,2,D
+STU3939,Priya Patel,Mechanical,BCA,4,B
+STU3940,Ananya Sharma,Information Technology,MCA,3,C
+STU3941,Ananya Kaur,Mechanical,BCA,1,C
+STU3942,Rahul Kaur,Electronics,BCA,4,C
+STU3943,Vikram Yadav,Electronics,BCA,1,C
+STU3944,Aarav Yadav,Civil,BCA,3,A
+STU3945,Vikram Verma,Mechanical,MTech,3,A
+STU3946,Neha Nair,Civil,BCA,3,B
+STU3947,Kavita Reddy,Computer Science,MCA,2,B
+STU3948,Vikram Iyer,Electronics,BCA,3,B
+STU3949,Karan Nair,Information Technology,BCA,4,B
+STU3950,Vikram Yadav,Electronics,MTech,2,D
+STU3951,Karan Verma,Computer Science,MTech,1,B
+STU3952,Aarav Kaur,Information Technology,BCA,4,C
+STU3953,Karan Patel,Mechanical,MTech,4,C
+STU3954,Simran Nair,Mechanical,MTech,1,C
+STU3955,Priya Nair,Electronics,BCA,2,D
+STU3956,Priya Patel,Information Technology,MTech,4,B
+STU3957,Kavita Singh,Information Technology,BTech,4,C
+STU3958,Rahul Yadav,Civil,BTech,4,C
+STU3959,Karan Nair,Computer Science,BTech,2,C
+STU3960,Amit Kaur,Mechanical,MTech,2,C
+STU3961,Simran Verma,Electronics,BTech,2,A
+STU3962,Vikram Reddy,Information Technology,MCA,4,B
+STU3963,Pooja Kumar,Mechanical,BTech,3,B
+STU3964,Vikram Verma,Electronics,MCA,1,D
+STU3965,Pooja Reddy,Mechanical,MTech,3,A
+STU3966,Pooja Iyer,Electronics,BTech,2,D
+STU3967,Amit Yadav,Mechanical,MCA,4,C
+STU3968,Rohan Verma,Civil,MTech,4,D
+STU3969,Neha Sharma,Computer Science,BTech,3,C
+STU3970,Kavita Sharma,Mechanical,BCA,3,C
+STU3971,Vikram Verma,Computer Science,BTech,1,B
+STU3972,Karan Sharma,Mechanical,BTech,4,B
+STU3973,Rahul Sharma,Information Technology,BTech,3,B
+STU3974,Karan Reddy,Civil,BCA,1,B
+STU3975,Rahul Nair,Civil,MCA,2,B
+STU3976,Neha Iyer,Computer Science,MCA,3,A
+STU3977,Amit Patel,Information Technology,BCA,2,B
+STU3978,Priya Kaur,Electronics,BTech,1,D
+STU3979,Aarav Gupta,Civil,BTech,2,C
+STU3980,Aarav Das,Information Technology,BTech,4,B
+STU3981,Aarav Nair,Information Technology,MCA,4,A
+STU3982,Pooja Yadav,Computer Science,MCA,2,D
+STU3983,Pooja Iyer,Information Technology,BCA,4,D
+STU3984,Rahul Sharma,Information Technology,MTech,1,C
+STU3985,Vikram Reddy,Electronics,BCA,4,D
+STU3986,Amit Verma,Computer Science,MCA,2,D
+STU3987,Kavita Gupta,Computer Science,BTech,2,D
+STU3988,Vikram Nair,Information Technology,BTech,2,D
+STU3989,Priya Iyer,Electronics,BTech,3,A
+STU3990,Ananya Kumar,Mechanical,BTech,2,C
+STU3991,Kavita Verma,Civil,MTech,1,B
+STU3992,Neha Verma,Computer Science,BCA,4,D
+STU3993,Simran Iyer,Electronics,BCA,4,A
+STU3994,Rahul Patel,Electronics,MCA,3,C
+STU3995,Aarav Sharma,Information Technology,BCA,3,B
+STU3996,Rohan Reddy,Civil,MTech,1,C
+STU3997,Karan Patel,Computer Science,MTech,2,A
+STU3998,Rahul Gupta,Mechanical,MTech,3,A
+STU3999,Rohan Kumar,Information Technology,BTech,4,A
+STU4000,Ananya Singh,Computer Science,MCA,3,D
+STU4001,Priya Nair,Computer Science,MTech,3,A
+STU4002,Kavita Kaur,Electronics,BCA,2,B
+STU4003,Karan Gupta,Civil,BCA,3,D
+STU4004,Vikram Singh,Mechanical,BCA,1,C
+STU4005,Ananya Patel,Civil,MTech,4,B
+STU4006,Karan Sharma,Electronics,MTech,2,D
+STU4007,Vikram Kumar,Mechanical,BCA,4,A
+STU4008,Aarav Kaur,Mechanical,MTech,1,C
+STU4009,Rohan Patel,Information Technology,BCA,1,A
+STU4010,Neha Singh,Mechanical,BTech,3,B
+STU4011,Ananya Reddy,Computer Science,MTech,3,B
+STU4012,Pooja Das,Civil,BTech,3,D
+STU4013,Priya Kumar,Civil,BTech,4,B
+STU4014,Aarav Das,Information Technology,MTech,1,C
+STU4015,Simran Nair,Mechanical,BCA,2,D
+STU4016,Rohan Sharma,Electronics,MCA,3,C
+STU4017,Karan Singh,Computer Science,BTech,4,A
+STU4018,Simran Verma,Information Technology,MTech,3,C
+STU4019,Ananya Das,Mechanical,BTech,1,C
+STU4020,Vikram Sharma,Electronics,BCA,2,B
+STU4021,Vikram Nair,Mechanical,MTech,1,A
+STU4022,Neha Nair,Information Technology,MCA,4,B
+STU4023,Ananya Kumar,Electronics,MTech,3,A
+STU4024,Karan Yadav,Electronics,BTech,1,A
+STU4025,Priya Gupta,Electronics,MTech,4,C
+STU4026,Rahul Nair,Electronics,MTech,3,B
+STU4027,Rohan Gupta,Mechanical,BTech,2,C
+STU4028,Karan Kaur,Electronics,MCA,1,C
+STU4029,Pooja Kumar,Mechanical,BCA,3,C
+STU4030,Rohan Yadav,Electronics,MTech,3,A
+STU4031,Simran Sharma,Electronics,MCA,3,B
+STU4032,Neha Das,Information Technology,BCA,3,B
+STU4033,Rohan Singh,Mechanical,BTech,1,C
+STU4034,Aarav Sharma,Mechanical,MCA,3,A
+STU4035,Kavita Kumar,Civil,MCA,4,B
+STU4036,Kavita Gupta,Information Technology,MTech,1,D
+STU4037,Kavita Patel,Mechanical,BTech,3,B
+STU4038,Ananya Das,Information Technology,MTech,1,C
+STU4039,Rohan Yadav,Information Technology,BTech,4,D
+STU4040,Priya Sharma,Information Technology,BCA,4,A
+STU4041,Karan Sharma,Computer Science,MTech,1,D
+STU4042,Aarav Reddy,Mechanical,BTech,3,D
+STU4043,Amit Das,Information Technology,BTech,3,C
+STU4044,Vikram Yadav,Computer Science,MCA,4,B
+STU4045,Ananya Kaur,Computer Science,MTech,3,A
+STU4046,Amit Yadav,Electronics,MTech,4,D
+STU4047,Simran Das,Electronics,BCA,3,C
+STU4048,Vikram Sharma,Mechanical,BTech,4,B
+STU4049,Simran Yadav,Electronics,MCA,2,D
+STU4050,Neha Iyer,Mechanical,BTech,3,C
+STU4051,Simran Singh,Computer Science,BTech,3,C
+STU4052,Priya Kaur,Computer Science,BTech,3,C
+STU4053,Kavita Iyer,Mechanical,MTech,1,A
+STU4054,Amit Kumar,Electronics,BTech,3,B
+STU4055,Amit Kumar,Electronics,BCA,1,D
+STU4056,Neha Patel,Mechanical,MCA,1,B
+STU4057,Rohan Kaur,Civil,MCA,4,B
+STU4058,Karan Yadav,Electronics,BTech,1,D
+STU4059,Priya Singh,Information Technology,MCA,1,B
+STU4060,Priya Kumar,Electronics,BTech,2,A
+STU4061,Kavita Yadav,Civil,MTech,3,D
+STU4062,Simran Das,Computer Science,MCA,1,D
+STU4063,Ananya Singh,Computer Science,MTech,3,C
+STU4064,Priya Iyer,Computer Science,MTech,1,B
+STU4065,Vikram Nair,Electronics,BCA,4,D
+STU4066,Neha Kumar,Computer Science,BCA,2,D
+STU4067,Aarav Singh,Civil,MCA,1,A
+STU4068,Rahul Yadav,Civil,BTech,3,C
+STU4069,Pooja Verma,Electronics,BTech,4,D
+STU4070,Kavita Kaur,Information Technology,BTech,3,A
+STU4071,Pooja Iyer,Electronics,BTech,4,D
+STU4072,Kavita Yadav,Computer Science,BCA,2,D
+STU4073,Vikram Kaur,Electronics,BTech,4,D
+STU4074,Simran Reddy,Civil,BTech,3,A
+STU4075,Kavita Reddy,Electronics,MTech,3,B
+STU4076,Aarav Nair,Electronics,BTech,1,D
+STU4077,Vikram Kumar,Information Technology,BTech,4,D
+STU4078,Rohan Yadav,Civil,BCA,3,B
+STU4079,Amit Singh,Mechanical,MCA,1,D
+STU4080,Vikram Singh,Mechanical,MTech,2,C
+STU4081,Simran Iyer,Civil,MTech,3,D
+STU4082,Simran Iyer,Mechanical,MCA,1,C
+STU4083,Pooja Patel,Computer Science,MTech,3,B
+STU4084,Simran Yadav,Mechanical,BTech,4,A
+STU4085,Ananya Kaur,Computer Science,BTech,1,B
+STU4086,Karan Kaur,Civil,MCA,4,D
+STU4087,Rohan Patel,Mechanical,BCA,2,C
+STU4088,Ananya Iyer,Mechanical,BCA,4,A
+STU4089,Pooja Patel,Computer Science,MTech,1,D
+STU4090,Rohan Yadav,Computer Science,BCA,3,A
+STU4091,Aarav Singh,Electronics,BCA,1,A
+STU4092,Neha Kaur,Information Technology,BCA,4,D
+STU4093,Priya Reddy,Mechanical,BCA,4,B
+STU4094,Vikram Gupta,Information Technology,BCA,3,D
+STU4095,Aarav Nair,Information Technology,BCA,2,D
+STU4096,Ananya Patel,Mechanical,BCA,1,B
+STU4097,Karan Reddy,Computer Science,MTech,3,C
+STU4098,Rahul Das,Electronics,BTech,3,D
+STU4099,Rohan Verma,Civil,BCA,3,A
+STU4100,Neha Iyer,Mechanical,BTech,1,D
+STU4101,Priya Gupta,Mechanical,MCA,1,D
+STU4102,Amit Patel,Civil,BTech,1,A
+STU4103,Rohan Nair,Information Technology,MCA,2,B
+STU4104,Rahul Verma,Electronics,MTech,3,C
+STU4105,Neha Iyer,Information Technology,BTech,4,C
+STU4106,Rohan Gupta,Civil,MCA,4,A
+STU4107,Kavita Kumar,Civil,BTech,3,B
+STU4108,Neha Nair,Electronics,MTech,4,D
+STU4109,Amit Iyer,Civil,BTech,2,D
+STU4110,Aarav Nair,Civil,MCA,2,D
+STU4111,Neha Sharma,Electronics,BCA,1,D
+STU4112,Rohan Sharma,Mechanical,BCA,1,D
+STU4113,Rahul Kaur,Information Technology,BCA,1,A
+STU4114,Rahul Nair,Mechanical,MTech,1,D
+STU4115,Simran Nair,Mechanical,BCA,1,D
+STU4116,Kavita Das,Information Technology,MTech,4,B
+STU4117,Amit Reddy,Mechanical,BCA,4,D
+STU4118,Ananya Das,Electronics,MTech,1,C
+STU4119,Vikram Patel,Information Technology,MTech,2,A
+STU4120,Rohan Yadav,Computer Science,BTech,4,A
+STU4121,Pooja Yadav,Mechanical,BCA,2,A
+STU4122,Neha Verma,Civil,BTech,2,C
+STU4123,Priya Singh,Information Technology,MCA,3,D
+STU4124,Vikram Kumar,Computer Science,BCA,3,A
+STU4125,Rahul Verma,Civil,BCA,1,C
+STU4126,Kavita Gupta,Computer Science,BCA,2,B
+STU4127,Pooja Sharma,Mechanical,BCA,4,D
+STU4128,Rahul Gupta,Civil,BTech,3,C
+STU4129,Ananya Patel,Mechanical,BTech,3,D
+STU4130,Rohan Gupta,Civil,MTech,2,B
+STU4131,Karan Reddy,Information Technology,BTech,3,C
+STU4132,Amit Singh,Electronics,MTech,3,D
+STU4133,Karan Gupta,Electronics,MCA,4,C
+STU4134,Pooja Reddy,Computer Science,BTech,2,A
+STU4135,Priya Kaur,Civil,MTech,3,D
+STU4136,Rohan Gupta,Mechanical,BCA,2,C
+STU4137,Amit Singh,Information Technology,MCA,3,A
+STU4138,Simran Iyer,Information Technology,MTech,4,B
+STU4139,Rahul Nair,Information Technology,MCA,2,D
+STU4140,Rahul Kaur,Electronics,BCA,3,D
+STU4141,Simran Kumar,Mechanical,BCA,4,B
+STU4142,Kavita Singh,Information Technology,MTech,3,A
+STU4143,Vikram Sharma,Information Technology,MTech,2,B
+STU4144,Amit Iyer,Computer Science,BCA,3,D
+STU4145,Vikram Das,Civil,MTech,2,C
+STU4146,Ananya Iyer,Civil,BCA,2,A
+STU4147,Simran Iyer,Civil,BTech,3,A
+STU4148,Priya Kumar,Computer Science,MTech,4,A
+STU4149,Kavita Sharma,Electronics,MCA,1,B
+STU4150,Neha Verma,Computer Science,BCA,4,B
+STU4151,Aarav Nair,Information Technology,BTech,4,C
+STU4152,Aarav Iyer,Mechanical,MTech,3,C
+STU4153,Simran Verma,Information Technology,BCA,4,A
+STU4154,Vikram Kaur,Information Technology,BTech,4,C
+STU4155,Ananya Iyer,Mechanical,MTech,1,B
+STU4156,Karan Verma,Civil,BCA,4,C
+STU4157,Rohan Reddy,Computer Science,BCA,1,B
+STU4158,Pooja Das,Electronics,BCA,3,C
+STU4159,Kavita Kaur,Information Technology,MTech,1,D
+STU4160,Vikram Sharma,Information Technology,BTech,2,B
+STU4161,Ananya Iyer,Electronics,BCA,2,D
+STU4162,Rohan Kaur,Computer Science,BTech,1,B
+STU4163,Kavita Kaur,Information Technology,BTech,2,C
+STU4164,Rahul Das,Electronics,MCA,3,D
+STU4165,Karan Singh,Information Technology,BTech,2,C
+STU4166,Kavita Verma,Civil,BTech,1,B
+STU4167,Vikram Nair,Civil,BTech,3,D
+STU4168,Neha Das,Information Technology,BTech,2,A
+STU4169,Pooja Das,Information Technology,BTech,3,C
+STU4170,Pooja Singh,Civil,MTech,1,B
+STU4171,Pooja Verma,Information Technology,MCA,2,D
+STU4172,Amit Iyer,Computer Science,BCA,3,C
+STU4173,Karan Singh,Computer Science,MCA,3,D
+STU4174,Kavita Kaur,Mechanical,MCA,2,C
+STU4175,Karan Reddy,Computer Science,BCA,3,C
+STU4176,Rohan Kumar,Information Technology,BTech,3,C
+STU4177,Ananya Reddy,Information Technology,BCA,1,D
+STU4178,Rohan Singh,Electronics,BTech,1,D
+STU4179,Priya Patel,Computer Science,BCA,1,C
+STU4180,Neha Nair,Civil,MTech,1,A
+STU4181,Amit Sharma,Civil,MCA,1,A
+STU4182,Ananya Reddy,Mechanical,BTech,1,A
+STU4183,Amit Das,Electronics,MCA,2,B
+STU4184,Aarav Verma,Civil,BTech,1,A
+STU4185,Vikram Iyer,Mechanical,BCA,3,D
+STU4186,Simran Das,Computer Science,BCA,2,A
+STU4187,Priya Das,Electronics,BCA,3,D
+STU4188,Simran Das,Electronics,MTech,1,B
+STU4189,Aarav Patel,Information Technology,BCA,1,D
+STU4190,Rohan Yadav,Computer Science,BCA,3,D
+STU4191,Vikram Sharma,Electronics,MTech,3,D
+STU4192,Rahul Das,Mechanical,MCA,3,A
+STU4193,Ananya Nair,Civil,MCA,4,C
+STU4194,Rohan Patel,Computer Science,BTech,4,D
+STU4195,Simran Kaur,Computer Science,MCA,4,A
+STU4196,Kavita Reddy,Electronics,BTech,4,A
+STU4197,Karan Kumar,Electronics,BTech,2,A
+STU4198,Simran Kaur,Electronics,MCA,1,C
+STU4199,Kavita Iyer,Mechanical,MCA,3,C
+STU4200,Pooja Kaur,Information Technology,MTech,1,C
+STU4201,Kavita Nair,Electronics,BTech,3,C
+STU4202,Ananya Verma,Information Technology,MCA,1,B
+STU4203,Aarav Iyer,Information Technology,MCA,2,C
+STU4204,Aarav Patel,Computer Science,MTech,4,C
+STU4205,Pooja Verma,Civil,MCA,1,C
+STU4206,Pooja Verma,Civil,BCA,3,D
+STU4207,Pooja Iyer,Mechanical,BCA,1,D
+STU4208,Kavita Reddy,Mechanical,BTech,2,C
+STU4209,Neha Verma,Civil,MTech,2,B
+STU4210,Amit Sharma,Civil,MCA,1,D
+STU4211,Karan Patel,Computer Science,BTech,4,A
+STU4212,Priya Gupta,Computer Science,MCA,3,D
+STU4213,Vikram Das,Civil,BCA,2,A
+STU4214,Karan Kaur,Electronics,MCA,2,D
+STU4215,Ananya Das,Electronics,MCA,1,C
+STU4216,Ananya Reddy,Computer Science,MCA,2,D
+STU4217,Pooja Das,Information Technology,BCA,2,C
+STU4218,Ananya Kumar,Civil,BCA,3,C
+STU4219,Amit Gupta,Mechanical,MTech,4,D
+STU4220,Neha Sharma,Electronics,BCA,3,A
+STU4221,Karan Singh,Information Technology,BTech,4,A
+STU4222,Ananya Verma,Electronics,MCA,3,D
+STU4223,Neha Patel,Information Technology,BCA,1,C
+STU4224,Ananya Verma,Civil,BTech,2,A
+STU4225,Neha Nair,Civil,BCA,4,B
+STU4226,Neha Reddy,Civil,MCA,1,C
+STU4227,Simran Kumar,Computer Science,BTech,2,D
+STU4228,Rahul Reddy,Information Technology,BCA,2,C
+STU4229,Pooja Iyer,Mechanical,BCA,2,B
+STU4230,Priya Nair,Mechanical,BTech,3,B
+STU4231,Ananya Verma,Civil,MTech,1,A
+STU4232,Ananya Singh,Mechanical,BTech,1,B
+STU4233,Vikram Kumar,Electronics,BTech,2,C
+STU4234,Neha Iyer,Information Technology,BTech,4,A
+STU4235,Kavita Iyer,Information Technology,BTech,1,B
+STU4236,Karan Sharma,Information Technology,BCA,3,A
+STU4237,Rahul Kumar,Electronics,BTech,4,A
+STU4238,Rahul Das,Computer Science,BTech,4,D
+STU4239,Neha Reddy,Electronics,MCA,4,A
+STU4240,Rohan Sharma,Information Technology,BCA,4,A
+STU4241,Amit Yadav,Information Technology,MCA,1,B
+STU4242,Kavita Gupta,Information Technology,BCA,2,C
+STU4243,Vikram Verma,Mechanical,MTech,4,C
+STU4244,Pooja Singh,Computer Science,MTech,3,B
+STU4245,Pooja Nair,Electronics,BCA,3,C
+STU4246,Rahul Das,Information Technology,MTech,2,A
+STU4247,Pooja Kaur,Civil,MTech,1,D
+STU4248,Rahul Kumar,Computer Science,BCA,2,A
+STU4249,Karan Das,Civil,BTech,4,A
+STU4250,Aarav Singh,Computer Science,MCA,1,D
+STU4251,Pooja Reddy,Information Technology,BCA,1,B
+STU4252,Priya Kumar,Computer Science,BCA,4,A
+STU4253,Ananya Patel,Computer Science,BCA,3,A
+STU4254,Ananya Reddy,Information Technology,MCA,4,B
+STU4255,Ananya Verma,Civil,BCA,2,A
+STU4256,Simran Reddy,Civil,MCA,4,A
+STU4257,Pooja Kaur,Mechanical,MCA,3,C
+STU4258,Vikram Kaur,Civil,MTech,4,B
+STU4259,Kavita Iyer,Civil,BTech,2,A
+STU4260,Karan Nair,Computer Science,MTech,2,A
+STU4261,Vikram Gupta,Mechanical,BCA,3,D
+STU4262,Priya Sharma,Information Technology,BCA,2,D
+STU4263,Aarav Sharma,Information Technology,MCA,2,D
+STU4264,Amit Sharma,Electronics,MTech,4,A
+STU4265,Karan Nair,Mechanical,MCA,1,A
+STU4266,Rahul Patel,Computer Science,MTech,2,D
+STU4267,Vikram Das,Electronics,MTech,2,C
+STU4268,Neha Iyer,Electronics,MTech,3,C
+STU4269,Kavita Reddy,Information Technology,MTech,3,C
+STU4270,Aarav Gupta,Civil,MTech,4,C
+STU4271,Pooja Patel,Computer Science,BTech,4,B
+STU4272,Neha Yadav,Mechanical,BCA,2,D
+STU4273,Priya Gupta,Electronics,MTech,1,A
+STU4274,Amit Sharma,Computer Science,MTech,1,D
+STU4275,Rohan Iyer,Information Technology,MCA,4,C
+STU4276,Rahul Kaur,Electronics,BCA,3,A
+STU4277,Amit Sharma,Electronics,BCA,2,B
+STU4278,Pooja Patel,Information Technology,BCA,2,D
+STU4279,Priya Das,Information Technology,MTech,1,A
+STU4280,Karan Patel,Information Technology,MCA,4,A
+STU4281,Pooja Das,Computer Science,BCA,1,C
+STU4282,Simran Kaur,Computer Science,MCA,1,C
+STU4283,Vikram Kumar,Computer Science,BTech,4,D
+STU4284,Pooja Kaur,Civil,BTech,3,B
+STU4285,Vikram Singh,Electronics,MCA,2,A
+STU4286,Amit Singh,Computer Science,MTech,3,C
+STU4287,Rohan Yadav,Civil,BCA,4,D
+STU4288,Vikram Sharma,Electronics,BTech,4,C
+STU4289,Pooja Sharma,Computer Science,BTech,2,D
+STU4290,Karan Kaur,Information Technology,MCA,3,C
+STU4291,Rahul Singh,Mechanical,MTech,2,B
+STU4292,Priya Nair,Computer Science,MCA,1,A
+STU4293,Simran Verma,Mechanical,MCA,1,C
+STU4294,Priya Yadav,Computer Science,MCA,1,A
+STU4295,Aarav Yadav,Information Technology,MCA,3,D
+STU4296,Neha Patel,Mechanical,MCA,1,B
+STU4297,Ananya Nair,Civil,MTech,2,A
+STU4298,Rahul Singh,Information Technology,MCA,3,C
+STU4299,Rahul Reddy,Mechanical,MTech,2,A
+STU4300,Rohan Sharma,Mechanical,BCA,4,A
+STU4301,Karan Patel,Information Technology,BCA,3,D
+STU4302,Ananya Gupta,Information Technology,BCA,2,B
+STU4303,Amit Nair,Information Technology,BCA,2,B
+STU4304,Karan Verma,Electronics,BTech,3,A
+STU4305,Priya Nair,Civil,MTech,4,A
+STU4306,Priya Nair,Computer Science,BCA,3,D
+STU4307,Priya Verma,Mechanical,BTech,1,A
+STU4308,Simran Kaur,Computer Science,MTech,1,D
+STU4309,Rahul Kaur,Information Technology,BTech,4,B
+STU4310,Ananya Kaur,Civil,BTech,2,B
+STU4311,Karan Nair,Civil,MCA,2,D
+STU4312,Kavita Singh,Electronics,BTech,2,A
+STU4313,Vikram Iyer,Information Technology,BTech,3,B
+STU4314,Pooja Verma,Mechanical,MTech,3,C
+STU4315,Aarav Yadav,Electronics,BTech,4,D
+STU4316,Rohan Kumar,Information Technology,MCA,1,B
+STU4317,Aarav Verma,Electronics,BCA,2,B
+STU4318,Simran Nair,Computer Science,BCA,1,B
+STU4319,Amit Sharma,Information Technology,MTech,3,C
+STU4320,Rohan Reddy,Mechanical,MTech,3,C
+STU4321,Vikram Reddy,Mechanical,BTech,3,C
+STU4322,Rohan Nair,Information Technology,MTech,1,A
+STU4323,Simran Patel,Electronics,BTech,4,D
+STU4324,Rahul Patel,Civil,MTech,4,A
+STU4325,Amit Verma,Information Technology,BCA,3,C
+STU4326,Simran Nair,Mechanical,BCA,2,D
+STU4327,Kavita Singh,Computer Science,BCA,1,A
+STU4328,Vikram Yadav,Mechanical,BCA,3,A
+STU4329,Rohan Verma,Civil,BTech,1,A
+STU4330,Aarav Reddy,Mechanical,BTech,1,C
+STU4331,Pooja Reddy,Civil,BTech,4,B
+STU4332,Amit Sharma,Information Technology,BCA,3,D
+STU4333,Karan Reddy,Mechanical,MCA,4,C
+STU4334,Rahul Sharma,Electronics,BCA,3,D
+STU4335,Aarav Nair,Electronics,BCA,1,C
+STU4336,Priya Kaur,Mechanical,MCA,4,A
+STU4337,Rahul Kumar,Mechanical,MCA,1,A
+STU4338,Simran Kumar,Computer Science,MTech,3,B
+STU4339,Ananya Gupta,Mechanical,BCA,2,B
+STU4340,Pooja Nair,Computer Science,MCA,4,D
+STU4341,Simran Kaur,Computer Science,MTech,4,B
+STU4342,Rahul Sharma,Computer Science,MCA,1,B
+STU4343,Kavita Singh,Computer Science,MCA,1,D
+STU4344,Amit Patel,Information Technology,MTech,2,C
+STU4345,Rohan Kaur,Electronics,BCA,4,B
+STU4346,Pooja Iyer,Computer Science,MTech,3,C
+STU4347,Pooja Kaur,Electronics,BCA,3,A
+STU4348,Pooja Nair,Computer Science,MCA,4,B
+STU4349,Pooja Kumar,Electronics,MTech,4,A
+STU4350,Rahul Iyer,Mechanical,BTech,4,A
+STU4351,Priya Singh,Mechanical,MCA,2,C
+STU4352,Aarav Yadav,Electronics,MTech,3,D
+STU4353,Priya Verma,Computer Science,MCA,3,B
+STU4354,Neha Yadav,Information Technology,MTech,1,C
+STU4355,Simran Yadav,Electronics,BCA,1,D
+STU4356,Karan Iyer,Civil,BTech,4,A
+STU4357,Karan Kumar,Information Technology,MCA,1,B
+STU4358,Pooja Sharma,Civil,BTech,2,A
+STU4359,Rohan Kaur,Electronics,BCA,3,A
+STU4360,Kavita Patel,Computer Science,MTech,3,B
+STU4361,Pooja Kumar,Civil,BTech,1,D
+STU4362,Rahul Reddy,Electronics,MTech,4,D
+STU4363,Simran Patel,Information Technology,BCA,1,B
+STU4364,Priya Kumar,Computer Science,MCA,4,B
+STU4365,Rohan Singh,Civil,BCA,2,C
+STU4366,Kavita Patel,Electronics,BTech,3,C
+STU4367,Vikram Singh,Computer Science,BTech,2,A
+STU4368,Rahul Kaur,Computer Science,BTech,3,B
+STU4369,Ananya Kumar,Mechanical,MTech,2,D
+STU4370,Kavita Yadav,Computer Science,MCA,1,A
+STU4371,Simran Kaur,Electronics,BTech,2,A
+STU4372,Karan Reddy,Information Technology,BTech,2,A
+STU4373,Pooja Yadav,Mechanical,BTech,1,A
+STU4374,Pooja Gupta,Electronics,BCA,3,D
+STU4375,Amit Kumar,Electronics,BTech,3,A
+STU4376,Simran Verma,Electronics,BCA,1,B
+STU4377,Vikram Iyer,Civil,BTech,2,C
+STU4378,Ananya Singh,Civil,BCA,2,D
+STU4379,Rohan Patel,Information Technology,MTech,2,B
+STU4380,Pooja Kumar,Electronics,MTech,4,B
+STU4381,Neha Verma,Civil,BCA,3,B
+STU4382,Ananya Das,Civil,MCA,2,C
+STU4383,Kavita Reddy,Civil,MCA,3,C
+STU4384,Aarav Reddy,Information Technology,BCA,2,C
+STU4385,Kavita Sharma,Information Technology,MTech,1,B
+STU4386,Priya Kaur,Electronics,BCA,1,C
+STU4387,Amit Singh,Mechanical,MCA,3,A
+STU4388,Simran Reddy,Electronics,BCA,3,C
+STU4389,Simran Verma,Civil,MTech,1,D
+STU4390,Priya Gupta,Civil,MCA,4,B
+STU4391,Priya Yadav,Computer Science,MCA,1,B
+STU4392,Ananya Verma,Electronics,BTech,2,A
+STU4393,Amit Kaur,Civil,BTech,4,C
+STU4394,Amit Yadav,Civil,MCA,1,C
+STU4395,Neha Kaur,Mechanical,MCA,4,D
+STU4396,Rahul Kumar,Computer Science,BCA,4,A
+STU4397,Rohan Nair,Electronics,MTech,4,D
+STU4398,Neha Kumar,Information Technology,MCA,3,D
+STU4399,Rohan Verma,Electronics,MTech,1,B
+STU4400,Amit Gupta,Electronics,MCA,3,B
+STU4401,Rohan Singh,Mechanical,MTech,3,C
+STU4402,Amit Gupta,Electronics,BTech,2,C
+STU4403,Pooja Das,Mechanical,MCA,2,D
+STU4404,Rohan Kaur,Mechanical,BCA,4,C
+STU4405,Pooja Singh,Civil,MTech,4,D
+STU4406,Kavita Kumar,Information Technology,MCA,2,C
+STU4407,Aarav Patel,Mechanical,BTech,2,C
+STU4408,Karan Patel,Computer Science,BTech,1,B
+STU4409,Aarav Singh,Computer Science,BTech,4,B
+STU4410,Vikram Reddy,Information Technology,BTech,4,B
+STU4411,Kavita Gupta,Mechanical,MCA,2,B
+STU4412,Karan Reddy,Information Technology,BCA,1,A
+STU4413,Kavita Verma,Civil,MTech,2,B
+STU4414,Karan Sharma,Computer Science,BCA,2,A
+STU4415,Pooja Verma,Electronics,MTech,3,B
+STU4416,Ananya Yadav,Computer Science,BCA,4,C
+STU4417,Aarav Das,Mechanical,MCA,1,D
+STU4418,Vikram Sharma,Information Technology,MCA,3,C
+STU4419,Amit Kaur,Computer Science,MTech,4,C
+STU4420,Simran Verma,Electronics,MCA,2,A
+STU4421,Pooja Singh,Electronics,MTech,1,B
+STU4422,Aarav Reddy,Information Technology,BCA,4,D
+STU4423,Aarav Sharma,Information Technology,MCA,2,D
+STU4424,Ananya Kaur,Computer Science,MCA,3,B

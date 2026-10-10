@@ -1,4 +1,4 @@
-from datetime import date
+from datetime import date, datetime, timezone
 from decimal import Decimal
 
 from django.core.exceptions import ValidationError
@@ -72,6 +72,37 @@ class StudentModelTests(TestCase):
 		for related_name, record in records:
 			self.assertEqual(record.student, self.student)
 			self.assertIn(record, getattr(self.student, related_name).all())
+
+	def test_attendance_record_preserves_supplied_recorded_at(self):
+		recorded_at = datetime(2026, 1, 15, 12, 30, tzinfo=timezone.utc)
+		record = AttendanceRecord.objects.create(
+			student=self.student,
+			attendance_percentage=Decimal("87.50"),
+			recorded_at=recorded_at,
+		)
+
+		self.assertEqual(record.recorded_at, recorded_at)
+
+	def test_attendance_record_defaults_recorded_at(self):
+		record = AttendanceRecord.objects.create(student=self.student)
+
+		self.assertIsNotNone(record.recorded_at)
+
+	def test_academic_and_skill_records_allow_multiple_rows_per_student(self):
+		for semester, assessment_date in ((1, date(2026, 1, 15)), (2, date(2026, 6, 15))):
+			AcademicRecord.objects.create(
+				student=self.student,
+				semester=semester,
+				assessment_date=assessment_date,
+			)
+			SkillAssessment.objects.create(
+				student=self.student,
+				skill_name=f"Skill {semester}",
+				assessment_date=assessment_date,
+			)
+
+		self.assertEqual(self.student.academic_records.count(), 2)
+		self.assertEqual(self.student.skill_assessments.count(), 2)
 
 	def test_student_id_must_be_unique(self):
 		duplicate = Student(
