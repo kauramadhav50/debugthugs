@@ -42,6 +42,9 @@ INSTALLED_APPS = [
     'corsheaders',
 
 
+    # Third-party apps
+    'rest_framework',
+
 
     "analytics",
     "data_import",
