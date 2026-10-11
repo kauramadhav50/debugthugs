@@ -75,7 +75,7 @@ function Sidebar() {
         `}
       >
         {/* Sidebar Heading */}
-        <h2 className="text-xl font-bold mb-6 px-4">My Dashboard</h2>
+        <h2 className="text-xl font-bold ms-6 mb-6 px-4">My Dashboard</h2>
 
         {/* Navigation Links */}
         {navItems.map(({ name, path, icon: Icon }) => (
