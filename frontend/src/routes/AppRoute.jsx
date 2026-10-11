@@ -5,6 +5,7 @@ import Student_profile from "../pages/Student_profile";
 import Student_segmentation from "../pages/Student_segmentation";
 import At_risk_student from "../pages/At_risk_student";
 import Form from "../components/Form";
+import UploadCsv from "../components/UploadCsv";
 
 function AppRoute() {
   return (
@@ -14,6 +15,7 @@ function AppRoute() {
       <Route path="/segmentation" element={<Student_segmentation />} />
       <Route path="/risks" element={<At_risk_student />} />
       <Route path="/form" element={<Form />} />
+      <Route path="/csv" element={<UploadCsv />} />
     </Routes>
   );
 }

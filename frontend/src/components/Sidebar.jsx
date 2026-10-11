@@ -5,6 +5,7 @@ import { ImProfile } from "react-icons/im";
 import { AiOutlineProfile } from "react-icons/ai";
 import { RiSkullFill } from "react-icons/ri";
 import { IoPersonAddSharp } from "react-icons/io5";
+import { FaFileCsv } from "react-icons/fa";
 
 function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,6 +23,11 @@ function Sidebar() {
       name: "Add data",
       path: "/form",
       icon: IoPersonAddSharp,
+    },
+    {
+      name: "Upload CSV",
+      path: "/csv",
+      icon: FaFileCsv,
     },
   ];
 

@@ -22,3 +22,12 @@ export const FormApi = async (data) => {
   });
   return response;
 };
+
+export const csvApi = async (formData) => {
+    const response = await API.post('/api/v1/import/csv/', formData, {
+        headers: {
+            'Content-Type': 'multipart/form-data',
+        },
+    })
+    return response.data
+}
