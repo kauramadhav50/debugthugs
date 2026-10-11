@@ -30,27 +30,20 @@ function Segmentation() {
       </div>
     );
   }
-
-  // Extract the flagged students list from backend response
   const students = data.recentStudentsNeedingAttention || [];
 
-  // Extract unique departments for filtering
   const departments = [
     "All",
     ...new Set(students.map((s) => s.department).filter(Boolean)),
   ];
-
-  // Filter students based on risk level and department
   const atRiskStudents = students.filter((student) => {
     const acLevel = student.academicRisk || "Low";
     const plLevel = student.placementRisk || "Low";
 
-    // Only show students who have Medium or High risk
     const isAtRisk =
       (acLevel !== "Low" && acLevel !== "Unknown") ||
       (plLevel !== "Low" && plLevel !== "Unknown");
 
-    // Filter by Risk Type dropdown
     if (
       selectedRiskType === "Academic" &&
       acLevel !== "High" &&
@@ -64,7 +57,6 @@ function Segmentation() {
     )
       return false;
 
-    // Filter by Department dropdown
     if (selectedDept !== "All" && student.department !== selectedDept)
       return false;
 
@@ -75,7 +67,7 @@ function Segmentation() {
     <div className="min-h-screen bg-gray-50 p-4 sm:p-6 md:p-10 ml-0 md:ml-[220px] transition-all">
       <div className="max-w-7xl mx-auto space-y-6 sm:space-y-8">
         {/* Header */}
-        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 border-b border-gray-200 pb-4">
+        <div className="flex flex-col sm:flex-row justify-between items-center sm:items-center gap-3 border-b border-gray-200 pb-4">
           <div>
             <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 tracking-tight">
               At-Risk{" "}

@@ -57,7 +57,7 @@ function StudentRisk() {
       <div className="max-w-7xl mx-auto space-y-6 sm:space-y-8">
         
         {/* Header */}
-        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 border-b border-gray-200 pb-4">
+        <div className="flex flex-col sm:flex-row justify-between items-center sm:items-center gap-3 border-b border-gray-200 pb-4">
           <div>
             <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 tracking-tight">
               Student Analytics & <span className="text-[#319574] font-medium">Flagged Profiles</span>
