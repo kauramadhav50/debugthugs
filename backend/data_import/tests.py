@@ -182,3 +182,161 @@ class CSVImportAPITests(TestCase):
 		self.assertEqual(Student.objects.filter(student_id="STU-001").count(), 1)
 		self.student.refresh_from_db()
 		self.assertEqual(self.student.name, "Avery Updated")
+
+
+class StudentProfileCSVUploadTests(TestCase):
+	url = "/api/v1/import/students/"
+	header = "student_id,name,department,course,year_of_study,section\n"
+
+	def setUp(self):
+		self.client = APIClient()
+		self.student = Student.objects.create(
+			student_id="STU-001",
+			name="Avery Student",
+			department="Computer Science",
+			course="BSc Computer Science",
+			year_of_study=2,
+			section="A",
+		)
+
+	def upload(self, content, mode="create_only", filename="students.csv"):
+		return self.client.post(
+			self.url,
+			{
+				"file": SimpleUploadedFile(
+					filename, content, content_type="text/csv"
+				),
+				"mode": mode,
+			},
+			format="multipart",
+		)
+
+	def test_successful_upload_creates_students(self):
+		response = self.upload(
+			(self.header + "STU-002,Jordan Student,Engineering,BEng,1,B").encode(
+				"utf-8"
+			)
+		)
+
+		self.assertEqual(response.status_code, 200, response.data)
+		self.assertEqual(
+			{key: response.data[key] for key in ("created", "updated", "skipped")},
+			{"created": 1, "updated": 0, "skipped": 0},
+		)
+		self.assertEqual(response.data["errors"], [])
+		self.assertTrue(Student.objects.filter(student_id="STU-002").exists())
+
+	def test_upsert_updates_existing_student(self):
+		response = self.upload(
+			(
+				self.header
+				+ "STU-001,Avery Updated,Computer Science,BSc Computer Science,2,A"
+			).encode("utf-8"),
+			mode="upsert",
+		)
+
+		self.assertEqual(response.status_code, 200, response.data)
+		self.assertEqual(response.data["updated"], 1)
+		self.student.refresh_from_db()
+		self.assertEqual(self.student.name, "Avery Updated")
+
+	def test_invalid_headers_reject_file_without_importing(self):
+		response = self.upload(
+			b"student_id,name\nSTU-002,Jordan Student\n"
+		)
+
+		self.assertEqual(response.status_code, 400)
+		self.assertIn("department", response.data["errors"][0]["message"])
+		self.assertEqual(response.data["created"], 0)
+		self.assertFalse(Student.objects.filter(student_id="STU-002").exists())
+
+	def test_invalid_values_reject_file_without_importing(self):
+		response = self.upload(
+			(
+				self.header
+				+ "STU-002,Jordan Student,Engineering,BEng,1,B\n"
+				+ "STU-003,Casey Student,Engineering,BEng,not-a-year,B\n"
+			).encode("utf-8")
+		)
+
+		self.assertEqual(response.status_code, 400)
+		self.assertEqual(response.data["errors"][0]["row"], 3)
+		self.assertIn("year_of_study", response.data["errors"][0]["message"])
+		self.assertEqual(response.data["created"], 0)
+		self.assertFalse(Student.objects.filter(student_id="STU-002").exists())
+		self.assertFalse(Student.objects.filter(student_id="STU-003").exists())
+
+	def test_duplicate_student_ids_reject_entire_file(self):
+		response = self.upload(
+			(
+				self.header
+				+ "STU-002,Jordan Student,Engineering,BEng,1,B\n"
+				+ "STU-002,Jordan Again,Engineering,BEng,2,A\n"
+			).encode("utf-8")
+		)
+
+		self.assertEqual(response.status_code, 400)
+		self.assertEqual(response.data["errors"][0]["row"], 3)
+		self.assertIn("Duplicate student_id", response.data["errors"][0]["message"])
+		self.assertEqual(response.data["created"], 0)
+		self.assertFalse(Student.objects.filter(student_id="STU-002").exists())
+
+	def test_create_only_rejects_existing_student_id_without_overwriting(self):
+		response = self.upload(
+			(
+				self.header
+				+ "STU-001,Changed Name,Engineering,BEng,1,B\n"
+			).encode("utf-8")
+		)
+
+		self.assertEqual(response.status_code, 400)
+		self.assertEqual(response.data["errors"][0]["row"], 2)
+		self.assertIn("already exists", response.data["errors"][0]["message"])
+		self.assertEqual(response.data["created"], 0)
+		self.assertEqual(response.data["updated"], 0)
+		self.student.refresh_from_db()
+		self.assertEqual(self.student.name, "Avery Student")
+
+	def test_mode_is_required_and_must_be_supported(self):
+		content = (
+			self.header + "STU-002,Jordan Student,Engineering,BEng,1,B"
+		).encode("utf-8")
+		response = self.client.post(
+			self.url,
+			{
+				"file": SimpleUploadedFile(
+					"students.csv", content, content_type="text/csv"
+				)
+			},
+			format="multipart",
+		)
+
+		self.assertEqual(response.status_code, 400)
+		self.assertIn("mode", response.data["errors"][0]["message"])
+
+	def test_non_csv_extension_is_rejected(self):
+		response = self.upload(
+			(self.header + "STU-002,Jordan Student,Engineering,BEng,1,B").encode(
+				"utf-8"
+			),
+			filename="students.txt",
+		)
+
+		self.assertEqual(response.status_code, 400)
+		self.assertIn(".csv", response.data["errors"][0]["message"])
+
+	def test_oversized_file_is_rejected(self):
+		response = self.upload(
+			b"x" * (5 * 1024 * 1024 + 1),
+		)
+
+		self.assertEqual(response.status_code, 400)
+		self.assertIn("5 MiB", response.data["errors"][0]["message"])
+
+	def test_invalid_utf8_is_rejected(self):
+		response = self.upload(
+			self.header.encode("utf-8") + b"STU-002,\xff,Engineering,BEng,1,B\n"
+		)
+
+		self.assertEqual(response.status_code, 400)
+		self.assertIn("UTF-8", response.data["errors"][0]["message"])

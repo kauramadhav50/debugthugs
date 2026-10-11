@@ -3,7 +3,7 @@ from rest_framework.parsers import FormParser, MultiPartParser
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from .services import import_csv
+from .services import import_csv, import_student_profiles_csv
 
 
 class CSVImportView(APIView):
@@ -17,5 +17,18 @@ class CSVImportView(APIView):
 			status.HTTP_400_BAD_REQUEST
 			if result["errors"]
 			else status.HTTP_200_OK
+		)
+		return Response(result, status=response_status)
+
+
+class StudentProfileCSVImportView(APIView):
+	parser_classes = [MultiPartParser, FormParser]
+
+	def post(self, request):
+		result = import_student_profiles_csv(
+			request.FILES.get("file"), request.data.get("mode")
+		)
+		response_status = (
+			status.HTTP_400_BAD_REQUEST if result["errors"] else status.HTTP_200_OK
 		)
 		return Response(result, status=response_status)
