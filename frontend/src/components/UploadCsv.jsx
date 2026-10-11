@@ -29,7 +29,7 @@ function UploadCsv() {
 
     const formData = new FormData();
     formData.append("file", file);
-    formData.append("dataset_type", "students"); /
+    formData.append("dataset_type", "students");
 
     try {
       const response = await csvApi(formData);
