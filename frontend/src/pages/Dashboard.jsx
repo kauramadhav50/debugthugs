@@ -43,7 +43,7 @@ function Dashboard() {
     <div className="min-h-screen bg-gray-50 p-4 sm:p-6 md:p-10 ml-0 md:ml-[220px] transition-all">
       <div className="max-w-7xl mx-auto space-y-6 sm:space-y-8">
         
-        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 border-b border-gray-200 pb-4">
+        <div className="flex flex-col sm:flex-row justify-between items-center sm:items-center gap-3 border-b border-gray-200 pb-4">
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 tracking-tight">
             Dashboard{" "}
             <span className="text-[#319574] text-base sm:text-lg font-medium">
