@@ -48,7 +48,7 @@ function Sidebar() {
         aria-label={isOpen ? "Close sidebar" : "Open sidebar"}
         aria-expanded={isOpen}
         className="fixed top-4 left-4 z-50 md:hidden
-        bg-[#319574] text-white p-2 rounded-lg shadow-md"
+        bg-[#319574]/50 text-white p-2 rounded-lg shadow-md"
       >
         {isOpen ? <MdClose size={26} /> : <MdMenu size={26} />}
       </button>
