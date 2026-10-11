@@ -54,6 +54,10 @@ INSTALLED_APPS = [
     "students",
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://debugthugs.onrender.com",
+]
+
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     "django.middleware.security.SecurityMiddleware",
