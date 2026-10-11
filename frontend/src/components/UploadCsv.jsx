@@ -29,8 +29,7 @@ function UploadCsv() {
 
     const formData = new FormData();
     formData.append("file", file);
-    // Add the required dataset_type field that your backend is asking for:
-    formData.append("dataset_type", "students"); // Change this value based on your backend options (e.g., 'students', 'risk', etc.)
+    formData.append("dataset_type", "students"); /
 
     try {
       const response = await csvApi(formData);
